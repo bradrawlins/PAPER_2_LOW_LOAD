@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  21 JUN 2021 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  7 AUG 2021 15:01
 entering extended mode
 **./PAPER_2_REV1.tex
 (PAPER_2_REV1.tex
@@ -279,42 +279,129 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip53
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.s
+ty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen155
+\ar@mcellbox=\box55
+\extrarowheight=\dimen156
+\NC@list=\toks21
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box56
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.s
+ty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count277
+\@vwid@loff=\dimen157
+\@vwid@roff=\dimen158
+)
+\c@taburow=\count278
+\tabu@nbcols=\count279
+\tabu@cnt=\count280
+\tabu@Xcol=\count281
+\tabu@alloc=\count282
+\tabu@nested=\count283
+\tabu@target=\dimen159
+\tabu@spreadtarget=\dimen160
+\tabu@naturalX=\dimen161
+\tabucolX=\dimen162
+\tabu@Xsum=\dimen163
+\extrarowdepth=\dimen164
+\abovetabulinesep=\dimen165
+\belowtabulinesep=\dimen166
+\tabustrutrule=\dimen167
+\tabu@thebody=\toks22
+\tabu@footnotes=\toks23
+\tabu@box=\box58
+\tabu@arstrutbox=\box59
+\tabu@hleads=\box60
+\tabu@vleads=\box61
+\tabu@cellskip=\skip56
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\tabular
+x.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen168
+\TX@old@table=\dimen169
+\TX@old@col=\dimen170
+\TX@target=\dimen171
+\TX@delta=\dimen172
+\TX@cols=\count284
+\TX@ftn=\toks24
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.
+sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.st
+y
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+Package caption Info: elsarticle document class detected.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-els
+article.sto
+File: caption-elsarticle.sto 2020/08/22 v2.0 Adaption of the caption package to
+ the elsarticle document class (AR)
+))
+\c@caption@flags=\count285
+\c@continuedfloat=\count286
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count287
+\c@subtable=\count288
 ) (PAPER_2_REV1.aux)
 \openout1 = `PAPER_2_REV1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
-\scratchdimen=\dimen155
-\scratchbox=\box55
-\nofMPsegments=\count278
-\nofMParguments=\count279
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count280
-\MPscratchDim=\dimen156
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count289
+\scratchdimen=\dimen180
+\scratchbox=\box62
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen181
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks26
 )
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
 df-base.sty
@@ -322,7 +409,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 43.
 
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.st
 y
@@ -336,23 +423,45 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ttitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count283
+\c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
  (PAPER_2_REV1.out) (PAPER_2_REV1.out)
 \@outlinefile=\write4
 \openout4 = `PAPER_2_REV1.out'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 57.
+(Font)              <7> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 57.
+(Font)              <5> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 64.
+(Font)              <8> on input line 69.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 64.
+(Font)              <6> on input line 69.
+
+Overfull \hbox (3.14188pt too wide) in paragraph at lines 79--79
+[]|\OT1/cmr/m/it/10 Unit| 
+ []
+
+
+Overfull \hbox (2.26523pt too wide) in paragraph at lines 79--80
+[]|$\OML/cmm/m/it/10 m[]$| 
+ []
+
+
+Overfull \hbox (5.70273pt too wide) in paragraph at lines 80--81
+[]|$\OML/cmm/m/it/10 m=s[]$| 
+ []
+
+
+Overfull \hbox (3.8063pt too wide) in paragraph at lines 74--83
+ [] 
+ []
+
 
 Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 [] 
@@ -360,69 +469,119 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 87.
+(hyperref)                removing `\<def>-command' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cnotenum' on input line 87.
+(hyperref)                removing `\cnotenum' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 87.
+(hyperref)                removing `\<def>-command' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@corref' on input line 87.
+(hyperref)                removing `\@corref' on input line 90.
 
 [1
 
 
 {C:/Users/RWLBRA001/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in alignment at lines 139--139
+[][][] 
+ []
 
-Package natbib Warning: Citation `Feynman1963118' on page 2 undefined on input 
-line 117.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `Dirac1953888' on page 2 undefined on input li
-ne 117.
+Underfull \hbox (badness 10000) in alignment at lines 163--163
+[][][] 
+ []
 
-[2]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<100_VALID_BAR.png, id=52, 377.7312pt x 285.2256pt>
+File: 100_VALID_BAR.png Graphic file (type png)
+<use 100_VALID_BAR.png>
+Package pdftex.def Info: 100_VALID_BAR.png  used on input line 201.
+(pdftex.def)             Requested size: 181.30891pt x 136.90672pt.
+
+Overfull \hbox (8.80891pt too wide) in paragraph at lines 201--202
+ [][] 
+ []
+
+<80_VALID_BAR.png, id=53, 377.7312pt x 285.2256pt>
+File: 80_VALID_BAR.png Graphic file (type png)
+<use 80_VALID_BAR.png>
+Package pdftex.def Info: 80_VALID_BAR.png  used on input line 208.
+(pdftex.def)             Requested size: 181.30891pt x 136.90672pt.
+
+Overfull \hbox (8.80891pt too wide) in paragraph at lines 208--209
+ [][] 
+ []
+
+<60_VALID_BAR.png, id=54, 377.7312pt x 285.2256pt>
+File: 60_VALID_BAR.png Graphic file (type png)
+<use 60_VALID_BAR.png>
+Package pdftex.def Info: 60_VALID_BAR.png  used on input line 215.
+(pdftex.def)             Requested size: 181.30891pt x 136.90672pt.
+
+Overfull \hbox (18.67079pt too wide) in paragraph at lines 199--219
+[]$[]$   $[]$ 
+ []
+
+[2] [3]
+
+Package natbib Warning: Citation `Feynman1963118' on page 4 undefined on input 
+line 232.
+
+
+Package natbib Warning: Citation `Dirac1953888' on page 4 undefined on input li
+ne 232.
+
 No file PAPER_2_REV1.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[3] (PAPER_2_REV1.aux)
+[4] [5 <./100_VALID_BAR.png (PNG copy)> <./80_VALID_BAR.png (PNG copy)> <./60_V
+ALID_BAR.png (PNG copy)>] (PAPER_2_REV1.aux)
 Package rerunfilecheck Info: File `PAPER_2_REV1.out' has not changed.
 (rerunfilecheck)             Checksum: 5E307BF02E17602D3D29624D15F1F0D9;891.
  ) 
 Here is how much of TeX's memory you used:
- 9063 strings out of 479616
- 135419 string characters out of 2863101
- 424248 words of memory out of 3000000
- 26118 multiletter control sequences out of 15000+200000
+ 11225 strings out of 479616
+ 173302 string characters out of 2863101
+ 475677 words of memory out of 3000000
+ 28247 multiletter control sequences out of 15000+200000
  407709 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,7n,88p,431b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 83i,14n,88p,431b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\RWLBRA001\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1000.pk><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RWLBRA001/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RWLBRA001/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/RWLBRA0
-01/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
-ers/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmss8.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy6.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RWLBRA001/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/RWLBRA001/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Users/RWL
-BRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RWLBRA001/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RWLBRA0
+01/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
+sers/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+7.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr8.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmss8.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/RWLBRA001/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RWLBRA001/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/RWL
+BRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><
 C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmtt8.pfb>
-Output written on PAPER_2_REV1.pdf (3 pages, 159216 bytes).
+/cmti8.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmtt8.pfb>
+Output written on PAPER_2_REV1.pdf (5 pages, 263221 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 
