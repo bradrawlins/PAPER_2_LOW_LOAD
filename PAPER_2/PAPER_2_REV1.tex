@@ -3,7 +3,7 @@
 \usepackage{lineno,hyperref}
 \usepackage{tabu}
 \usepackage{tabularx}
-\usepackage{subcaption}
+\usepackage{subfigure}
 \modulolinenumbers[5]
 
 \journal{Journal of \LaTeX\ Templates}
@@ -140,50 +140,6 @@ Higher heating value & $15070$ & $kJ/kg_{fuel}$\\
 \end{table}
 
 
-\begin{table}[h!]
-\centering
-\caption{Low-load boiler input boundary conditions - 40\% MCR}
-\vspace{5mm}
-\label{boundary1}
-{\tabulinesep=1.2mm
-\begin{tabularx}{\textwidth}{p{0.45\textwidth} p{0.3\textwidth} l}
-\hline
-\multicolumn{2}{l}{\textbf{Primary air \& pulverized coal inlet}}&\textbf{Unit}\\
-\hline
-PA mass flow rate& &\\
-Coal mass flow rate& $0.0731$ & $kg/s$\\
-Temperature & $343.15$ &  $K$\\
-Coal mass flow rate & $23.02$ & $m/s$ \\
-\hline
-\textbf{Secondary air inlet} & &\\
-\hline
-Mass flow rate & & $kg/s$\\
-Temperature& 573.15& $K$\\
-\hline
-\end{tabularx}}
-\end{table}
-
-\begin{table}[h!]
-\centering
-\caption{Ultra low-load boiler input boundary conditions - 25\% MCR}
-\vspace{5mm}
-\label{boundary}
-{\tabulinesep=1.2mm
-\begin{tabu}{p{0.5\textwidth} p{0.3\textwidth} l}
-\hline
-\textbf{Primary air \& pulverized coal inlet} & & \textbf{Unit}\\
-\hline
-PA mass flow rate& &\\
-Coal mass flow rate (Dry) &  & $kg/s$\\
-Temperature &  &  $K$\\
-\hline
-\textbf{Secondary air inlet} & &\\
-\hline
-Mass flow rate & & $kg/s$\\
-Temperature& 573.15& $K$\\
-\hline
-\end{tabu}}
-\end{table}
 
 Validation separately mention the rates/loadings - give results for 40\% case inputs
 Low Ultra low load inputs
@@ -195,31 +151,58 @@ The validation of the proposed model was conducted for three steady state MCR lo
 Figures of the Histrograms and CO graphs as in paper
 Data plots and overall performance of the model
 Inputs for the various loads table
-\begin{figure}\label{fig_valid}
-\begin{subfigure}{0.5\textwidth}
-	\centering
-	\includegraphics[scale=0.48]{100_VALID_BAR}
-	\caption{100 \% MCR}
-	\label{fig_valid_100}
-\end{subfigure}
-	\hspace{5mm}
-\begin{subfigure}{0.5\textwidth}
-	\centering
-	\includegraphics[scale=0.48]{80_VALID_BAR}
-	\caption{80 \% MCR}
-	\label{fig_valid_80}
-\end{subfigure}\\
-\begin{subfigure}{\textwidth}
-	\vspace{5mm}
-	\centering
-	\includegraphics[scale=0.48]{60_VALID_BAR}
-	\caption{60 \% MCR}
-	\label{fig_valid_60}
-\end{subfigure}
+
+\begin{figure}\label{fig_heat_valid}
+	\subfigure[]{\includegraphics[width=0.32\textwidth]{100_VALID_BAR}}
+	\subfigure[]{\includegraphics[width=0.32\textwidth]{80_VALID_BAR}}
+	\subfigure[]{\includegraphics[width=0.32\textwidth]{60_VALID_BAR}}
 \caption{Validation of the experimental and models heat load to the furnace, PSH and HTSH for steady state loads of a) 100\% MCR, b) 80\% MCR and c) 60\% MCR}
 \end{figure}
 
+\begin{figure}\label{fig_comb_valid}
+\centering
+\subfigure[]{\includegraphics[width = 0.45\textwidth]{COPPM_VALID}}
+\subfigure[]{\includegraphics[width = 0.45\textwidth]{XO2_VALID}}
+\caption{Experimentally calculated $CO$ and $O_2$ concentration predictions at a height of 37.5 (m)}
+\end{figure}
 
+
+\begin{figure}
+\centering
+\includegraphics[scale = 0.5]{TEMP_KEY}\\
+\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT_TEMP}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{MID_TEMP}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM_TEMP}}\\
+\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT05_TEMP}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{MID05_TEMP}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM05_TEMP}}
+\caption{Hi}
+\end{figure}
+
+ghff
+\begin{figure}[h!]
+\centering
+\includegraphics[scale = 0.5]{VEL_KEY}\\
+\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT_VEL}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{MID_VEL}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM_VEL}}\\
+\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT05_VEL}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{MID05_VEL}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM05_VEL}}
+\caption{bye}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale = 0.5]{HEATFLUX_KEY}\\
+\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT_HEATFLUX}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{MID_HEATFLUX}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM_HEATFLUX}}\\
+\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT05_HEATFLUX}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{MID05_HEATFLUX}}
+\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM05_HEATFLUX}}
+\caption{bye}
+\end{figure}
 
 \section{Results \& discussion}
 

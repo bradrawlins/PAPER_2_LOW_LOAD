@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  7 AUG 2021 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  30 AUG 2021 18:47
 entering extended mode
 **./PAPER_2_REV1.tex
 (PAPER_2_REV1.tex
@@ -336,36 +336,28 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@cols=\count284
 \TX@ftn=\toks24
 )
-(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.
-sty
-Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure
+.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip57
+\subfigcapskip=\skip58
+\subfigcaptopadj=\dimen173
+\subfigbottomskip=\skip59
+\subfigcapmargin=\dimen174
+\subfiglabelskip=\skip60
+\c@subfigure=\count285
+\c@lofdepth=\count286
+\c@subtable=\count287
+\c@lotdepth=\count288
 
-(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
 
-(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.st
-y
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen173
-\captionmargin@=\dimen174
-\captionwidth=\dimen175
-\caption@tempdima=\dimen176
-\caption@indent=\dimen177
-\caption@parindent=\dimen178
-\caption@hangindent=\dimen179
-Package caption Info: elsarticle document class detected.
-
-(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-els
-article.sto
-File: caption-elsarticle.sto 2020/08/22 v2.0 Adaption of the caption package to
- the elsarticle document class (AR)
-))
-\c@caption@flags=\count285
-\c@continuedfloat=\count286
-Package caption Info: hyperref package is loaded.
-)
-\c@subfigure=\count287
-\c@subtable=\count288
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure
+.cfg)
+\subfig@top=\skip61
+\subfig@bottom=\skip62
 ) (PAPER_2_REV1.aux)
 \openout1 = `PAPER_2_REV1.aux'.
 
@@ -392,13 +384,13 @@ LaTeX Font Info:    ... okay on input line 43.
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
-\scratchdimen=\dimen180
+\scratchdimen=\dimen175
 \scratchbox=\box62
 \nofMPsegments=\count290
 \nofMParguments=\count291
 \everyMPshowfont=\toks25
 \MPscratchCnt=\count292
-\MPscratchDim=\dimen181
+\MPscratchDim=\dimen176
 \MPnumerator=\count293
 \makeMPintoPDFobject=\count294
 \everyMPtoPDFconversion=\toks26
@@ -432,8 +424,6 @@ LaTeX Info: Redefining \nameref on input line 43.
 \@outlinefile=\write4
 \openout4 = `PAPER_2_REV1.out'.
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -494,94 +484,216 @@ Underfull \hbox (badness 10000) in alignment at lines 139--139
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in alignment at lines 163--163
-[][][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<100_VALID_BAR.png, id=52, 377.7312pt x 285.2256pt>
+[2]
+<100_VALID_BAR.png, id=60, 376.40625pt x 564.60938pt>
 File: 100_VALID_BAR.png Graphic file (type png)
 <use 100_VALID_BAR.png>
-Package pdftex.def Info: 100_VALID_BAR.png  used on input line 201.
-(pdftex.def)             Requested size: 181.30891pt x 136.90672pt.
-
-Overfull \hbox (8.80891pt too wide) in paragraph at lines 201--202
- [][] 
- []
-
-<80_VALID_BAR.png, id=53, 377.7312pt x 285.2256pt>
+Package pdftex.def Info: 100_VALID_BAR.png  used on input line 156.
+(pdftex.def)             Requested size: 110.40253pt x 165.60202pt.
+<80_VALID_BAR.png, id=61, 376.40625pt x 564.60938pt>
 File: 80_VALID_BAR.png Graphic file (type png)
 <use 80_VALID_BAR.png>
-Package pdftex.def Info: 80_VALID_BAR.png  used on input line 208.
-(pdftex.def)             Requested size: 181.30891pt x 136.90672pt.
+Package pdftex.def Info: 80_VALID_BAR.png  used on input line 157.
+(pdftex.def)             Requested size: 110.40253pt x 165.60202pt.
+<60_VALID_BAR.png, id=62, 376.40625pt x 564.60938pt>
+File: 60_VALID_BAR.png Graphic file (type png)
+<use 60_VALID_BAR.png>
+Package pdftex.def Info: 60_VALID_BAR.png  used on input line 158.
+(pdftex.def)             Requested size: 110.40253pt x 165.60202pt.
+<COPPM_VALID.png, id=63, 421.575pt x 316.18124pt>
+File: COPPM_VALID.png Graphic file (type png)
+<use COPPM_VALID.png>
+Package pdftex.def Info: COPPM_VALID.png  used on input line 164.
+(pdftex.def)             Requested size: 155.24895pt x 116.43523pt.
+<XO2_VALID.png, id=64, 421.575pt x 316.18124pt>
+File: XO2_VALID.png Graphic file (type png)
+<use XO2_VALID.png>
+Package pdftex.def Info: XO2_VALID.png  used on input line 165.
+(pdftex.def)             Requested size: 155.24895pt x 116.43523pt.
+<TEMP_KEY.png, id=65, 724.20563pt x 63.98906pt>
+File: TEMP_KEY.png Graphic file (type png)
+<use TEMP_KEY.png>
+Package pdftex.def Info: TEMP_KEY.png  used on input line 172.
+(pdftex.def)             Requested size: 362.10193pt x 31.99445pt.
 
-Overfull \hbox (8.80891pt too wide) in paragraph at lines 208--209
+Overfull \hbox (17.10193pt too wide) in paragraph at lines 172--172
  [][] 
  []
 
-<60_VALID_BAR.png, id=54, 377.7312pt x 285.2256pt>
-File: 60_VALID_BAR.png Graphic file (type png)
-<use 60_VALID_BAR.png>
-Package pdftex.def Info: 60_VALID_BAR.png  used on input line 215.
-(pdftex.def)             Requested size: 181.30891pt x 136.90672pt.
+<BOT_TEMP.jpg, id=67, 240.9pt x 403.5075pt>
+File: BOT_TEMP.jpg Graphic file (type jpg)
+<use BOT_TEMP.jpg>
+Package pdftex.def Info: BOT_TEMP.jpg  used on input line 173.
+(pdftex.def)             Requested size: 110.40253pt x 184.91995pt.
+<MID_TEMP.jpg, id=68, 391.4625pt x 633.36626pt>
+File: MID_TEMP.jpg Graphic file (type jpg)
+<use MID_TEMP.jpg>
+Package pdftex.def Info: MID_TEMP.jpg  used on input line 174.
+(pdftex.def)             Requested size: 110.40253pt x 178.61703pt.
+<FBRM_TEMP.jpg, id=69, 292.84406pt x 470.50781pt>
+File: FBRM_TEMP.jpg Graphic file (type jpg)
+<use FBRM_TEMP.jpg>
+Package pdftex.def Info: FBRM_TEMP.jpg  used on input line 175.
+(pdftex.def)             Requested size: 110.40253pt x 177.38048pt.
+<BOT05_TEMP.jpg, id=70, 284.56313pt x 461.47406pt>
+File: BOT05_TEMP.jpg Graphic file (type jpg)
+<use BOT05_TEMP.jpg>
+Package pdftex.def Info: BOT05_TEMP.jpg  used on input line 176.
+(pdftex.def)             Requested size: 110.40253pt x 179.03763pt.
+<MID05_TEMP.jpg, id=71, 280.79906pt x 469.755pt>
+File: MID05_TEMP.jpg Graphic file (type jpg)
+<use MID05_TEMP.jpg>
+Package pdftex.def Info: MID05_TEMP.jpg  used on input line 177.
+(pdftex.def)             Requested size: 110.40253pt x 184.69463pt.
+<FBRM05_TEMP.jpg, id=72, 294.34969pt x 468.24937pt>
+File: FBRM05_TEMP.jpg Graphic file (type jpg)
+<use FBRM05_TEMP.jpg>
+Package pdftex.def Info: FBRM05_TEMP.jpg  used on input line 178.
+(pdftex.def)             Requested size: 110.40253pt x 175.6288pt.
+<VEL_KEY.png, id=73, 697.8572pt x 60.225pt>
+File: VEL_KEY.png Graphic file (type png)
+<use VEL_KEY.png>
+Package pdftex.def Info: VEL_KEY.png  used on input line 185.
+(pdftex.def)             Requested size: 348.92773pt x 30.11241pt.
 
-Overfull \hbox (18.67079pt too wide) in paragraph at lines 199--219
-[]$[]$   $[]$ 
+Overfull \hbox (3.92773pt too wide) in paragraph at lines 185--185
+ [][] 
  []
 
-[2] [3]
+<BOT_VEL.jpg, id=74, 359.3425pt x 574.145pt>
+File: BOT_VEL.jpg Graphic file (type jpg)
+<use BOT_VEL.jpg>
+Package pdftex.def Info: BOT_VEL.jpg  used on input line 186.
+(pdftex.def)             Requested size: 110.40253pt x 176.39742pt.
+<MID_VEL.jpg, id=75, 389.455pt x 635.37375pt>
+File: MID_VEL.jpg Graphic file (type jpg)
+<use MID_VEL.jpg>
+Package pdftex.def Info: MID_VEL.jpg  used on input line 187.
+(pdftex.def)             Requested size: 110.40253pt x 180.11389pt.
+<FBRM_VEL.jpg, id=76, 301.125pt x 472.76625pt>
+File: FBRM_VEL.jpg Graphic file (type jpg)
+<use FBRM_VEL.jpg>
+Package pdftex.def Info: FBRM_VEL.jpg  used on input line 188.
+(pdftex.def)             Requested size: 110.40253pt x 173.33372pt.
+<BOT05_VEL.jpg, id=77, 287.57437pt x 458.46281pt>
+File: BOT05_VEL.jpg Graphic file (type jpg)
+<use BOT05_VEL.jpg>
+Package pdftex.def Info: BOT05_VEL.jpg  used on input line 189.
+(pdftex.def)             Requested size: 110.40253pt x 176.00853pt.
+<MID05_VEL.jpg, id=78, 284.56313pt x 459.96844pt>
+File: MID05_VEL.jpg Graphic file (type jpg)
+<use MID05_VEL.jpg>
+Package pdftex.def Info: MID05_VEL.jpg  used on input line 190.
+(pdftex.def)             Requested size: 110.40253pt x 178.45349pt.
+<FBRM05_VEL.jpg, id=79, 286.82156pt x 468.24937pt>
+File: FBRM05_VEL.jpg Graphic file (type jpg)
+<use FBRM05_VEL.jpg>
+Package pdftex.def Info: FBRM05_VEL.jpg  used on input line 191.
+(pdftex.def)             Requested size: 110.40253pt x 180.23726pt.
 
-Package natbib Warning: Citation `Feynman1963118' on page 4 undefined on input 
-line 232.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<HEATFLUX_KEY.png, id=80, 707.64375pt x 54.9553pt>
+File: HEATFLUX_KEY.png Graphic file (type png)
+<use HEATFLUX_KEY.png>
+Package pdftex.def Info: HEATFLUX_KEY.png  used on input line 197.
+(pdftex.def)             Requested size: 353.82101pt x 27.47757pt.
+
+Overfull \hbox (8.82101pt too wide) in paragraph at lines 197--197
+ [][] 
+ []
+
+<BOT_HEATFLUX.jpg, id=81, 186.6975pt x 432.11438pt>
+File: BOT_HEATFLUX.jpg Graphic file (type jpg)
+<use BOT_HEATFLUX.jpg>
+Package pdftex.def Info: BOT_HEATFLUX.jpg  used on input line 198.
+(pdftex.def)             Requested size: 110.40253pt x 255.5255pt.
+<MID_HEATFLUX.jpg, id=82, 285.065pt x 622.325pt>
+File: MID_HEATFLUX.jpg Graphic file (type jpg)
+<use MID_HEATFLUX.jpg>
+Package pdftex.def Info: MID_HEATFLUX.jpg  used on input line 199.
+(pdftex.def)             Requested size: 110.40253pt x 241.0155pt.
+<FBRM_HEATFLUX.jpg, id=83, 214.55156pt x 469.00218pt>
+File: FBRM_HEATFLUX.jpg Graphic file (type jpg)
+<use FBRM_HEATFLUX.jpg>
+Package pdftex.def Info: FBRM_HEATFLUX.jpg  used on input line 200.
+(pdftex.def)             Requested size: 110.40253pt x 241.33485pt.
+<BOT05_HEATFLUX.jpg, id=84, 191.21437pt x 459.21562pt>
+File: BOT05_HEATFLUX.jpg Graphic file (type jpg)
+<use BOT05_HEATFLUX.jpg>
+Package pdftex.def Info: BOT05_HEATFLUX.jpg  used on input line 201.
+(pdftex.def)             Requested size: 110.40253pt x 265.14003pt.
+<MID05_HEATFLUX.jpg, id=85, 210.03468pt x 469.755pt>
+File: MID05_HEATFLUX.jpg Graphic file (type jpg)
+<use MID05_HEATFLUX.jpg>
+Package pdftex.def Info: MID05_HEATFLUX.jpg  used on input line 202.
+(pdftex.def)             Requested size: 110.40253pt x 246.91895pt.
+<FBRM05_HEATFLUX.jpg, id=86, 217.5628pt x 467.49657pt>
+File: FBRM05_HEATFLUX.jpg Graphic file (type jpg)
+<use FBRM05_HEATFLUX.jpg>
+Package pdftex.def Info: FBRM05_HEATFLUX.jpg  used on input line 203.
+(pdftex.def)             Requested size: 110.40253pt x 237.23595pt.
+
+LaTeX Warning: Float too large for page by 78.25421pt on input line 205.
 
 
-Package natbib Warning: Citation `Dirac1953888' on page 4 undefined on input li
-ne 232.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[3] [4 <./100_VALID_BAR.png (PNG copy)> <./80_VALID_BAR.png (PNG copy)> <./60_V
+ALID_BAR.png (PNG copy)> <./COPPM_VALID.png (PNG copy)> <./XO2_VALID.png (PNG c
+opy)>] [5 <./TEMP_KEY.png> <./BOT_TEMP.jpg> <./MID_TEMP.jpg> <./FBRM_TEMP.jpg> 
+<./BOT05_TEMP.jpg> <./MID05_TEMP.jpg> <./FBRM05_TEMP.jpg>]
+
+Package natbib Warning: Citation `Feynman1963118' on page 6 undefined on input 
+line 215.
+
+
+Package natbib Warning: Citation `Dirac1953888' on page 6 undefined on input li
+ne 215.
+
+[6 <./VEL_KEY.png> <./BOT_VEL.jpg> <./MID_VEL.jpg> <./FBRM_VEL.jpg> <./BOT05_VE
+L.jpg> <./MID05_VEL.jpg> <./FBRM05_VEL.jpg>]
 No file PAPER_2_REV1.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[4] [5 <./100_VALID_BAR.png (PNG copy)> <./80_VALID_BAR.png (PNG copy)> <./60_V
-ALID_BAR.png (PNG copy)>] (PAPER_2_REV1.aux)
+[7] [8 <./HEATFLUX_KEY.png> <./BOT_HEATFLUX.jpg> <./MID_HEATFLUX.jpg> <./FBRM_H
+EATFLUX.jpg> <./BOT05_HEATFLUX.jpg> <./MID05_HEATFLUX.jpg> <./FBRM05_HEATFLUX.j
+pg>] (PAPER_2_REV1.aux)
 Package rerunfilecheck Info: File `PAPER_2_REV1.out' has not changed.
 (rerunfilecheck)             Checksum: 5E307BF02E17602D3D29624D15F1F0D9;891.
  ) 
 Here is how much of TeX's memory you used:
- 11225 strings out of 479616
- 173302 string characters out of 2863101
- 475677 words of memory out of 3000000
- 28247 multiletter control sequences out of 15000+200000
+ 10291 strings out of 479616
+ 153619 string characters out of 2863101
+ 453237 words of memory out of 3000000
+ 27291 multiletter control sequences out of 15000+200000
  407709 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,14n,88p,431b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 83i,10n,88p,431b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\RWLBRA001\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1000.pk><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RWLBRA001/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RWLBRA001/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RWLBRA0
-01/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/RWLBRA0
+01/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
 sers/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-7.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr8.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmss8.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/RWLBRA001/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RWLBRA001/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/RWL
-BRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><
-C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmti8.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmtt8.pfb>
-Output written on PAPER_2_REV1.pdf (5 pages, 263221 bytes).
+12.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr6.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr7.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/RWLBRA001/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/RWLBRA001/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/RWLBR
+A001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:
+/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mti10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti7.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmti8.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on PAPER_2_REV1.pdf (8 pages, 2646254 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 72 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
