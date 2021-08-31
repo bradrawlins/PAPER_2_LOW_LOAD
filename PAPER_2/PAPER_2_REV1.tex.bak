@@ -204,6 +204,25 @@ ghff
 \caption{bye}
 \end{figure}
 
+\begin{figure}
+\centering
+\includegraphics[scale=0.55]{CO_MF_KEY}
+\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{BOT_ISO_COPPM_F}
+				\includegraphics[height = 7cm]{BOT_ISO_COPPM_S}}
+\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{MID_ISO_COPPM_F}
+				\includegraphics[height = 7cm]{MID_ISO_COPPM_S}}
+\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{FBRM_ISO_COPPM_F}
+				\includegraphics[height = 7cm]{FBRM_ISO_COPPM_S}}\\
+\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{BOT05_ISO_COPPM_F}
+				\includegraphics[height = 7cm]{BOT05_ISO_COPPM_S}}
+\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{MID05_ISO_COPPM_F}
+				\includegraphics[height = 7cm]{MID05_ISO_COPPM_S}}
+\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{FBRM05_ISO_COPPM_F}
+				\includegraphics[height = 7cm]{FBRM05_ISO_COPPM_S}}\\
+\end{figure}
+
+
+\clearpage
 \section{Results \& discussion}
 
 \section{Conclusions}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  30 AUG 2021 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  31 AUG 2021 17:58
 entering extended mode
 **./PAPER_2_REV1.tex
 (PAPER_2_REV1.tex
@@ -639,38 +639,114 @@ LaTeX Warning: Float too large for page by 78.25421pt on input line 205.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<CO_MF_KEY.png, id=87, 658.71094pt x 53.44969pt>
+File: CO_MF_KEY.png Graphic file (type png)
+<use CO_MF_KEY.png>
+Package pdftex.def Info: CO_MF_KEY.png  used on input line 209.
+(pdftex.def)             Requested size: 362.29213pt x 29.3974pt.
+<BOT_ISO_COPPM_F.jpg, id=88, 134.75343pt x 441.90094pt>
+File: BOT_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use BOT_ISO_COPPM_F.jpg>
+Package pdftex.def Info: BOT_ISO_COPPM_F.jpg  used on input line 211.
+(pdftex.def)             Requested size: 62.09836pt x 199.17049pt.
+<BOT_ISO_COPPM_S.jpg, id=89, 92.59593pt x 444.15938pt>
+File: BOT_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use BOT_ISO_COPPM_S.jpg>
+Package pdftex.def Info: BOT_ISO_COPPM_S.jpg  used on input line 211.
+(pdftex.def)             Requested size: 41.52083pt x 199.16928pt.
+<MID_ISO_COPPM_F.jpg, id=90, 127.97812pt x 402.75468pt>
+File: MID_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use MID_ISO_COPPM_F.jpg>
+Package pdftex.def Info: MID_ISO_COPPM_F.jpg  used on input line 213.
+(pdftex.def)             Requested size: 62.09665pt x 199.1706pt.
+<MID_ISO_COPPM_S.jpg, id=91, 89.58469pt x 442.65375pt>
+File: MID_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use MID_ISO_COPPM_S.jpg>
+Package pdftex.def Info: MID_ISO_COPPM_S.jpg  used on input line 213.
+(pdftex.def)             Requested size: 40.30862pt x 199.16928pt.
+<FBRM_ISO_COPPM_F.jpg, id=92, 133.24782pt x 421.575pt>
+File: FBRM_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use FBRM_ISO_COPPM_F.jpg>
+Package pdftex.def Info: FBRM_ISO_COPPM_F.jpg  used on input line 215.
+(pdftex.def)             Requested size: 62.09784pt x 199.1695pt.
+<FBRM_ISO_COPPM_S.jpg, id=93, 93.34875pt x 443.40656pt>
+File: FBRM_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use FBRM_ISO_COPPM_S.jpg>
+Package pdftex.def Info: FBRM_ISO_COPPM_S.jpg  used on input line 215.
+(pdftex.def)             Requested size: 41.93105pt x 199.16928pt.
+
+Overfull \hbox (17.29213pt too wide) in paragraph at lines 209--215
+ [][] 
+ []
+
+<BOT05_ISO_COPPM_F.jpg, id=94, 136.25906pt x 442.65375pt>
+File: BOT05_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use BOT05_ISO_COPPM_F.jpg>
+Package pdftex.def Info: BOT05_ISO_COPPM_F.jpg  used on input line 217.
+(pdftex.def)             Requested size: 62.09775pt x 199.17207pt.
+<BOT05_ISO_COPPM_S.jpg, id=95, 91.09032pt x 447.17062pt>
+File: BOT05_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use BOT05_ISO_COPPM_S.jpg>
+Package pdftex.def Info: BOT05_ISO_COPPM_S.jpg  used on input line 217.
+(pdftex.def)             Requested size: 40.57188pt x 199.16928pt.
+<MID05_ISO_COPPM_F.jpg, id=96, 135.50626pt x 441.90094pt>
+File: MID05_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use MID05_ISO_COPPM_F.jpg>
+Package pdftex.def Info: MID05_ISO_COPPM_F.jpg  used on input line 219.
+(pdftex.def)             Requested size: 62.0979pt x 199.17049pt.
+<MID05_ISO_COPPM_S.jpg, id=97, 91.09032pt x 441.90094pt>
+File: MID05_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use MID05_ISO_COPPM_S.jpg>
+Package pdftex.def Info: MID05_ISO_COPPM_S.jpg  used on input line 219.
+(pdftex.def)             Requested size: 41.05557pt x 199.16928pt.
+<FBRM05_ISO_COPPM_F.jpg, id=98, 135.50626pt x 441.90094pt>
+File: FBRM05_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use FBRM05_ISO_COPPM_F.jpg>
+Package pdftex.def Info: FBRM05_ISO_COPPM_F.jpg  used on input line 221.
+(pdftex.def)             Requested size: 62.0979pt x 199.17049pt.
+<FBRM05_ISO_COPPM_S.jpg, id=99, 93.34875pt x 441.90094pt>
+File: FBRM05_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use FBRM05_ISO_COPPM_S.jpg>
+Package pdftex.def Info: FBRM05_ISO_COPPM_S.jpg  used on input line 221.
+(pdftex.def)             Requested size: 42.07349pt x 199.16928pt.
 [3] [4 <./100_VALID_BAR.png (PNG copy)> <./80_VALID_BAR.png (PNG copy)> <./60_V
 ALID_BAR.png (PNG copy)> <./COPPM_VALID.png (PNG copy)> <./XO2_VALID.png (PNG c
 opy)>] [5 <./TEMP_KEY.png> <./BOT_TEMP.jpg> <./MID_TEMP.jpg> <./FBRM_TEMP.jpg> 
-<./BOT05_TEMP.jpg> <./MID05_TEMP.jpg> <./FBRM05_TEMP.jpg>]
+<./BOT05_TEMP.jpg> <./MID05_TEMP.jpg> <./FBRM05_TEMP.jpg>] [6 <./VEL_KEY.png> <
+./BOT_VEL.jpg> <./MID_VEL.jpg> <./FBRM_VEL.jpg> <./BOT05_VEL.jpg> <./MID05_VEL.
+jpg> <./FBRM05_VEL.jpg>] [7 <./HEATFLUX_KEY.png> <./BOT_HEATFLUX.jpg> <./MID_HE
+ATFLUX.jpg> <./FBRM_HEATFLUX.jpg> <./BOT05_HEATFLUX.jpg> <./MID05_HEATFLUX.jpg>
+ <./FBRM05_HEATFLUX.jpg>] [8 <./CO_MF_KEY.png> <./BOT_ISO_COPPM_F.jpg> <./BOT_I
+SO_COPPM_S.jpg> <./MID_ISO_COPPM_F.jpg> <./MID_ISO_COPPM_S.jpg> <./FBRM_ISO_COP
+PM_F.jpg> <./FBRM_ISO_COPPM_S.jpg> <./BOT05_ISO_COPPM_F.jpg> <./BOT05_ISO_COPPM
+_S.jpg> <./MID05_ISO_COPPM_F.jpg> <./MID05_ISO_COPPM_S.jpg> <./FBRM05_ISO_COPPM
+_F.jpg> <./FBRM05_ISO_COPPM_S.jpg>]
 
-Package natbib Warning: Citation `Feynman1963118' on page 6 undefined on input 
-line 215.
+Package natbib Warning: Citation `Feynman1963118' on page 9 undefined on input 
+line 234.
 
 
-Package natbib Warning: Citation `Dirac1953888' on page 6 undefined on input li
-ne 215.
+Package natbib Warning: Citation `Dirac1953888' on page 9 undefined on input li
+ne 234.
 
-[6 <./VEL_KEY.png> <./BOT_VEL.jpg> <./MID_VEL.jpg> <./FBRM_VEL.jpg> <./BOT05_VE
-L.jpg> <./MID05_VEL.jpg> <./FBRM05_VEL.jpg>]
 No file PAPER_2_REV1.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[7] [8 <./HEATFLUX_KEY.png> <./BOT_HEATFLUX.jpg> <./MID_HEATFLUX.jpg> <./FBRM_H
-EATFLUX.jpg> <./BOT05_HEATFLUX.jpg> <./MID05_HEATFLUX.jpg> <./FBRM05_HEATFLUX.j
-pg>] (PAPER_2_REV1.aux)
+[9
+
+] (PAPER_2_REV1.aux)
 Package rerunfilecheck Info: File `PAPER_2_REV1.out' has not changed.
 (rerunfilecheck)             Checksum: 5E307BF02E17602D3D29624D15F1F0D9;891.
  ) 
 Here is how much of TeX's memory you used:
- 10291 strings out of 479616
- 153619 string characters out of 2863101
- 453237 words of memory out of 3000000
- 27291 multiletter control sequences out of 15000+200000
+ 10401 strings out of 479616
+ 155993 string characters out of 2863101
+ 454237 words of memory out of 3000000
+ 27394 multiletter control sequences out of 15000+200000
  407709 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,10n,88p,431b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 83i,10n,88p,431b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\RWLBRA001\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1000.pk><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/font
@@ -691,9 +767,9 @@ mti10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmti7.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmti8.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on PAPER_2_REV1.pdf (8 pages, 2646254 bytes).
+Output written on PAPER_2_REV1.pdf (9 pages, 3126036 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
