@@ -108,7 +108,12 @@ The author names and affiliations could be formatted in two ways:
 \end{enumerate}
 See the front matter of this document for examples. You are recommended to conform your choice to the journal you are submitting to.
 
-\section{Numerical setup}
+\section{Numerical modelling setup}
+In this section the numerical model configuration will be explained covering  the boilers geometry,  model inputs (e.g. fuel characteristics and boundary conditions) ending with the numerical solution strategy employed.
+
+\subsection{Geometry} 
+
+\subsection{Model inputs}
 
 \begin{table}[h!]
 \centering
@@ -141,35 +146,53 @@ Higher heating value & $15070$ & $kJ/kg_{fuel}$\\
 
 
 
+\subsection{Numerical solution strategy} 
+
+
+
+
+
 Validation separately mention the rates/loadings - give results for 40\% case inputs
 Low Ultra low load inputs
 
 
-\subsection{Model validation}
-The validation of the proposed model was conducted for three steady state MCR loads of 100\%, 80\% and 60\%. The  
-\\
-Figures of the Histrograms and CO graphs as in paper
-Data plots and overall performance of the model
-Inputs for the various loads table
+\section{Results \& discussion}
+The current section will discuss the results obtained from using the above-mentioned modelling methodologies. The validity of the modelling approach will first be established by comparing the simulation results for MCR load cases (namely 100\%, 81\% and 60\% MCR loads) to that of the experimentally obtained results of the actual plant. Once the model has been shown to demonstrate sufficient accuracy in determining the overall heat loads and combustion characteristics in the boiler furnace at varying loads, the results of the various low-load burner firing configurations are shown and discussed.
 
-\begin{figure}\label{fig_heat_valid}
+\subsection{Model validation}
+
+The validation of the proposed model was conducted for three steady-state MCR loads of 100\%, 80\% and 60\%. The model inputs and boundary conditions can be obtained from the study conducted by Laubscher and Rousseau (REFERENCE), where they used an EL reference frame and DO radiation model.
+
+\begin{figure}[h!]
+\label{fig_heat_valid}
 	\subfigure[]{\includegraphics[width=0.32\textwidth]{100_VALID_BAR}}
 	\subfigure[]{\includegraphics[width=0.32\textwidth]{80_VALID_BAR}}
 	\subfigure[]{\includegraphics[width=0.32\textwidth]{60_VALID_BAR}}
-\caption{Validation of the experimental and models heat load to the furnace, PSH and HTSH for steady state loads of a) 100\% MCR, b) 80\% MCR and c) 60\% MCR}
+\caption{Comparison of experimentally calculated and model heat loads for the furnace, platen SH and pendant SH at (a) 100\% MCR, (b) 80\% MCR and (c) 60\% MCR}
 \end{figure}
 
-\begin{figure}\label{fig_comb_valid}
+In figure \ref{fig_heat_valid} it is shown that the overall heat loads are in good agreement with the measured results. For the simulated validation loads the proposed model results are within the associated error band, the general trend is an under prediction on the furnace heat loads and an over prediction on the platen super-heater. The pendant super heater illustrate the best comparable results for all load cases.\\
+
+The CFD model was further validated by comparing the $CO_{ppm}$ and $X_{O_{2}}$ measurements against the CFD results. The probe measurements were taken at a furnace height of 37.5 [$m$] near the center of the boiler during a full load (100\% MCR) operating conditions. The probe is inserted from the side walls to a depth of 4.5 [$m$], measurements were taken every 0.5 [$m$] increment.\\
+\begin{figure}[h!]\label{fig_probe_valid}
 \centering
-\subfigure[]{\includegraphics[width = 0.45\textwidth]{COPPM_VALID}}
-\subfigure[]{\includegraphics[width = 0.45\textwidth]{XO2_VALID}}
-\caption{Experimentally calculated $CO$ and $O_2$ concentration predictions at a height of 37.5 (m)}
+\subfigure[]{\includegraphics[width = 0.45\textwidth, height =4cm ]{COPPM_VALID}}
+\hspace{5mm}
+\subfigure[]{\includegraphics[width = 0.45\textwidth, height =4cm ]{XO2_VALID}}
+\caption{Experimentally calculated $CO$ and $O_2$ concentration predictions}
 \end{figure}
 
+Figure \ref{fig_probe_valid} shows the averaged measurement values to that of the CFD predictions. It can be seen that the CFD model can sufficiently resolve the $CO_{ppm}$ and $X_{O_{2}}$ concentrations at the given probe location. For further information regarding the validation of the model the interested reader is directed to the works of Rawlins et al [REFERENCE]
 
+\subsection{Simulation results for various burner firing arrangements at 32\% MCR }
+
+
+Explain the investigation
+table with case descriptions
+Need flownex model and process modelling description
 \begin{figure}
 \centering
-\includegraphics[scale = 0.5]{TEMP_KEY}\\
+\includegraphics[scale = 0.5]{TEMP_KEY} [K]\\
 \subfigure[]{\includegraphics[width=0.32\textwidth]{BOT_TEMP}}
 \subfigure[]{\includegraphics[width=0.32\textwidth]{MID_TEMP}}
 \subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM_TEMP}}\\
@@ -179,7 +202,7 @@ Inputs for the various loads table
 \caption{Hi}
 \end{figure}
 
-ghff
+
 \begin{figure}[h!]
 \centering
 \includegraphics[scale = 0.5]{VEL_KEY}\\
@@ -221,9 +244,38 @@ ghff
 				\includegraphics[height = 7cm]{FBRM05_ISO_COPPM_S}}\\
 \end{figure}
 
+\begin{table}[h!]
+\centering
+\caption{Utility boiler fuel characteristics}
+\vspace{5mm}
+\label{fuel}
+{\tabulinesep=1.2mm
+\begin{tabularx}{\textwidth}{p{0.45\textwidth} p{0.3\textwidth} l}
+\hline
+\textbf{Fuel constituent} & \textbf{Fraction} & \textbf{Unit}\\
+\hline
+\textit{Ultimate analysis - (DAF)} & \textit{-} & \textit{-}\\
+Carbon & $0.7753$ & $kg/kg_{fuel}$\\
+Hydrogen & $0.0415$ & $kg/kg_{fuel}$\\
+Nitrogen & $0.0181$ & $kg/kg_{fuel}$\\
+Oxygen & $0.1474$ & $kg/kg_{fuel}$\\
+Sulphur & $0.0175$ & $kg/kg_{fuel}$\\
+\textit{Proximate analysis - (AR)} & \textit{-} & \textit{-}\\
+Fixed carbon & $0.340$ & $kg/kg_{fuel}$\\
+Volatile matter & $0.196$ & $kg/kg_{fuel}$\\
+Ash & $0.4090$ & $kg/kg_{fuel}$\\
+Moisture & $0.0550$ & $kg/kg_{fuel}$\\
+\hline
+\textbf{Energy content - (DAF)} & \textbf{Value} &\\
+\hline
+Higher heating value & $15070$ & $kJ/kg_{fuel}$\\
+\hline
+\end{tabularx}}
+\end{table}
+
 
 \clearpage
-\section{Results \& discussion}
+
 
 \section{Conclusions}
 
