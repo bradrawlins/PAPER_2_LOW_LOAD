@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  3 SEP 2021 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  6 SEP 2021 17:42
 entering extended mode
 **./PAPER_2_REV1.tex
 (PAPER_2_REV1.tex
@@ -427,6 +427,12 @@ LaTeX Info: Redefining \] on input line 2924.
 
 LaTeX Warning: Label `fuel' multiply defined.
 
+
+LaTeX Warning: Label `fuel' multiply defined.
+
+
+LaTeX Warning: Label `fuel' multiply defined.
+
 )
 \openout1 = `PAPER_2_REV1.aux'.
 
@@ -673,11 +679,11 @@ File: BOT_TEMP.jpg Graphic file (type jpg)
 <use BOT_TEMP.jpg>
 Package pdftex.def Info: BOT_TEMP.jpg  used on input line 341.
 (pdftex.def)             Requested size: 110.40253pt x 184.91995pt.
-<MID_TEMP.jpg, id=194, 391.4625pt x 633.36626pt>
+<MID_TEMP.jpg, id=194, 283.81032pt x 460.72125pt>
 File: MID_TEMP.jpg Graphic file (type jpg)
 <use MID_TEMP.jpg>
 Package pdftex.def Info: MID_TEMP.jpg  used on input line 342.
-(pdftex.def)             Requested size: 110.40253pt x 178.61703pt.
+(pdftex.def)             Requested size: 110.40253pt x 179.2236pt.
 <FBRM_TEMP.jpg, id=195, 292.84406pt x 470.50781pt>
 File: FBRM_TEMP.jpg Graphic file (type jpg)
 <use FBRM_TEMP.jpg>
@@ -708,16 +714,16 @@ File: BOT_VEL.jpg Graphic file (type jpg)
 <use BOT_VEL.jpg>
 Package pdftex.def Info: BOT_VEL.jpg  used on input line 354.
 (pdftex.def)             Requested size: 110.40253pt x 176.39742pt.
-<MID_VEL.jpg, id=201, 389.455pt x 635.37375pt>
+<MID_VEL.jpg, id=201, 283.0575pt x 462.22687pt>
 File: MID_VEL.jpg Graphic file (type jpg)
 <use MID_VEL.jpg>
 Package pdftex.def Info: MID_VEL.jpg  used on input line 355.
-(pdftex.def)             Requested size: 110.40253pt x 180.11389pt.
-<FBRM_VEL.jpg, id=202, 301.125pt x 472.76625pt>
+(pdftex.def)             Requested size: 110.40253pt x 180.28186pt.
+<FBRM_VEL.jpg, id=202, 267.24844pt x 440.39531pt>
 File: FBRM_VEL.jpg Graphic file (type jpg)
 <use FBRM_VEL.jpg>
 Package pdftex.def Info: FBRM_VEL.jpg  used on input line 356.
-(pdftex.def)             Requested size: 110.40253pt x 173.33372pt.
+(pdftex.def)             Requested size: 110.40253pt x 181.9341pt.
 <BOT05_VEL.jpg, id=203, 287.57437pt x 458.46281pt>
 File: BOT05_VEL.jpg Graphic file (type jpg)
 <use BOT05_VEL.jpg>
@@ -747,11 +753,11 @@ File: BOT_HEATFLUX.jpg Graphic file (type jpg)
 <use BOT_HEATFLUX.jpg>
 Package pdftex.def Info: BOT_HEATFLUX.jpg  used on input line 366.
 (pdftex.def)             Requested size: 110.40253pt x 255.5255pt.
-<MID_HEATFLUX.jpg, id=208, 285.065pt x 622.325pt>
+<MID_HEATFLUX.jpg, id=208, 222.07968pt x 462.97969pt>
 File: MID_HEATFLUX.jpg Graphic file (type jpg)
 <use MID_HEATFLUX.jpg>
 Package pdftex.def Info: MID_HEATFLUX.jpg  used on input line 367.
-(pdftex.def)             Requested size: 110.40253pt x 241.0155pt.
+(pdftex.def)             Requested size: 110.40253pt x 230.16115pt.
 <FBRM_HEATFLUX.jpg, id=209, 214.55156pt x 469.00218pt>
 File: FBRM_HEATFLUX.jpg Graphic file (type jpg)
 <use FBRM_HEATFLUX.jpg>
@@ -762,11 +768,11 @@ File: BOT05_HEATFLUX.jpg Graphic file (type jpg)
 <use BOT05_HEATFLUX.jpg>
 Package pdftex.def Info: BOT05_HEATFLUX.jpg  used on input line 369.
 (pdftex.def)             Requested size: 110.40253pt x 265.14003pt.
-<MID05_HEATFLUX.jpg, id=211, 210.03468pt x 469.755pt>
+<MID05_HEATFLUX.jpg, id=211, 215.30438pt x 466.74374pt>
 File: MID05_HEATFLUX.jpg Graphic file (type jpg)
 <use MID05_HEATFLUX.jpg>
 Package pdftex.def Info: MID05_HEATFLUX.jpg  used on input line 370.
-(pdftex.def)             Requested size: 110.40253pt x 246.91895pt.
+(pdftex.def)             Requested size: 110.40253pt x 239.33946pt.
 <FBRM05_HEATFLUX.jpg, id=212, 217.5628pt x 467.49657pt>
 File: FBRM05_HEATFLUX.jpg Graphic file (type jpg)
 <use FBRM05_HEATFLUX.jpg>
@@ -833,40 +839,49 @@ File: MID05_ISO_COPPM_S.jpg Graphic file (type jpg)
 <use MID05_ISO_COPPM_S.jpg>
 Package pdftex.def Info: MID05_ISO_COPPM_S.jpg  used on input line 387.
 (pdftex.def)             Requested size: 41.05557pt x 199.16928pt.
-<FBRM05_ISO_COPPM_F.jpg, id=224, 135.50626pt x 441.90094pt>
+<FBRM05_ISO_COPPM_F.jpg, id=224, 132.495pt x 434.37282pt>
 File: FBRM05_ISO_COPPM_F.jpg Graphic file (type jpg)
 <use FBRM05_ISO_COPPM_F.jpg>
 Package pdftex.def Info: FBRM05_ISO_COPPM_F.jpg  used on input line 389.
-(pdftex.def)             Requested size: 62.0979pt x 199.17049pt.
-<FBRM05_ISO_COPPM_S.jpg, id=225, 93.34875pt x 441.90094pt>
+(pdftex.def)             Requested size: 62.09676pt x 199.171pt.
+<FBRM05_ISO_COPPM_S.jpg, id=225, 91.09032pt x 441.14813pt>
 File: FBRM05_ISO_COPPM_S.jpg Graphic file (type jpg)
 <use FBRM05_ISO_COPPM_S.jpg>
 Package pdftex.def Info: FBRM05_ISO_COPPM_S.jpg  used on input line 389.
-(pdftex.def)             Requested size: 42.07349pt x 199.16928pt.
+(pdftex.def)             Requested size: 41.12508pt x 199.16928pt.
 <PROBE_LOCATIONS.png, id=226, 401.24907pt x 511.9125pt>
 File: PROBE_LOCATIONS.png Graphic file (type png)
 <use PROBE_LOCATIONS.png>
 Package pdftex.def Info: PROBE_LOCATIONS.png  used on input line 394.
 (pdftex.def)             Requested size: 200.62404pt x 255.95563pt.
+<SYMMETRY_PROBE_COPPM.png, id=227, 361.8318pt x 417.2388pt>
+File: SYMMETRY_PROBE_COPPM.png Graphic file (type png)
+<use SYMMETRY_PROBE_COPPM.png>
+Package pdftex.def Info: SYMMETRY_PROBE_COPPM.png  used on input line 401.
+(pdftex.def)             Requested size: 130.25934pt x 150.20584pt.
+<OFFSET_PROBE_COPPM.png, id=228, 361.8318pt x 417.2388pt>
+File: OFFSET_PROBE_COPPM.png Graphic file (type png)
+<use OFFSET_PROBE_COPPM.png>
+Package pdftex.def Info: OFFSET_PROBE_COPPM.png  used on input line 403.
+(pdftex.def)             Requested size: 130.25934pt x 150.20584pt.
+<SYMMETRY_PROBE_XO2.png, id=229, 368.0952pt x 416.2752pt>
+File: SYMMETRY_PROBE_XO2.png Graphic file (type png)
+<use SYMMETRY_PROBE_XO2.png>
+Package pdftex.def Info: SYMMETRY_PROBE_XO2.png  used on input line 404.
+(pdftex.def)             Requested size: 128.83524pt x 145.6985pt.
+<OFFSET_PROBE_XO2.png, id=230, 368.0952pt x 416.2752pt>
+File: OFFSET_PROBE_XO2.png Graphic file (type png)
+<use OFFSET_PROBE_XO2.png>
+Package pdftex.def Info: OFFSET_PROBE_XO2.png  used on input line 406.
+(pdftex.def)             Requested size: 128.83524pt x 145.6985pt.
 
-Underfull \hbox (badness 1297) in paragraph at lines 421--421
-[]|\OT1/cmr/bx/n/10 Main steam flow rate
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 421--421
-[]|\OT1/cmr/bx/n/10 RH steam flow rate
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-[]|\OT1/cmr/bx/n/10 Platen wall temp
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-[]|\OT1/cmr/bx/n/10 Pendant wall temp
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -875,27 +890,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.425 \clearpage
+l.475 \clearpage
                  <./COPPM_VALID.png (PNG copy)> <./XO2_VALID.png (PNG copy)>]
 [14pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.425 \clearpage
+l.475 \clearpage
                  <./TEMP_KEY.png> <./BOT_TEMP.jpg> <./MID_TEMP.jpg> <./FBRM_TEM
 P.jpg> <./BOT05_TEMP.jpg> <./MID05_TEMP.jpg> <./FBRM05_TEMP.jpg>] [15pdfTeX war
 ning (ext4): destination with the same identifier (name{figure.6}) has been alr
 eady used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.425 \clearpage
+l.475 \clearpage
                  <./VEL_KEY.png> <./BOT_VEL.jpg> <./MID_VEL.jpg> <./FBRM_VEL.jp
 g> <./BOT05_VEL.jpg> <./MID05_VEL.jpg> <./FBRM05_VEL.jpg>] [16pdfTeX warning (e
 xt4): destination with the same identifier (name{figure.7}) has been already us
 ed, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.425 \clearpage
+l.475 \clearpage
                  <./HEATFLUX_KEY.png> <./BOT_HEATFLUX.jpg> <./MID_HEATFLUX.jpg>
  <./FBRM_HEATFLUX.jpg> <./BOT05_HEATFLUX.jpg> <./MID05_HEATFLUX.jpg> <./FBRM05_
 HEATFLUX.jpg>] [17 <./CO_MF_KEY.png> <./BOT_ISO_COPPM_F.jpg> <./BOT_ISO_COPPM_S
@@ -906,19 +921,36 @@ HEATFLUX.jpg>] [17 <./CO_MF_KEY.png> <./BOT_ISO_COPPM_F.jpg> <./BOT_ISO_COPPM_S
 dentifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.425 \clearpage
-                 <./PROBE_LOCATIONS.png>] [19pdfTeX warning (ext4): destination
- with the same identifier (name{table.4}) has been already used, duplicate igno
-red
+l.475 \clearpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.425 \clearpage
+l.475 \clearpage
+                 <./PROBE_LOCATIONS.png>] [19pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.9}) has been already used, duplicate ign
+ored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.475 \clearpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{table.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.475 \clearpage
+                 <./SYMMETRY_PROBE_COPPM.png (PNG copy)> <./OFFSET_PROBE_COPPM.
+png (PNG copy)> <./SYMMETRY_PROBE_XO2.png (PNG copy)> <./OFFSET_PROBE_XO2.png (
+PNG copy)>] [20pdfTeX warning (ext4): destination with the same identifier (nam
+e{table.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.475 \clearpage
                 ]
 No file PAPER_2_REV1.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[20
+[21
 
 ] (PAPER_2_REV1.aux)
 
@@ -928,10 +960,10 @@ Package rerunfilecheck Info: File `PAPER_2_REV1.out' has not changed.
 (rerunfilecheck)             Checksum: FEC40E5C6653B6A687886A678A788B0A;3013.
  ) 
 Here is how much of TeX's memory you used:
- 11194 strings out of 479616
- 166189 string characters out of 2863101
- 476945 words of memory out of 3000000
- 28119 multiletter control sequences out of 15000+200000
+ 11231 strings out of 479616
+ 166975 string characters out of 2863101
+ 478974 words of memory out of 3000000
+ 28147 multiletter control sequences out of 15000+200000
  408268 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,16n,88p,924b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -959,9 +991,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RWLBRA001/AppData/Local
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/User
 s/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.
 pfb>
-Output written on PAPER_2_REV1.pdf (20 pages, 3490875 bytes).
+Output written on PAPER_2_REV1.pdf (21 pages, 3181252 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
