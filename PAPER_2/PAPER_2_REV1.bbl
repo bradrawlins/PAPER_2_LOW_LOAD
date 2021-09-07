@@ -1,0 +1,73 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Sheng2004}
+C.~Sheng, B.~Moghtaderi, R.~Gupta, T.~F. Wall, {A computational fluid dynamics
+  based study of the combustion characteristics of coal blends in pulverised
+  coal-fired furnace}, Fuel 83~(11-12) (2004) 1543--1552.
+\newblock \href {http://dx.doi.org/10.1016/j.fuel.2004.02.011}
+  {\path{doi:10.1016/j.fuel.2004.02.011}}.
+
+\bibitem{Baum1971}
+M.~Baum, P.~Street, {Predicting the combustion behaviour of coal particles},
+  Combustion science and Technolodgy 3~(43) (1971) 231.
+
+\bibitem{Laubscher2019b}
+R.~Laubscher, P.~Rousseau, {CFD study of pulverized coal-fired boiler
+  evaporator and radiant superheaters at varying loads}, Applied Thermal
+  Engineering 160.
+\newblock \href {http://dx.doi.org/10.1016/j.applthermaleng.2019.114057}
+  {\path{doi:10.1016/j.applthermaleng.2019.114057}}.
+
+\bibitem{Versteeg2007}
+H.~Versteeg, W.~Malalasekera, {Introduction to Computational Fluid Dynamics,
+  The finite volume method}, 2nd Edition, Pearson Prentice Hall, 2007.
+\newblock \href {http://dx.doi.org/10.1002/9781119369189}
+  {\path{doi:10.1002/9781119369189}}.
+
+\bibitem{Benim2005}
+A.~C. Benim, B.~Epple, B.~Krohmer, {Modelling of pulverised coal combustion by
+  a Eulerian-Eulerian two-phase flow formulation}, Progress in Computational
+  Fluid Dynamics 5~(6) (2005) 345--361.
+\newblock \href {http://dx.doi.org/10.1504/PCFD.2005.007067}
+  {\path{doi:10.1504/PCFD.2005.007067}}.
+
+\bibitem{Vicente2003}
+W.~Vicente, S.~Ochoa, J.~Aguill{\'{o}}n, E.~Barrios, {An Eulerian model for the
+  simulation of an entrained flow coal gasifier}, Applied Thermal Engineering
+  23~(15) (2003) 1993--2008.
+\newblock \href {http://dx.doi.org/10.1016/S1359-4311(03)00149-2}
+  {\path{doi:10.1016/S1359-4311(03)00149-2}}.
+
+\bibitem{Cai2015}
+J.~Cai, M.~Handa, M.~F. Modest,
+  \href{http://dx.doi.org/10.1016/j.combustflame.2014.11.023}{{Eulerian-Eulerian
+  multi-fluid methods for pulverized coal flames with nongray radiation}},
+  Combustion and Flame 162~(4) (2015) 1550--1565.
+\newblock \href {http://dx.doi.org/10.1016/j.combustflame.2014.11.023}
+  {\path{doi:10.1016/j.combustflame.2014.11.023}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.combustflame.2014.11.023}
+
+\bibitem{Basu2000}
+P.~Basu, C.~Kefa, L.~Jestin, {Boilers and burners: Design and theory}, 1st
+  Edition, Springer, New York, 2000.
+
+\bibitem{Modest2013}
+M.~F. Modest, {Radiative Heat Transfer}, 3rd Edition, Academic Press,
+  Kidlington, Oxford, U.K., 2013.
+\newblock \href {http://dx.doi.org/10.1016/j.neuroscience.2014.03.010}
+  {\path{doi:10.1016/j.neuroscience.2014.03.010}}.
+
+\bibitem{Ranade2015}
+V.~Ranade, D.~Gupta, {Computational modeling of pulverized coal fired boilers},
+  1st Edition, Taylor {\&} Francis, Boca Raton, 2015.
+
+\bibitem{Smith1982}
+T.~Smith, Z.~Shen, J.~Friedman, {Evaluation of Coefficients for the Weighted
+  Sum of Gray Gases Model}, Journal of Heat transfer 104 (1982) 602--608.
+
+\end{thebibliography}

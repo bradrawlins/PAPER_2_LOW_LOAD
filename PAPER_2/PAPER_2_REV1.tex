@@ -113,7 +113,7 @@ The process of coal combustion comprises four steps. Namely, inert heating and e
 \end{split}
 \end{gather}
 
-A devolatilization temperature of 553 [$K$] (REFERENCE) along with the kinetic parameters (equation \ref{eqn_vol_arrhenuis}) of Sheng et al (REFERENCE) were utilized. The char oxidation process is modelled using the diffusion-kinetics limited model developed by Baum and Street (REFERENCE), which is given in equation (\ref{eqn_char_rate}). The product species of the char oxidation reaction was set to $CO$ as shown in equation (\ref{eqn_CO_reaction}). 
+A devolatilization temperature of 553 [$K$] (REFERENCE) along with the kinetic parameters (equation \ref{eqn_vol_arrhenuis}) of Sheng et al \cite{Sheng2004} were utilized. The char oxidation process is modelled using the diffusion-kinetics limited model developed by Baum and Street (\cite{Baum1971}), which is given in equation (\ref{eqn_char_rate}). The product species of the char oxidation reaction was set to $CO$ as shown in equation (\ref{eqn_CO_reaction}). 
 \begin{gather}
 \frac{dm_{char}}{dt} = -A_p P_{O_{2}} \frac{R_{diff}R_c}{R_{diff} + R_c}  \label{eqn_char_rate}\\
 C_{(s)}+0.5O_{2(g)}\to CO_{(g)} \label{eqn_CO_reaction}
@@ -128,10 +128,10 @@ R_{diff} = \frac{5X10^{-12}}{d_p} \left(\frac{T_g+T_p}{2}\right)^0.75 \label{eqn
  \label{eqn_char_kin_rate}
 \end{gather}
 
-The turbulence-chemistry interactions of the gas phase reactions were approximated using the eddy-dissipation-finite rate model used in ANSYS Fluent v19.5\textsuperscript{\textregistered} which calculates three rates, namely chemical reaction rate, turbulent production eddies dissipation rate and reaction eddies dissipation rate, and uses the minimum of the three for the source terms calculations. A description of the CFD gas phase reactions of the boiler under consideration, using the same coal, was previously published in the works of Laubscher and Rousseau (REFERENCE).
+The turbulence-chemistry interactions of the gas phase reactions were approximated using the eddy-dissipation-finite rate model used in ANSYS Fluent v19.5\textsuperscript{\textregistered} which calculates three rates, namely chemical reaction rate, turbulent production eddies dissipation rate and reaction eddies dissipation rate, and uses the minimum of the three for the source terms calculations. A description of the CFD gas phase reactions of the boiler under consideration, using the same coal, was previously published in the works of Laubscher and Rousseau \cite{Laubscher2019b}.
 
 \subsubsection{Particle modelling}
-The pseudo particles transported into the domain are modelled using the general scalar field transport equation (REFERENCE). The pseudo-particles scalar fields are used to define the fuel characteristics based on the proximate analysis composition, namely consisting of moisture, volatile matter, fixed  carbon and ash. Each of the scalar field equations are given in table \ref{tab_scalars}.
+The pseudo particles transported into the domain are modelled using the general scalar field transport equation \cite{Versteeg2007}. The pseudo-particles scalar fields are used to define the fuel characteristics based on the proximate analysis composition, namely consisting of moisture, volatile matter, fixed  carbon and ash. Each of the scalar field equations are given in table \ref{tab_scalars}.
 
 \begin{table}[h!]
 \centering
@@ -155,14 +155,14 @@ The energy transport of the pseudo particle, is transported by defining the part
 \frac{\partial}{\partial x_{i}}(\rho u_{i} \phi_{hp})=\left(f_{heat}\frac{dM_{c}}{dt}h_{rxn} + \dot{Q}_{rad} + \dot{Q}_{conv} - \frac{dM_{evap}}{dt}h_{fg}\right)\frac{1}{V}
 \end{equation}
 
-The equation accounts for all the processes associated with energy transport to the particle, namely convection $\left(\dot{Q}_{conv}\right)$, radiation $\left(\dot{Q}_{rad}\right)$, latent heat $\left(\frac{dM_{evap}}{dt}h_{fg}\right)$ and near surface char oxidation $\left(f_{heat}\frac{dM_{c}}{dt}h_{rxn}\right)$. This gives the model the ability to track the particle temperature in the domain, moving the model away from the thermal equilibrium approach incorporated by previous studies using an EE approach (\cite{epple}, \cite{knaus}). The particle temperature is important in describing the sequential steps found in modelling combustion processes, especially at low boiler loads where mixing and ignition become problematic.
+The equation accounts for all the processes associated with energy transport to the particle, namely convection $\left(\dot{Q}_{conv}\right)$, radiation $\left(\dot{Q}_{rad}\right)$, latent heat $\left(\frac{dM_{evap}}{dt}h_{fg}\right)$ and near surface char oxidation $\left(f_{heat}\frac{dM_{c}}{dt}h_{rxn}\right)$. This gives the model the ability to track the particle temperature in the domain, moving the model away from the thermal equilibrium approach incorporated by previous studies using an EE approach (\cite{Benim2005}, \cite{Vicente2003}, \cite{Cai2015}). The particle temperature is important in describing the sequential steps found in modelling combustion processes, especially at low boiler loads where mixing and ignition become problematic.
 
 \subsection{Heat transfer modelling modelling}
-The radiation heat transfer is the dominant form of heat transfer found in industrial furnaces (REFERENCE) and is solved by applying the gray-participating-gas and particle medium configuration of the radiation transport equation (RTE) (REFERENCE) shown in equation ().
-\begin{equation}
+The radiation heat transfer is the dominant form of heat transfer found in industrial furnaces \citep{Basu2000} and is solved by applying the gray-participating-gas and particle medium configuration of the radiation transport equation (RTE) \cite{Modest2013} shown in equation (\ref{eqn_RTE}).
+\begin{equation}\label{eqn_RTE}
 \frac{d I(\vec{r},\hat{s})}{ds} = \alpha_g \frac{\sigma_SB T_{g}^4}{\pi}-(\alpha_g+\alpha_p+\sigma_p)I(\vec{r},\hat{s}) + \frac{\sigma_p}{4\pi}\int_{4\pi}I(\vec{r},\hat{s})\Phi d \Omega
 \end{equation}
-In the present work the RTE is solved sing the P1 model. Ranade and Gupta (REFERENCE) illustrated minimal differences between the two common radiation models (namely the P1 and discrete ordinates (DO)) for the resultant wall heat transfer rate values when modelling a 210 MWe CFPP boiler. The P1 radiation model can include the effects of particle absorption ($\alpha_p$) and scattering ($\sigma_p$) as well as gas mixture absorption ($\alpha_g$). The P1 model transport variable is the incident radiation (G - [$W/m^2$]), and can be written for a particle laden domain as:
+In the present work the RTE is solved sing the P1 model. Ranade and Gupta \cite{Ranade2015} illustrated minimal differences between the two common radiation models (namely the P1 and discrete ordinates (DO)) for the resultant wall heat transfer rate values when modelling a 210 MWe CFPP boiler. The P1 radiation model can include the effects of particle absorption ($\alpha_p$) and scattering ($\sigma_p$) as well as gas mixture absorption ($\alpha_g$). The P1 model transport variable is the incident radiation (G - [$W/m^2$]), and can be written for a particle laden domain as:
 \begin{equation}
 \begin{split}
 &\frac{\partial}{\partial x_{i}}\left(\Gamma\frac{\partial G}{\partial x_{i}}\right)=\left(\alpha_g+\alpha_p\right)G-4\left(\alpha_g \sigma_{SB} T_{g}^4-\pi E_p \right)\\
@@ -170,7 +170,7 @@ In the present work the RTE is solved sing the P1 model. Ranade and Gupta (REFER
 \end{split}
 \end{equation}
 
-The flue gas absorptivity was calculated using the domain based weighted sum of gray gas model (WSGGM) using the coefficients determined by Smith et al (REFERENCE). The WSGGM accounts for the radiation emitted by tri-atomic gases, namely $CO_2$, $H_2O$ and $SO_2$ present in the flue gas stream. The Eulerian description of the terms $\alpha_p$, $\sigma_p$ and $E_b$ are determined using the effective number of particles ($N_p$) present in a cell. There formulations are given in equations (\ref{eqn_part_abs}) through (\ref{eqn_part_emisp}).
+The flue gas absorptivity was calculated using the domain based weighted sum of gray gas model (WSGGM) using the coefficients determined by Smith et al \cite{Smith1982}. The WSGGM accounts for the radiation emitted by tri-atomic gases, namely $CO_2$, $H_2O$ and $SO_2$ present in the flue gas stream. The Eulerian description of the terms $\alpha_p$, $\sigma_p$ and $E_b$ are determined using the effective number of particles ($N_p$) present in a cell. There formulations are given in equations (\ref{eqn_part_abs}) through (\ref{eqn_part_emisp}).
 \begin{gather}
 \alpha_p = \frac{\epsilon_p A_{pn}N_p}{V} \label{eqn_part_abs}\\
 \sigma_p = \frac{(1-\epsilon_p)(1-f_p) A_{pn}N_p}{V} \label{eqn_part_scat} \\
@@ -199,7 +199,7 @@ Applying the mixture density the following transport equations are solved;
 \end{split}
 \end{equation}
 
-The interface between the process and CFD simulation are the furnace, platen and pendant SH external walls, which similar to the study conducted by Laubscher and Rousseau (REFERENCE). However, for this study the downstream heat exchangers are included in the process model and there is an indirect coupling between the models.
+The interface between the process and CFD simulation are the furnace, platen and pendant SH external walls, which is similar to the study conducted by Laubscher and Rousseau (REFERENCE). However, for this study the downstream heat exchangers are included in the process model and there is an indirect coupling between the models.
 
 The process model is primarily used to determine the required attemperation flow rates in order to achieve the exit steam conditions, the boiler efficiency, and the steam generated for each case. The results of this model aid in determining the best firing combination of burner rows for continuous low-load operation, and the effects the various cases have on the system.
 
@@ -305,7 +305,7 @@ The current section will discuss the results obtained from using the above-menti
 
 \subsection{Model validation}
 
-The validation of the proposed model was conducted for three steady-state MCR loads of 100\%, 80\% and 60\%. The model inputs and boundary conditions can be obtained from the study conducted by Laubscher and Rousseau (REFERENCE), where using the same boiler of the present study, they evaluated the thermal performance of the heat exchanging components at full and reduced boiler loads.
+The validation of the proposed model was conducted for three steady-state MCR loads of 100\%, 80\% and 60\%. The model inputs and boundary conditions can be obtained from the study conducted by Laubscher and Rousseau \citep{Laubscher2019b}, where using the same boiler of the present study, they evaluated the thermal performance of the heat exchanging components at full and reduced boiler loads.
 
 \begin{figure}[h!]
 	\subfigure[]{\includegraphics[width=0.32\textwidth]{100_VALID_BAR}}
@@ -344,7 +344,7 @@ Need flownex model and process modelling description
 \subfigure[]{\includegraphics[width=0.32\textwidth]{BOT05_TEMP}}
 \subfigure[]{\includegraphics[width=0.32\textwidth]{MID05_TEMP}}
 \subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM05_TEMP}}
-\caption{Hi}
+\caption{Temperature fields for cases 1 through 6}
 \end{figure}
 
 
@@ -357,19 +357,23 @@ Need flownex model and process modelling description
 \subfigure[]{\includegraphics[width=0.32\textwidth]{BOT05_VEL}}
 \subfigure[]{\includegraphics[width=0.32\textwidth]{MID05_VEL}}
 \subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM05_VEL}}
-\caption{bye}
+\caption{Velocity fields for cases 1 through 6}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale = 0.45]{HEATFLUX_KEY} [$W/m^2$]\\
-\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT_HEATFLUX}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{MID_HEATFLUX}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM_HEATFLUX}}\\
-\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT05_HEATFLUX}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{MID05_HEATFLUX}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM05_HEATFLUX}}
-\caption{bye}
+\subfigure[]{\includegraphics[scale = 0.29]{BOT_HEATFLUX}}
+\hspace{5mm}
+\subfigure[]{\includegraphics[scale = 0.35]{MID_HEATFLUX}}
+\hspace{5mm}
+\subfigure[]{\includegraphics[scale = 0.35]{FBRM_HEATFLUX}}\\
+\subfigure[]{\includegraphics[scale = 0.35]{BOT05_HEATFLUX}}
+\hspace{5mm}
+\subfigure[]{\includegraphics[scale = 0.35]{MID05_HEATFLUX}}
+\hspace{5mm}
+\subfigure[]{\includegraphics[scale = 0.35]{FBRM05_HEATFLUX}}
+\caption{Heat fluxes profiles for cases 1 through 6}
 \end{figure}
 
 \begin{figure}
@@ -387,6 +391,7 @@ Need flownex model and process modelling description
 				\includegraphics[height = 7cm]{MID05_ISO_COPPM_S}}
 \subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{FBRM05_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{FBRM05_ISO_COPPM_S}}\\
+\caption{CO mass fraction ($Y_{CO}$) concentrations for cases 1 through 6 on a temperature iso-surface of 1600 K}
 \end{figure}
 
 \begin{figure}
@@ -405,7 +410,7 @@ Need flownex model and process modelling description
 \hspace{5mm}
 \subfigure[]{\includegraphics[scale = 0.35]{OFFSET_PROBE_XO2}}
 
-\caption{bye}
+\caption{$CO_{PPM}$ [(a) and (b)] and $X_{O_{2}}$ [(c) and (d)] line plots on symmetry and offset vertical probe lines}
 \end{figure}
 
 
@@ -434,14 +439,17 @@ Need flownex model and process modelling description
 
 \begin{table}[h!]
 \centering
-\caption{Platen and pendant wall temperatures}
+\caption{Furnace exit conditions and SH wall temperatures}
 \label{fuel}
 {\tabulinesep=1.2mm
-\begin{tabularx}{\linewidth}{p{0.45\linewidth} XXXXXX}
+\begin{tabularx}{\linewidth}{p{0.4\linewidth} XXXXXX}
 \hline
 &\multicolumn{6}{c}{Cases}\\
  & \textbf{1} & \textbf{2} & \textbf{3}& \textbf{4}&\textbf{5}&\textbf{6}\\
 \hline
+\multicolumn{7}{l}{\textit{Furnace exit}}\\
+\textbf{Exit temperature} [$K$] & 1168 & 1230 & 1215 & 1208 & 1306 & 1298\\
+\textbf{Unburnt carbon} [$(\times 10^{-3})\,\%$] & 1.83 & 1.94 & 1.54 & 1.81 & 1.89 & 1.62\\
 \multicolumn{7}{l}{\textit{Platen SH}}\\
 \textbf{Max wall temperature} [$K$]  &754 & 750 & 765 & 766 & 753 & 763\\
 \textbf{Mean wall temperature} [$K$] &726 & 712 & 719 & 727 & 715 & 724\\
@@ -480,6 +488,6 @@ The authors would like to thank the Eskom EPPEI program for financially supporti
 
 \section*{References}
 
-\bibliography{mybibfile}
+\bibliography{PAPER1_LOW_LOAD}
 
 \end{document}
