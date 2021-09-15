@@ -455,7 +455,7 @@ Need flownex model and process modelling description
 \textbf{Mean wall temperature} [$K$] &726 & 712 & 719 & 727 & 715 & 724\\
 \multicolumn{7}{l}{\textit{Pendant SH}}\\
 \textbf{Max wall temperature} [$K$]  & 805 & 807 & 811 & 808 & 800 & 802\\
-\textbf{Mean wall temperature} [$K$] & 793 & 786 & 792 & 795 & 788 & 784\\
+\textbf{Mean wall temperature} [$K$] & 793 & 788 & 792 & 795 & 788 & 784\\
 \hline
 \end{tabularx}}
 \end{table}
@@ -469,13 +469,18 @@ T_{metal} = T_{wall} - \left(\frac{\dot{q}_{SH}t_{ASH}}{\lambda_{ASH}}\right)
 \caption{Radiative heat transfer percentage for the platen and pendant SH}
 \label{fuel}
 {\tabulinesep=1.2mm
-\begin{tabularx}{\linewidth}{p{0.25\linewidth} XXXXXX}
+\begin{tabularx}{\linewidth}{p{0.25\linewidth} XX}
 \hline
-&\multicolumn{6}{c}{Cases}\\
- & \textbf{1} & \textbf{2} & \textbf{3}& \textbf{4}&\textbf{5}&\textbf{6}\\
+&\multicolumn{2}{c}{Cases}\\
+ &\textbf{3}&\textbf{6}\\
 \hline
-Platen SH [\%] & 91.6 & 94.1 & 92.5 & 92.6 & 93.9 & 93.4\\
-Pendant SH [\%] & 92.8 & 92.7 & 93.5 & 93.4 & 92.7 & 94.1\\
+Evaporator \\
+Platen SH [\%] & \\
+Pendant SH [\%] &\\
+Secondary RH [\%]\\
+Primary SH [\%]\\
+Primary RH [\%]\\
+Economiser [\%]\\
 \hline
 \end{tabularx}}
 \end{table}
