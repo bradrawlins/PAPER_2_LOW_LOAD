@@ -5,6 +5,34 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{Belosevic2019a}
+S.~Belo{\v{s}}evi{\'{c}}, I.~Tomanovi{\'{c}}, N.~Crnomarkovi{\'{c}},
+  A.~Mili{\'{c}}evi{\'{c}}, {Full-scale CFD investigation of gas-particle flow,
+  interactions and combustion in tangentially fired pulverized coal furnace},
+  Energy 179.
+\newblock \href {http://dx.doi.org/10.1016/j.energy.2019.05.066}
+  {\path{doi:10.1016/j.energy.2019.05.066}}.
+
+\bibitem{Laubscher2019a}
+R.~Laubscher, P.~Rousseau, {Numerical investigation into the effect of burner
+  swirl direction on furnace and superheater heat absorption for a 620 MWe
+  opposing wall-fired pulverized coal boiler}, International Journal of Heat
+  and Mass Transfer 137 (2019) 506--522.
+\newblock \href {http://dx.doi.org/10.1016/j.ijheatmasstransfer.2019.03.150}
+  {\path{doi:10.1016/j.ijheatmasstransfer.2019.03.150}}.
+
+\bibitem{Modlinski2019}
+N.~Modli{\'{n}}ski, K.~Szczepanek, D.~Nabag{\l}o, P.~Madejski,
+  Z.~Modli{\'{n}}ski, {Mathematical procedure for predicting tube metal
+  temperature in the second stage reheater of the operating flexibly steam
+  boiler}, Applied Thermal Engineering 146~(October 2018) (2019) 854--865.
+\newblock \href {http://dx.doi.org/10.1016/j.applthermaleng.2018.10.063}
+  {\path{doi:10.1016/j.applthermaleng.2018.10.063}}.
+
+\bibitem{Ranade2015}
+V.~Ranade, D.~Gupta, {Computational modeling of pulverized coal fired boilers},
+  1st Edition, Taylor {\&} Francis, Boca Raton, 2015.
+
 \bibitem{Sheng2004}
 C.~Sheng, B.~Moghtaderi, R.~Gupta, T.~F. Wall, {A computational fluid dynamics
   based study of the combustion characteristics of coal blends in pulverised
@@ -62,12 +90,22 @@ M.~F. Modest, {Radiative Heat Transfer}, 3rd Edition, Academic Press,
 \newblock \href {http://dx.doi.org/10.1016/j.neuroscience.2014.03.010}
   {\path{doi:10.1016/j.neuroscience.2014.03.010}}.
 
-\bibitem{Ranade2015}
-V.~Ranade, D.~Gupta, {Computational modeling of pulverized coal fired boilers},
-  1st Edition, Taylor {\&} Francis, Boca Raton, 2015.
-
 \bibitem{Smith1982}
 T.~Smith, Z.~Shen, J.~Friedman, {Evaluation of Coefficients for the Weighted
   Sum of Gray Gases Model}, Journal of Heat transfer 104 (1982) 602--608.
+
+\bibitem{Lockwood1986}
+F.~Lockwood, S.~Rizvi, N.~Shah, {Comparative predictive experience of coal
+  firing}, Proceedings of the Institution of Mechanical Engineers 200 (1986)
+  79--87.
+\newblock \href {http://dx.doi.org/10.1243/PIME} {\path{doi:10.1243/PIME}}.
+
+\bibitem{Yin2015}
+C.~Yin, \href{http://dx.doi.org/10.1016/j.apenergy.2015.01.142}{{On gas and
+  particle radiation in pulverized fuel combustion furnaces}}, Applied Energy
+  157 (2015) 554--561.
+\newblock \href {http://dx.doi.org/10.1016/j.apenergy.2015.01.142}
+  {\path{doi:10.1016/j.apenergy.2015.01.142}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.apenergy.2015.01.142}
 
 \end{thebibliography}
