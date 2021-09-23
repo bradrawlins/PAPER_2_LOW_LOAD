@@ -5,13 +5,48 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{Belosevic2019a}
-S.~Belo{\v{s}}evi{\'{c}}, I.~Tomanovi{\'{c}}, N.~Crnomarkovi{\'{c}},
-  A.~Mili{\'{c}}evi{\'{c}}, {Full-scale CFD investigation of gas-particle flow,
-  interactions and combustion in tangentially fired pulverized coal furnace},
-  Energy 179.
-\newblock \href {http://dx.doi.org/10.1016/j.energy.2019.05.066}
-  {\path{doi:10.1016/j.energy.2019.05.066}}.
+\bibitem{ugum2019}
+A.~Dugum, K.~Hanjali{\'{c}}, {Numerical simulation of coal-air mixture flow in
+  a real double-swirl burner and implications on combustion anomalies in a
+  utility boiler}, Energy 170 (2019) 942--953.
+\newblock \href {http://dx.doi.org/10.1016/j.energy.2018.12.121}
+  {\path{doi:10.1016/j.energy.2018.12.121}}.
+
+\bibitem{eskom}
+\href{http://www.eskom.co.za/Whatweredoing/ElectricityGeneration/Pages/Electricity{\_}Generation.aspx}{{Eskom
+  Power Generation}} (2017).
+\newline\urlprefix\url{http://www.eskom.co.za/Whatweredoing/ElectricityGeneration/Pages/Electricity{\_}Generation.aspx}
+
+\bibitem{Laubscher2019b}
+R.~Laubscher, P.~Rousseau, {CFD study of pulverized coal-fired boiler
+  evaporator and radiant superheaters at varying loads}, Applied Thermal
+  Engineering 160.
+\newblock \href {http://dx.doi.org/10.1016/j.applthermaleng.2019.114057}
+  {\path{doi:10.1016/j.applthermaleng.2019.114057}}.
+
+\bibitem{Hernik2020}
+B.~Hernik, W.~Zab{\l}ocki, {Numerical research of combustion with a minimum
+  boiler load}, Archives of Thermodynamics 41~(4) (2020) 93--114.
+\newblock \href {http://dx.doi.org/10.24425/ather.2020.135855}
+  {\path{doi:10.24425/ather.2020.135855}}.
+
+\bibitem{Chang2021}
+J.~Chang, X.~Wang, Z.~Zhou, H.~Chen, Y.~Niu,
+  \href{https://doi.org/10.1016/j.apt.2020.12.008}{{CFD modeling of
+  hydrodynamics, combustion and NOx emission in a tangentially fired
+  pulverized-coal boiler at low load operating conditions}}, Advanced Powder
+  Technology 32~(2) (2021) 290--303.
+\newblock \href {http://dx.doi.org/10.1016/j.apt.2020.12.008}
+  {\path{doi:10.1016/j.apt.2020.12.008}}.
+\newline\urlprefix\url{https://doi.org/10.1016/j.apt.2020.12.008}
+
+\bibitem{Modlinski2019}
+N.~Modli{\'{n}}ski, K.~Szczepanek, D.~Nabag{\l}o, P.~Madejski,
+  Z.~Modli{\'{n}}ski, {Mathematical procedure for predicting tube metal
+  temperature in the second stage reheater of the operating flexibly steam
+  boiler}, Applied Thermal Engineering 146~(October 2018) (2019) 854--865.
+\newblock \href {http://dx.doi.org/10.1016/j.applthermaleng.2018.10.063}
+  {\path{doi:10.1016/j.applthermaleng.2018.10.063}}.
 
 \bibitem{Laubscher2019a}
 R.~Laubscher, P.~Rousseau, {Numerical investigation into the effect of burner
@@ -21,13 +56,92 @@ R.~Laubscher, P.~Rousseau, {Numerical investigation into the effect of burner
 \newblock \href {http://dx.doi.org/10.1016/j.ijheatmasstransfer.2019.03.150}
   {\path{doi:10.1016/j.ijheatmasstransfer.2019.03.150}}.
 
-\bibitem{Modlinski2019}
-N.~Modli{\'{n}}ski, K.~Szczepanek, D.~Nabag{\l}o, P.~Madejski,
-  Z.~Modli{\'{n}}ski, {Mathematical procedure for predicting tube metal
-  temperature in the second stage reheater of the operating flexibly steam
-  boiler}, Applied Thermal Engineering 146~(October 2018) (2019) 854--865.
-\newblock \href {http://dx.doi.org/10.1016/j.applthermaleng.2018.10.063}
-  {\path{doi:10.1016/j.applthermaleng.2018.10.063}}.
+\bibitem{Gu2020}
+J.~Gu, Q.~Liu, W.~Zhong, A.~Yu,
+  \href{https://doi.org/10.1016/j.apt.2020.03.007}{{Study on scale-up
+  characteristics of oxy-fuel combustion in circulating fluidized bed boiler by
+  3D CFD simulation}}, Advanced Powder Technology 31~(5) (2020) 2136--2151.
+\newblock \href {http://dx.doi.org/10.1016/j.apt.2020.03.007}
+  {\path{doi:10.1016/j.apt.2020.03.007}}.
+\newline\urlprefix\url{https://doi.org/10.1016/j.apt.2020.03.007}
+
+\bibitem{Du2017}
+Y.~Du, C.~Wang, Q.~Lv, D.~Li, H.~Liu, D.~Che,
+  \href{http://dx.doi.org/10.1016/j.applthermaleng.2017.07.147}{{CFD
+  investigation on combustion and NOx emission characteristics in a 600 MW
+  wall-fired boiler under high temperature and strong reducing atmosphere}},
+  Applied Thermal Engineering 126~(x) (2017) 407--418.
+\newblock \href {http://dx.doi.org/10.1016/j.applthermaleng.2017.07.147}
+  {\path{doi:10.1016/j.applthermaleng.2017.07.147}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.applthermaleng.2017.07.147}
+
+\bibitem{Fan2001}
+J.~Fan, L.~Qian, Y.~Ma, P.~Sun, K.~Cen, {Computational modeling of pulverized
+  coal combustion processes in tangentially fired furnaces}, Chemical
+  Engineering Journal 81~(1-3) (2001) 261--269.
+\newblock \href {http://dx.doi.org/10.1016/S1385-8947(00)00212-6}
+  {\path{doi:10.1016/S1385-8947(00)00212-6}}.
+
+\bibitem{Chen2017}
+S.~Chen, B.~He, D.~He, Y.~Cao, G.~Ding, X.~Liu, Z.~Duan, X.~Zhang, J.~Song,
+  X.~Li, {Numerical investigations on different tangential arrangements of
+  burners for a 600 MW utility boiler}, Energy 122~(x) (2017) 287--300.
+\newblock \href {http://dx.doi.org/10.1016/j.energy.2017.01.093}
+  {\path{doi:10.1016/j.energy.2017.01.093}}.
+
+\bibitem{He2007}
+B.~He, L.~Zhu, J.~Wang, S.~Liu, B.~Liu, Y.~Cui, L.~Wang, G.~Wei, {Computational
+  fluid dynamics based retrofits to reheater panel overheating of No. 3 boiler
+  of Dagang Power Plant}, Computers and Fluids 36~(2) (2007) 435--444.
+\newblock \href {http://dx.doi.org/10.1016/j.compfluid.2005.09.005}
+  {\path{doi:10.1016/j.compfluid.2005.09.005}}.
+
+\bibitem{Jiang2021}
+Y.~Jiang, B.-H. Lee, D.-H. Oh, C.-H. Jeon,
+  \href{https://doi.org/10.1016/j.fuel.2021.121727}{{Optimization of operating
+  conditions to achieve combustion stability and reduce NOx emission at
+  half-load for a 550-MW tangentially fired pulverized coal boiler}}, Fuel
+  306~(February) (2021) 121727.
+\newblock \href {http://dx.doi.org/10.1016/j.fuel.2021.121727}
+  {\path{doi:10.1016/j.fuel.2021.121727}}.
+\newline\urlprefix\url{https://doi.org/10.1016/j.fuel.2021.121727}
+
+\bibitem{Belosevic2019a}
+S.~Belo{\v{s}}evi{\'{c}}, I.~Tomanovi{\'{c}}, N.~Crnomarkovi{\'{c}},
+  A.~Mili{\'{c}}evi{\'{c}}, {Full-scale CFD investigation of gas-particle flow,
+  interactions and combustion in tangentially fired pulverized coal furnace},
+  Energy 179.
+\newblock \href {http://dx.doi.org/10.1016/j.energy.2019.05.066}
+  {\path{doi:10.1016/j.energy.2019.05.066}}.
+
+\bibitem{Alobaid2017}
+F.~Alobaid, N.~Mertens, R.~Starkloff, T.~Lanz, C.~Heinze, B.~Epple,
+  \href{http://dx.doi.org/10.1016/j.pecs.2016.11.001}{{Progress in dynamic
+  simulation of thermal power plants}}, Progress in Energy and Combustion
+  Science 59 (2017) 79--162.
+\newblock \href {http://dx.doi.org/10.1016/j.pecs.2016.11.001}
+  {\path{doi:10.1016/j.pecs.2016.11.001}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.pecs.2016.11.001}
+
+\bibitem{Laubscher2020}
+R.~Laubscher, P.~Rousseau,
+  \href{https://doi.org/10.1016/j.energy.2020.117006}{{Numerical investigation
+  on the impact of variable particle radiation properties on the heat transfer
+  in high ash pulverized coal boiler through co-simulation}}, Energy 195 (2020)
+  117006.
+\newblock \href {http://dx.doi.org/10.1016/j.energy.2020.117006}
+  {\path{doi:10.1016/j.energy.2020.117006}}.
+\newline\urlprefix\url{https://doi.org/10.1016/j.energy.2020.117006}
+
+\bibitem{Yu2019}
+C.~Yu, W.~Xiong, H.~Ma, J.~Zhou, F.~Si, X.~Jiang, X.~Fang,
+  \href{https://doi.org/10.1016/j.applthermaleng.2019.03.074}{{Numerical
+  investigation of combustion optimization in a tangential firing boiler
+  considering steam tube overheating}}, Applied Thermal Engineering 154~(2)
+  (2019) 87--101.
+\newblock \href {http://dx.doi.org/10.1016/j.applthermaleng.2019.03.074}
+  {\path{doi:10.1016/j.applthermaleng.2019.03.074}}.
+\newline\urlprefix\url{https://doi.org/10.1016/j.applthermaleng.2019.03.074}
 
 \bibitem{Ranade2015}
 V.~Ranade, D.~Gupta, {Computational modeling of pulverized coal fired boilers},
@@ -44,18 +158,10 @@ C.~Sheng, B.~Moghtaderi, R.~Gupta, T.~F. Wall, {A computational fluid dynamics
 M.~Baum, P.~Street, {Predicting the combustion behaviour of coal particles},
   Combustion science and Technolodgy 3~(43) (1971) 231.
 
-\bibitem{Laubscher2019b}
-R.~Laubscher, P.~Rousseau, {CFD study of pulverized coal-fired boiler
-  evaporator and radiant superheaters at varying loads}, Applied Thermal
-  Engineering 160.
-\newblock \href {http://dx.doi.org/10.1016/j.applthermaleng.2019.114057}
-  {\path{doi:10.1016/j.applthermaleng.2019.114057}}.
-
-\bibitem{Versteeg2007}
-H.~Versteeg, W.~Malalasekera, {Introduction to Computational Fluid Dynamics,
-  The finite volume method}, 2nd Edition, Pearson Prentice Hall, 2007.
-\newblock \href {http://dx.doi.org/10.1002/9781119369189}
-  {\path{doi:10.1002/9781119369189}}.
+\bibitem{Knaus2001a}
+H.~Knaus, U.~Schnell, R.~Klaus, {On the modelling of coal combustion in a
+  550MWe coal fired utility boiler}, Progress in Computational Fluid Dynamics 1
+  (2001) 194--207.
 
 \bibitem{Benim2005}
 A.~C. Benim, B.~Epple, B.~Krohmer, {Modelling of pulverised coal combustion by
@@ -63,6 +169,12 @@ A.~C. Benim, B.~Epple, B.~Krohmer, {Modelling of pulverised coal combustion by
   Fluid Dynamics 5~(6) (2005) 345--361.
 \newblock \href {http://dx.doi.org/10.1504/PCFD.2005.007067}
   {\path{doi:10.1504/PCFD.2005.007067}}.
+
+\bibitem{Versteeg2007}
+H.~Versteeg, W.~Malalasekera, {Introduction to Computational Fluid Dynamics,
+  The finite volume method}, 2nd Edition, Pearson Prentice Hall, 2007.
+\newblock \href {http://dx.doi.org/10.1002/9781119369189}
+  {\path{doi:10.1002/9781119369189}}.
 
 \bibitem{Vicente2003}
 W.~Vicente, S.~Ochoa, J.~Aguill{\'{o}}n, E.~Barrios, {An Eulerian model for the

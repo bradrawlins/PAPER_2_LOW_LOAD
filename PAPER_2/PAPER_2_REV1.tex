@@ -46,7 +46,7 @@
 
 \begin{frontmatter}
 
-\title{Low load operating protocol investigation of a 620MWe power boiler using a fast Eulerian-Eulerian CFD model}
+\title{Low load operating protocol investigation of a 620MWe power boiler using an indirectly coupled process model}
 
 %% Group authors per affiliation:
 \author{B.T. Rawlins}
@@ -89,18 +89,53 @@ $u$& Velocity &$m/s^2$ & & &\\
 \end{center}
 
 \section{Introduction}
+The use of coal fired power plants (CFPP) to provide electricity generation is intended to be phased out in order to mitigate the ingress of climate change. However, the switch to more sustainable generation sources pose great challenges for developing countries due to the long transition times and costs involved \cite{ugum2019}. Due to the abundance of coal resource present in South Africa CFPPs are the dominant power generation source, with approximately 80 $\%$ of the energy needs being met using CFPPs \cite{eskom}. The promising integration of renewable energy and the decommissioning of old CFPPs in South Africa, will push CFPP from a primarily base load operation to a mid-merit/flexible operating protocol. This will inherently mean CFPPs will need to operate at low-loads for continuous time periods. 
 
+Mathematical models that can accurately capture the behaviour of the boilers thermal-hydraulic response at varying loads can be used to determine the safe and efficient operating limits \cite{Laubscher2019b}. Since, the long term deviation from design conditions can lead to operational incapabilities affecting combustion stability \cite{Hernik2020}, an increase in harmful emissions \cite{Chang2021} and the localised overheating of heat exchangers due to insufficient cooling being provided by the internal working fluid \cite{Modlinski2019}.
 
-The current work proposes the use of CFD modelling methodology to investigate the low-load operational combustion conditions and optimal burner firing arrangement. Furthermore a process model of boilers entire system, including the furnace up till the secondary air-heater, was modelled, which was indirectly coupled to the CFD model, to investigate the necessary process controls needed to ensure; an adequate boiler utilization efficiency, sufficient supply of attemperation/cooling of the radiant SH's and an exit main steam temperature supply of 535 $^\circ C$. 
+The full scale testing or experimentation of CFPPs is deemed to expensive to pursue, thus the use of computational fluid dynamics (CFD) allows for the modelling of a full-scale CFPPs, at steady-state, to be investigated at various loads circumnavigating the use of time-consuming and costly field tests. CFD simulations have been successfully used to model a variety of CFPP boiler types (\cite{Laubscher2019a}, \cite{Gu2020}) and cover various aspects such as pollution control (\cite{Du2017},\cite{Fan2001}), gas-solid flow effects (\cite{Chen2017}) and boiler retrofitting (\citep{Gu2020}, \cite{He2007}).
 
-The model was developed for a 32 $\%$ boiler load with 6 various firing combinations. To establish accuracy of the CFD modelling approach a validation study was conducted for 100 $\%$, 80 $\%$ and 60 $\%$ boiler loads and compared to plant measurements to quantify the model accuracy, this is highlighted in section \ref{sec_model_valid}. 
+Recent CFD studies investigating low-load operation of CFPP boilers have focused on the combustion stability, harmful emissions and the gas flow-solid flow interactions \cite{Jiang2021}. The works of Belosevic et al \citep{Belosevic2019a} found that the low-load operation of boiler considerably affect the flow and temperature fields, the flame geometry, chemical reactions and concentrations of combustion products.
+
+Hernik et al \cite{Hernik2020} investigated the effects of using different mill system configurations at a minimum boiler load of 40 $\%$. The most favourable mill system configuration was selected based on the case that exhibited suitable combustion stability and emission of harmful substances. Similarly, Chang et al \citep{Chang2021} investigated the various firing arrangements of a 630 $MWe$ tangentially fired boiler. A burner angle of -15 $^\circ$ was found to be the optimal arrangement resulting in the best compromise in combustion stability and lower emissions. However, to the best the authors' knowledge, no integration of 1-D thermal-hydraulic model has been used to investigate the steam side operational performance of a CFPP boiler at low-load.
+
+The use of a 1-D thermal-hydraulic modelling approach have been used by researchers to investigate the water and gas side heat transfer interactions. These studies are usually used to investigate a transient event, such as a sudden disturbance, start-up or boiler load ramping \cite{Alobaid2017}. Due to the non-uniformities found in CFPP furnaces which are composed of complex combustion dynamics, gas-solid interactions and  radiation heat transfer phenomena, 1-D thermal-hydraulic models can not resolve the fireside with sufficient accuracy, but can adequately resolve the waterside energy and momentum transport in a computationally inexpensive manner. 
+
+The use of coupled simulations has proven to solve the deficiencies of a full 1-D thermal-hydraulic model by coupling the fireside CFD to a 1-D water network. Recently Laubscher and Rousseau \cite{Laubscher2020} conducted a comprehensive numerical study on the impact of particle radiation properties for high ash coals using ANSYS Fluent v19.2\textsuperscript{\textregistered} and Flownex SE\textsuperscript{\textregistered}. Yu et al \cite{Yu2019} used a coupled simulation methodology to estimate the superheater (SH) metal temperatures of a 660 $MWe$ tangentially-fired coal boiler.
+
+The current work proposes the use of CFD modelling methodology to investigate the low-load operational combustion conditions and optimal burner firing arrangement of 620 $MWe$ two-pass sub-critical boiler. Furthermore a process model of boilers entire system, including the furnace up till the secondary air-heater, was modelled, which was indirectly coupled to the CFD model, to investigate the necessary process controls needed to ensure; an adequate boiler utilization efficiency, sufficient supply of attemperation/cooling of the radiant SH's and an exit main steam temperature supply of 535 $^\circ C$. 
+
+The model was simulated for a 32 $\%$ boiler load with 6 various firing combinations. To establish the accuracy of the CFD modelling approach a validation study was conducted for 100 $\%$, 80 $\%$ and 60 $\%$ boiler loads and compared to plant measurements to quantify the model accuracy, this is highlighted in section \ref{sec_model_valid} prior to the results of the low-load study. 
 
 \section{Mathematical model}
 In this section the modelling techniques used by the study are elaborated. A description of the CFD modelling configuration is discussed focusing on the fluid flow, turbulence and combustion modelling as well as the particle transport field resolution. Following this is a description of the adopted heat transfer modelling techniques and the ends with a description of the process modelling configuration.
 \subsection{Computational fluid dynamics modelling}
-
 \subsubsection{Fluid flow, turbulence and combustion modelling}
-The flue gas was modelled using a Eulerian framework. The species transport modelling approach was used to approximate the mixture of chemical species in the gas phase. This approach solves a species continuity equation for each constituent present in the mixture. To reduce the computational burden it was assumed that the various processes were in steady-state.To correctly account for the particle inertial effects on the gas phase convection an effective density is defined as follows;
+The flue gas was modelled using a Eulerian framework. The species transport modelling approach was used to approximate the mixture of chemical species in the gas phase. This approach solves a species continuity equation for each constituent present in the mixture. To reduce the computational burden it was assumed that the various processes were in steady-state. The governing equations for the gas phase are written in their respective Reynolds averaged forms as follows;\\
+Mass conservation:
+\begin{equation}\label{eqn_RANS_mass}
+\frac{\partial}{\partial x_{i}}(\rho \bar{u}_{i})=S_{m}.
+\end{equation}
+Momentum conservation:
+\\
+\begin{equation}\label{eqn_momentum}
+\frac{\partial}{\partial x_{i}}(\rho_{eff} u_{i}u_{j})+\frac{\partial \overline{P}}{\partial x_{j}}=\frac{\partial}{\partial x_{i}}\left[\mu\left\{\frac{\partial u_{j}}{\partial x_{i}}+\frac{\partial u_{i}}{\partial x_{j}}-\frac{2}{3}\delta_{ij}\frac{\partial u_{i}}{\partial x_{i}}\right\}\right]+\frac{\partial}{\partial x_{i}}(-\rho\overline{u_{i}^{'}u_{j}^{'}})+S_m
+\end{equation}\\
+\\
+Energy conservation:
+\begin{equation}\label{eqn_energy}
+\frac{\partial }{\partial x_{i}} (u_{i}[\rho E+P])=\frac{\partial }{\partial x_{j}}\left[\lambda\frac{\partial T_{g}}{\partial x_{j}}\right] +S_{h}
+\end{equation}
+\\
+Species transport:
+\begin{equation}\label{eqn_species}
+\begin{split}
+&\frac{\partial}{\partial x_{i}}(\rho u_{j}Y_{k})=-\frac{\partial}{\partial x_{j}}(\vec{J_{k}})+ \sum_r R_{j,r} + S_{k}\\
+&k = 1,2,3...N
+\end{split}
+\end{equation}
+
+To correctly account for the particle inertial effects on the gas phase convection an effective density is defined as follows;
 \begin{equation} \label{eqn_eff_rho}
 	\rho_{eff} = \frac{\rho \rho_p \left( \phi_{mp} + 1 \right)}{\rho \phi_{mp} + \rho_p}
 \end{equation}
