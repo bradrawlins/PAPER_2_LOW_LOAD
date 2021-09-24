@@ -103,12 +103,12 @@ The use of a 1-D thermal-hydraulic modelling approach have been used by research
 
 The use of coupled simulations has proven to solve the deficiencies of a full 1-D thermal-hydraulic model by coupling the fireside CFD to a 1-D water network. Recently Laubscher and Rousseau \cite{Laubscher2020} conducted a comprehensive numerical study on the impact of particle radiation properties for high ash coals using ANSYS Fluent v19.2\textsuperscript{\textregistered} and Flownex SE\textsuperscript{\textregistered}. Yu et al \cite{Yu2019} used a coupled simulation methodology to estimate the superheater (SH) metal temperatures of a 660 $MWe$ tangentially-fired coal boiler.
 
-The current work proposes the use of CFD modelling methodology to investigate the low-load operational combustion conditions and optimal burner firing arrangement of 620 $MWe$ two-pass sub-critical boiler. Furthermore a process model of boilers entire system, including the furnace up till the secondary air-heater, was modelled, which was indirectly coupled to the CFD model, to investigate the necessary process controls needed to ensure; an adequate boiler utilization efficiency, sufficient supply of attemperation/cooling of the radiant SH's and an exit main steam temperature supply of 535 $^\circ C$. 
+The current work proposes the use of CFD modelling methodology to investigate the low-load operational combustion conditions and optimal burner firing arrangement of 620 $MWe$ two-pass sub-critical boiler. Furthermore a process model of boilers entire system, including the furnace up till the secondary air-heater, was modelled, which was indirectly coupled to the CFD model, to investigate the necessary process controls needed to ensure; an adequate boiler utilization efficiency, sufficient attemperation/cooling of the radiant SH's and an exit main steam temperature supply of 535 $^\circ C$. 
 
-The model was simulated for a 32 $\%$ boiler load with 6 various firing combinations. To establish the accuracy of the CFD modelling approach a validation study was conducted for 100 $\%$, 80 $\%$ and 60 $\%$ boiler loads and compared to plant measurements to quantify the model accuracy, this is highlighted in section \ref{sec_model_valid} prior to the results of the low-load study. 
+The model was simulated for a boiler load of 32 $\%$  with 6 various firing combinations. To establish the accuracy of the CFD modelling approach a validation study was conducted for 100 $\%$, 80 $\%$ and 60 $\%$ boiler loads and compared to plant measurements to quantify the model accuracy, this is highlighted in section \ref{sec_model_valid} prior to the results of the low-load study. 
 
 \section{Mathematical model}
-In this section the modelling techniques used by the study are elaborated. A description of the CFD modelling configuration is discussed focusing on the fluid flow, turbulence and combustion modelling as well as the particle transport field resolution. Following this is a description of the adopted heat transfer modelling techniques and the ends with a description of the process modelling configuration.
+In this section the modelling techniques used by the study are elaborated. A description of the CFD modelling configuration is discussed focusing on the fluid flow, turbulence and combustion modelling as well as the particle transport field resolution. Following this is a description of the heat transfer modelling techniques and the ends with a description of the process modelling configuration.
 \subsection{Computational fluid dynamics modelling}
 \subsubsection{Fluid flow, turbulence and combustion modelling}
 The flue gas was modelled using a Eulerian framework. The species transport modelling approach was used to approximate the mixture of chemical species in the gas phase. This approach solves a species continuity equation for each constituent present in the mixture. To reduce the computational burden it was assumed that the various processes were in steady-state. The governing equations for the gas phase are written in their respective Reynolds averaged forms as follows;\\
@@ -151,7 +151,7 @@ The process of coal combustion comprises four steps. Namely, inert heating and e
 \end{split}
 \end{gather}
 
-A devolatilization temperature of 553 [$K$] \citep{Ranade2015} along with the kinetic parameters (equation \ref{eqn_vol_arrhenuis}) of Sheng et al \cite{Sheng2004} were utilized. The char oxidation process is modelled using the diffusion-kinetics limited model developed by Baum and Street (\cite{Baum1971}), which is given in equation (\ref{eqn_char_rate}). The product species of the char oxidation reaction was set to $CO$ as shown in equation (\ref{eqn_CO_reaction}). 
+A devolatilization temperature of 553 [$K$] \citep{Ranade2015} along with the kinetic parameters (equation \ref{eqn_vol_arrhenuis}) of Sheng et al \cite{Sheng2004} were utilized. The char oxidation process is modelled using the diffusion-kinetics limited model developed by Baum and Street \cite{Baum1971}, which is given in equation (\ref{eqn_char_rate}). The product species of the char oxidation reaction was set to $CO$ as shown in equation (\ref{eqn_CO_reaction}). 
 \begin{gather}
 \frac{dm_{char}}{dt} = -A_p P_{O_{2}} \frac{R_{diff}R_c}{R_{diff} + R_c}  \label{eqn_char_rate}\\
 C_{(s)}+0.5O_{2(g)}\to CO_{(g)} \label{eqn_CO_reaction}
@@ -169,7 +169,7 @@ R_{diff} = \frac{5X10^{-12}}{d_p} \left(\frac{T_g+T_p}{2}\right)^0.75 \label{eqn
 The turbulence-chemistry interactions of the gas phase reactions were approximated using the eddy-dissipation-finite rate model used in ANSYS Fluent v19.5\textsuperscript{\textregistered} which calculates three rates, namely chemical reaction rate, turbulent production eddies dissipation rate and reaction eddies dissipation rate, and uses the minimum of the three for the source terms calculations. A description of the CFD gas phase reactions of the boiler under consideration, using the same coal, was previously published in the works of Laubscher and Rousseau \cite{Laubscher2019b}.
 
 \subsubsection{Particle modelling}
-The particles are modelled using a Eulerian reference frame, similar to the studies of Knaus et al \cite{Knaus2001a} and Benim et al \cite{Benim2005}, who both successfully used a multi-phase Eulerian-Eulerain (EE) model the characteristics of coal combustion and furnace heat transfer with adequate accuracy.The pseudo particles transported into the domain are modelled using the general scalar field transport equation \cite{Versteeg2007}. The pseudo-particles scalar fields are used to define the fuel characteristics based on the proximate analysis composition, namely consisting of moisture, volatile matter, fixed  carbon and ash. Each of the scalar field equations are given in table \ref{tab_scalars}.
+The particles are modelled using a Eulerian reference frame, similar to the studies of Knaus et al \cite{Knaus2001a} and Benim et al \cite{Benim2005}, who both successfully used a multi-phase Eulerian-Eulerain (EE) model to capture the characteristics of coal combustion and furnace heat transfer with adequate accuracy.The pseudo particles transported into the domain are modelled using the general scalar field transport equation \cite{Versteeg2007}. The pseudo-particles scalar fields are used to define the fuel characteristics based on the proximate analysis composition, namely consisting of moisture, volatile matter, fixed  carbon and ash. Each of the scalar field equations are given in Table \ref{tab_scalars}.
 
 \begin{table}[h!]
 \centering
@@ -218,7 +218,7 @@ E_p = \frac{\epsilon_p \sigma_{SB} T_p^4 A_{pn}N_p}{V}\label{eqn_part_emisp}
 It is important to note that variable properties for ($\epsilon_p$) and ($f_p$) are used, that are based on the correlations of Lockwood et al \cite{Lockwood1986} and Yin \citep{Yin2015} respectively.
 
 \subsection{Process simulation model}
-A 1D discretized model of the furnace evaporator, platen SH, final SH, and subsequent down stream heat exchanging components was developed using Flownex SE\textsuperscript{\textregistered} 2021. The model simulates the internal convection heat transfer inside the tubes, the conduction through the tube walls. The model is able to simulate the attemperation flows and momentum transport through the steam/water circuit. The heat exchangers were modelled using a two-phase mixture approach, this assumes that the fluid properties, phase velocities and temperatures are uniform per cross-sectional area. The homogeneous mixture fraction and mixture density are defined in equations (\ref{eqn_vol_frac}) and (\ref{eqn_mix_rho}) respectively.
+A 1D discretized model of the furnace evaporator, platen SH, final SH, and subsequent down stream heat exchanging components was developed using Flownex SE\textsuperscript{\textregistered} 2021. The model simulates the internal convection heat transfer inside the tubes and the conduction through the tube walls. The model is able to simulate the attemperation flows and momentum transport through the steam/water circuit. The heat exchangers were modelled using a two-phase mixture approach, this assumes that the fluid properties, phase velocities and temperatures are uniform per cross-sectional area. The homogeneous mixture fraction and mixture density are defined in equations (\ref{eqn_vol_frac}) and (\ref{eqn_mix_rho}) respectively.
 \begin{gather}
 \alpha_H = \frac{\rho_l x}{\rho_lx + \rho_g(1-x)} \label{eqn_vol_frac}\\  
 \rho_M = (1-\alpha_H)\rho_l + \alpha_H\rho_g \label{eqn_mix_rho}
@@ -237,25 +237,22 @@ Applying the mixture density the following transport equations are solved;
 \end{split}
 \end{equation}
 
-The CFD heat load results for the furnace, platen and final SH walls were used as inputs the process model as seen in Figure \ref{fig_flownex}. 
-
 The process model is used to determine the required attemperation flow rates in order to achieve the exit steam conditions, the boiler efficiency, and the steam generated for each case. The results of this model aid in determining the best firing combination of burner rows for continuous low-load operation, and the effects the various cases have on the system.
 
 \section{Case study boiler description \& set-up}
-In this section the numerical model configuration, for both the CFD and process model, will be explained, covering the boilers geometry, the process model set-up, the various  modelling inputs (e.g. fuel characteristics and boundary conditions) and ends with the numerical solution strategy.
-\newpage
+In this section the numerical model configuration, for both the CFD and process model, will be explained, covering the boilers geometry, the process model set-up, the various  modelling inputs (i.e. fuel characteristics and boundary conditions) and ends with the numerical solution strategy.
+
 \subsection{Geometry \& process model set-up}
 The modelled  boiler is a two-pass sub-critical power boiler with a furnace depth of 13.77 [$m$], a width of 14.01 [$m$] and a height of 64 [$m$]. The CFD geometric model (of Figure \ref{fig_geometry}) makes use of a symmetry plane at half the width of the furnace. This was done to reduce the cell count of the numerical mesh. Both the platen and final SH are modelled as walls, with transverse pitches of 1.143 [$m$] and 0.8 [$m$] respectively. There are three levels of burners located on both the front and rear walls at heights of 11.9 [$m$], 19.3 [$m$] and 26 [$m$]. Figure \ref{fig_geometry} shows the modelled half of the furnace along with the locations of the platen SH, final SH, boundary walls (front, rear and side) and the domains outlet and inlets.\\
 \begin{figure} [h!]
-\centering
-\includegraphics[scale=0.4]{GEOMETRY}
+\centerline{\includegraphics[scale=0.45]{GEOMETRY}}
 \caption{Boiler geometry and layout}
 \label{fig_geometry}
 \end{figure}
 
-The boiler furnace is fed by 6 mills, each supplying a pulverised fuel and primary air (PA) mixture to a burner row consisting of 6 burners. This mixture is injected through the inner burner annulus while the secondary air (SA) is fed through the outer annulus as seen figure \ref{fig_geometry}. 
+The boiler furnace is fed by 6 mills, each supplying a pulverised fuel and primary air (PA) mixture to a burner row consisting of 6 burners. This mixture is injected through the inner burner annulus while the secondary air (SA) is fed through the outer annulus as seen Figure \ref{fig_geometry}. 
 
-The process model of the boiler configuration is shown in Figure \ref{fig_flownex}. The process model includes all the heat exchanging components up till and downstream of the final SH, which include the secondary reheater (RH2), primary SH (SH1), primary reheater (RH1), economiser (EC) and the SA air heaters (SA-AH).  
+The process model of the boiler configuration is shown in Figure \ref{fig_flownex}. The process model includes all the heat exchanging components up till and downstream of the final SH, which include the secondary reheater (RH2), primary SH (SH1), primary reheater (RH1), economiser (EC) and the SA air heaters (SA-AH). The model includes all the relevant attemperators (ATT1, ATT2 and ATT-RH) are inlets and outlets.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{FLOWNEX_SETUP}
@@ -263,6 +260,8 @@ The process model of the boiler configuration is shown in Figure \ref{fig_flowne
 \label{fig_flownex}
 \end{figure}
 
+The heat load results of the CFD simulation for the furnace, platen and final SH walls were used as inputs the process model as seen in Figure \ref{fig_flownex}. 
+\newpage
 \subsection{Model inputs}
 Table \ref{tbl_fuel} presents the coal characteristics utilized in the current study along with the coals higher heating value (HHV).\\
 \begin{table}[h!]
@@ -294,7 +293,7 @@ Higher heating value & $15070$ & $kJ/kg_{fuel}$\\
 \end{tabularx}}
 \end{table}
 
-For a 32\% boiler load the current operational protocol is the to use the bottom front and rear burner rows to meet the low-load demand.  For this study six cases are simulated in total with the following three burner firing configurations being utilized:
+For a 32\% boiler load the current operational protocol is the to use the bottom front and rear burner rows to meet the low-load demand during start-up.  For this study six cases are simulated in total with the following three burner firing configurations being utilized:
 \begin{enumerate}
 \item Bottom front and rear row burners are fired (Case 1 \& Case 4)
 \item Middle front and rear row burners are fired (Case 2 \& Case 5)
@@ -314,13 +313,13 @@ Two permutations of the SA flow rate, at the non-firing burners, are used for ea
 \hline
 Active burners & \textbf{Cases 1 - 3} & \textbf{Cases 4 - 6}\\
 \hline
-\textbf{Fuel flow rate} [$kg/s$]&1.05  &1.05\\
+\textbf{Fuel flow rate} [$kg/s$]&3.14  &3.14\\
 \textbf{PA flow rate} [$kg/s$]&4.95  &4.95\\
 \textbf{SA flow rate} [$kg/s$]&14.85  &14.85\\
 \hline
 Non firing burners &  & \\
 \hline
-\textbf{SA flow rate} [$kg/s$]&5  &2.5\\
+\textbf{SA flow rate} [$kg/s$]&5.0  &2.5\\
 \hline
 Input air temperatures& &\\
 \hline
@@ -333,18 +332,14 @@ Input air temperatures& &\\
 Table \ref{tbl_case_inputs} shows a lower mass flow rate of SA air for case 4 to 6, this was done to compare the expected increase in boiler utilization efficiency, since less dry gas losses are expected, and the effects the drop in the flue-gas mass flow rate has on the convective pass components modelled in the process model. 
 
 \subsection{Numerical solution strategy} 
-
 The CFD simulations were performed using ANSYS Fluent v19.5\textsuperscript{\textregistered} pressure-based solver. the pressure-momentum coupling utilised the SIMPLE technique. Second-order upwinding was used to discretize the momentum, energy and species equations, whereas PRESTO! was used to discretize the pressure equation. The scalar field equations used a second-order upwind scheme.
 
 The spatial discretization for all fields (except pressure) was set to first-order upwind for the first 1000 iterations to ensure a stable solution, after which the discretization order was increased to the above mentioned criteria. For all cases the maximum mass imbalance was 0.024 [$kg/s$] for a total gas flow rate of 190 [$kg/s$] and a heat imbalance of 1770 [$kW$] for a total heat input of 283 [$MW$]. The remaining fields were solved till convergence.
 
-The operating protocol of the case study boiler requires that burners which are not firing to inject SA air at a rate of 5 [$kg/s$], this is to maintain non-firing burner integrity. 
-
 \section{Results \& discussion}
-The current section will discuss the results obtained from using the above-mentioned modelling methodologies. The validity of the modelling approach will first be established by comparing the simulation results for MCR load cases (namely 100\%, 81\% and 60\% MCR loads) to that of the experimentally obtained results of the actual plant. Once the model has been shown to demonstrate sufficient accuracy in determining the overall heat loads and combustion characteristics in the boiler furnace at varying loads, the results of the various low-load burner firing configurations are shown and discussed.
+The current section will discuss the results obtained from using the above-mentioned modelling methodologies. The validity of the modelling approach will first be established by comparing the simulation results for MCR load cases (namely 100\%, 80\% and 60\% MCR loads) to that of the experimentally obtained results of the actual plant. Once the model has been shown to demonstrate sufficient accuracy in determining the overall heat loads and combustion characteristics in the boiler furnace at varying loads, the results of the various low-load burner firing configurations are shown and discussed.
 
 \subsection{Model validation}\label{sec_model_valid}
-
 The validation of the proposed model was conducted for three steady-state MCR loads of 100\%, 80\% and 60\%. The model inputs and boundary conditions can be obtained from the study conducted by Laubscher and Rousseau \citep{Laubscher2019b}, where using the same boiler of the present study, they evaluated the thermal performance of the heat exchanging components at full and reduced boiler loads.
 
 \begin{figure}[h!]
@@ -354,10 +349,10 @@ The validation of the proposed model was conducted for three steady-state MCR lo
 \caption{Comparison of experimentally calculated and model heat loads for the furnace, platen SH and pendant SH at (a) 100\% MCR, (b) 80\% MCR and (c) 60\% MCR}
 \label{fig_heat_valid}
 \end{figure}
+\clearpage
+In Figure \ref{fig_heat_valid} it is shown that the overall heat loads are in good agreement with the calculated results. For the simulated validation loads the proposed model results are within the associated error band, the general trend is an under prediction on the furnace heat loads and an over prediction on the platen super-heater. The pendant super heater illustrate the best comparable results for all load cases.
 
-In figure \ref{fig_heat_valid} it is shown that the overall heat loads are in good agreement with the measured results. For the simulated validation loads the proposed model results are within the associated error band, the general trend is an under prediction on the furnace heat loads and an over prediction on the platen super-heater. The pendant super heater illustrate the best comparable results for all load cases.\\
-
-The CFD model was further validated by comparing the $CO_{ppm}$ and $X_{O_{2}}$ measurements against the CFD results. The probe measurements were taken at a furnace height of 37.5 [$m$] near the center of the boiler during a full load (100\% MCR) operating conditions. The probe is inserted from the side walls to a depth of 4.5 [$m$], measurements were taken every 0.5 [$m$] increment.\\
+The CFD model was further validated by comparing the $CO_{ppm}$ and $X_{O_{2}}$ measurements against the CFD results. The probe measurements were taken at a furnace height of 37.5 [$m$] near the center of the boiler during a full load (100\% MCR) operating conditions. The probe is inserted from the side walls to a depth of 4.5 [$m$], measurements were taken every 0.5 [$m$].\\
 \begin{figure}[h!]
 \centering
 \subfigure[]{\includegraphics[width = 0.45\textwidth, height =4cm ]{COPPM_VALID}}
@@ -367,8 +362,8 @@ The CFD model was further validated by comparing the $CO_{ppm}$ and $X_{O_{2}}$ 
 \label{fig_probe_valid}
 \end{figure}
 
-Figure \ref{fig_probe_valid} shows the averaged measurement values to that of the CFD predictions. It can be seen that the CFD model can sufficiently resolve the $CO_{ppm}$ and $X_{O_{2}}$ concentrations at the given probe location. For further information regarding the validation of the model the interested reader is directed to the works of Rawlins et al [REFERENCE]
-
+Figure \ref{fig_probe_valid} shows the averaged measurement values to that of the CFD predictions. It can be seen that the CFD model can sufficiently resolve the $CO_{ppm}$ and $X_{O_{2}}$ concentrations at the given probe location.
+\newpage
 \subsection{Simulation results for various burner firing arrangements at 32\% MCR }
 
 
