@@ -105,7 +105,7 @@ The use of coupled simulations has proven to solve the deficiencies of a full 1-
 
 The current work proposes the use of CFD modelling methodology to investigate the low-load operational combustion conditions and optimal burner firing arrangement of 620 $MWe$ two-pass sub-critical boiler. Furthermore a process model of boilers entire system, including the furnace up till the secondary air-heater, was modelled, which was indirectly coupled to the CFD model, to investigate the necessary process controls needed to ensure; an adequate boiler utilization efficiency, sufficient attemperation/cooling of the radiant SH's and an exit main steam temperature supply of 535 $^\circ C$. 
 
-The model was simulated for a boiler load of 32 $\%$  with 6 various firing combinations. To establish the accuracy of the CFD modelling approach a validation study was conducted for 100 $\%$, 80 $\%$ and 60 $\%$ boiler loads and compared to plant measurements to quantify the model accuracy, this is highlighted in section \ref{sec_model_valid} prior to the results of the low-load study. 
+The model was simulated for a boiler load of 32 $\%$  with 6 various firing combinations. To establish the accuracy of the CFD modelling approach a validation study was conducted for 100 $\%$, 80 $\%$ and 60 $\%$ maximum continuous rating (MCR) loads and compared to actual plant measurements to quantify the model accuracy, this is highlighted in section \ref{sec_model_valid} prior to the results of the low-load study. 
 
 \section{Mathematical model}
 In this section the modelling techniques used by the study are elaborated. A description of the CFD modelling configuration is discussed focusing on the fluid flow, turbulence and combustion modelling as well as the particle transport field resolution. Following this is a description of the heat transfer modelling techniques and the ends with a description of the process modelling configuration.
@@ -358,7 +358,7 @@ The CFD model was further validated by comparing the $CO_{ppm}$ and $X_{O_{2}}$ 
 \subfigure[]{\includegraphics[width = 0.45\textwidth, height =4cm ]{COPPM_VALID}}
 \hspace{5mm}
 \subfigure[]{\includegraphics[width = 0.45\textwidth, height =4cm ]{XO2_VALID}}
-\caption{Experimentally calculated $CO$ and $O_2$ concentration predictions}
+\caption{Experimentally calculated $CO_{ppm}$ (a) and $X_{O_{2}}$ (b) concentration predictions}
 \label{fig_probe_valid}
 \end{figure}
 
@@ -366,85 +366,98 @@ Figure \ref{fig_probe_valid} shows the averaged measurement values to that of th
 \newpage
 \subsection{Simulation results for various burner firing arrangements at 32\% MCR }
 
+Figures \ref{fig_cfd_temp} and \ref{fig_cfd_velo} illustrate the temperature and velocity profiles for the various firing arrangements. With only the middle burner rows firing (Cases 2 and 5) there a is substantial cold region located in the lower half the furnace, resulting in the lowest heat uptake of the furnace for all the cases. This is further exaggerated when considering the Table \ref{tbl_process_parameters} with the mid-firing arrangement producing the lowest steam flow rates resulting in the lowest boiler efficiencies. The bottom firing arrangement (Cases 1 and 4) results in fireball located in the bottom half on the burner, while the mixed firing arrangement (Cases 3 and 6) results is more even distribution of the fireball in the furnace domain. This leads to the highest steam generation rate and boiler efficiency as shown in Table \ref{tbl_process_parameters}.
 
-Explain the investigation
-table with case descriptions
-Need flownex model and process modelling description
-\begin{figure}
+Figure \ref{fig_cfd_heat_flux} illustrates the heat flux profiles for the simulated cases. Both cases 1 and 4 highlight high heat flux zones near the burner inlets which, in the presence of high temperatures and incomplete combustion near these regions, can lead to high-temperature corrosion \cite{Du2017}. Cases 2 and 5 show that most of the unit heat fluxes are absorbed in the upper half of the boiler, contrary to cases 1 and 4, where the lower half has a higher heat flux absorption, and cases 3 and 6 showing an even distribution throughout the furnace.
+
+The works of Dugum et al \citep{Du2017}, highlights the issue of high-temperature corrosion caused by significant levels of $CO$ ($X_CO$ 0.01 - 0.1) and no-free $O_2$ near regions of high wall temperatures. For low-load operation this phenomena becomes important to avoid since combustion instability can lead to these ideal circumstances. Figure \ref{fig_cfd_coppm} shows the $CO$ molar concentration in the domain located on an iso-surface set 1600 $[K]$. Cases 1 and 4 illustrate the highest likelihood of high-temperature corrosion occurring near the top half of the furnace hopper, furthermore considering Figures \ref{fig_cfd_coppm}(c) and (d) a lower concentration of oxygen is reported.
+
+Investigating the combustion stability for all the cases, symmetry and offset vertical probe plots (as highlighted in Figure \ref{fig_geometry}) are given in Figure \ref{fig_cfd_probe}. The general trends of the $CO_{ppm}$ correspond with each cases burner firing arrangement, as seen with cases 3 and 6, a mixed firing arrangement, where two peaks are observed in the vicinity of the bottom and middle burner rows. Cases 2 and 5 illustrates the highest $X_{O_{2}}$ concentration in the lower half of the burner since there is minimal combustion occurring. The unburnt carbon content and exit flue-gas temperatures for each case are reported in Table \ref{tbl_cfd_results}. With the use of the middle burners (Cases 2 and 5) the highest exit temperature and unburnt carbon content is observed, since the fireball is located in the upper half of the furnace leading to the least possibility of complete combustion due to the shorter residence time. Cases 3 and 6 exhibit the best characteristics with the least amount of unburnt carbon content being observed. It is important to note the effects of a lower SA mass flow rate has on the furnace exit conditions for non-firing burners which generally leads to a hotter exit temperature as is the case with cases 4 to 6. 
+
+The external tube metal temperatures, of Figure \ref{tbl_cfd_results}, were calculated using equation \ref{eqn_t_wall}, which takes into account the temperature drop due to the ash deposit present on platen and final SH.
+\begin{equation}\label{eqn_t_wall}
+T_{metal} = T_{wall} - \left(\frac{\dot{q}_{SH}t_{ASH}}{\lambda_{ASH}}\right)
+\end{equation}
+For the platen and final SH the maximum surface temperature are observed for cases 2 and 5. For comparison a 100 \% MCR load the maximum temperatures reported for the platen and final SH are of 500 $[^\circ C]$ and 623 $[^\circ C]$, with the final SH operating in the materials creep range \cite{Laubscher2019b}. Thus, 
+
+
+Using the process model of Figure \ref{fig_flownex} and the results of the CFD simulations the important process control parameters were determined. 
+
+\begin{figure}\label{fig_cfd_temp}
 \centering
 \includegraphics[scale = 0.45]{TEMP_KEY} [$K$]\\
-\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT_TEMP}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{MID_TEMP}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM_TEMP}}\\
-\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT05_TEMP}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{MID05_TEMP}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM05_TEMP}}
+\subfigure[Case 1]{\includegraphics[width=0.32\textwidth]{BOT_TEMP}}
+\subfigure[Case 2]{\includegraphics[width=0.32\textwidth]{MID_TEMP}}
+\subfigure[Case 3]{\includegraphics[width=0.32\textwidth]{FBRM_TEMP}}\\
+\subfigure[Case 4]{\includegraphics[width=0.32\textwidth]{BOT05_TEMP}}
+\subfigure[Case 5]{\includegraphics[width=0.32\textwidth]{MID05_TEMP}}
+\subfigure[Case 6]{\includegraphics[width=0.32\textwidth]{FBRM05_TEMP}}
 \caption{Temperature fields for cases 1 through 6 [(a)-(f)]}
 \end{figure}
 
 
-\begin{figure}[h!]
+\begin{figure}[h!]\label{fig_cfd_velo}
 \centering
 \includegraphics[scale = 0.45]{VEL_KEY} [$m/s$]\\
-\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT_VEL}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{MID_VEL}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM_VEL}}\\
-\subfigure[]{\includegraphics[width=0.32\textwidth]{BOT05_VEL}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{MID05_VEL}}
-\subfigure[]{\includegraphics[width=0.32\textwidth]{FBRM05_VEL}}
+\subfigure[Case 1]{\includegraphics[width=0.32\textwidth]{BOT_VEL}}
+\subfigure[Case 2]{\includegraphics[width=0.32\textwidth]{MID_VEL}}
+\subfigure[Case 3]{\includegraphics[width=0.32\textwidth]{FBRM_VEL}}\\
+\subfigure[Case 4]{\includegraphics[width=0.32\textwidth]{BOT05_VEL}}
+\subfigure[Case 5]{\includegraphics[width=0.32\textwidth]{MID05_VEL}}
+\subfigure[Case 6]{\includegraphics[width=0.32\textwidth]{FBRM05_VEL}}
 \caption{Velocity fields for cases 1 through 6 [(a)-(f)]}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[h!]\label{fig_cfd_heat_flux}
 \centering
 \includegraphics[scale = 0.45]{HEATFLUX_KEY} [$W/m^2$]\\
-\subfigure[]{\includegraphics[scale = 0.29]{BOT_HEATFLUX}}
+\subfigure[Case 1]{\includegraphics[scale = 0.29]{BOT_HEATFLUX}}
 \hspace{5mm}
-\subfigure[]{\includegraphics[scale = 0.35]{MID_HEATFLUX}}
+\subfigure[Case 2]{\includegraphics[scale = 0.35]{MID_HEATFLUX}}
 \hspace{5mm}
-\subfigure[]{\includegraphics[scale = 0.35]{FBRM_HEATFLUX}}\\
-\subfigure[]{\includegraphics[scale = 0.35]{BOT05_HEATFLUX}}
+\subfigure[Case 3]{\includegraphics[scale = 0.35]{FBRM_HEATFLUX}}\\
+\subfigure[Case 4]{\includegraphics[scale = 0.35]{BOT05_HEATFLUX}}
 \hspace{5mm}
-\subfigure[]{\includegraphics[scale = 0.35]{MID05_HEATFLUX}}
+\subfigure[Case 5]{\includegraphics[scale = 0.35]{MID05_HEATFLUX}}
 \hspace{5mm}
-\subfigure[]{\includegraphics[scale = 0.35]{FBRM05_HEATFLUX}}
+\subfigure[Case 6]{\includegraphics[scale = 0.35]{FBRM05_HEATFLUX}}
 \caption{Heat fluxes profiles for cases 1 through 6 [(a)-(f)]}
 \end{figure}
 
-\begin{figure}
+\begin{figure}\label{fig_cfd_coppm}
 \centering
-\includegraphics[scale=0.45]{CO_MF_KEY} [$Y_{CO}$] \\
-\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{BOT_ISO_COPPM_F}
+\includegraphics[scale=0.45]{CO_MF_KEY} [$X_{CO}$] \\
+\subfigure[Case 1]{	\includegraphics[width=0.18\textwidth, height = 7cm]{BOT_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{BOT_ISO_COPPM_S}}
-\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{MID_ISO_COPPM_F}
+\subfigure[Case 2]{	\includegraphics[width=0.18\textwidth, height = 7cm]{MID_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{MID_ISO_COPPM_S}}
-\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{FBRM_ISO_COPPM_F}
+\subfigure[Case 3]{	\includegraphics[width=0.18\textwidth, height = 7cm]{FBRM_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{FBRM_ISO_COPPM_S}}\\
-\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{BOT05_ISO_COPPM_F}
+\subfigure[Case 4]{	\includegraphics[width=0.18\textwidth, height = 7cm]{BOT05_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{BOT05_ISO_COPPM_S}}
-\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{MID05_ISO_COPPM_F}
+\subfigure[Case 5]{	\includegraphics[width=0.18\textwidth, height = 7cm]{MID05_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{MID05_ISO_COPPM_S}}
-\subfigure[]{	\includegraphics[width=0.18\textwidth, height = 7cm]{FBRM05_ISO_COPPM_F}
+\subfigure[Case 6]{	\includegraphics[width=0.18\textwidth, height = 7cm]{FBRM05_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{FBRM05_ISO_COPPM_S}}\\
-\caption{CO mass fraction ($Y_{CO}$) concentrations for cases 1 through 6 [(a)-(f)] on a temperature iso-surface of 1600 K}
+\caption{CO molar fraction ($X_{CO}$) concentrations for cases 1 through 6 [(a)-(f)] on a temperature iso-surface of 1600 K}
 \end{figure}
 
 
-\begin{figure}[h!]
+\begin{figure}[h!]\label{fig_cfd_probe}
 \centering
-\subfigure[]{\includegraphics[scale = 0.36]{SYMMETRY_PROBE_COPPM}}
+\subfigure[Symmetry vertical plot]{\includegraphics[scale = 0.36]{SYMMETRY_PROBE_COPPM}}
 \hspace{5mm}
-\subfigure[]{\includegraphics[scale = 0.36]{OFFSET_PROBE_COPPM}}\\
-\subfigure[]{\includegraphics[scale = 0.35]{SYMMETRY_PROBE_XO2}}
+\subfigure[Offset vertical plot]{\includegraphics[scale = 0.36]{OFFSET_PROBE_COPPM}}\\
+\subfigure[Symmetry vertical plot]{\includegraphics[scale = 0.35]{SYMMETRY_PROBE_XO2}}
 \hspace{5mm}
-\subfigure[]{\includegraphics[scale = 0.35]{OFFSET_PROBE_XO2}}
+\subfigure[Offset vertical plot]{\includegraphics[scale = 0.35]{OFFSET_PROBE_XO2}}
 
 \caption{$CO_{PPM}$ [(a) and (b)] and $X_{O_{2}}$ [(c) and (d)] line plots on symmetry and offset vertical probe lines}
 \end{figure}
 
 
 
-\begin{table}[h!]
+\begin{table}[h!]\label{tbl_process_parameters}
 \centering
 \caption{Process model control parameters}
 \label{fuel}
@@ -454,19 +467,19 @@ Need flownex model and process modelling description
 &\multicolumn{6}{c}{Cases}\\
  & \textbf{1} & \textbf{2} & \textbf{3}& \textbf{4}&\textbf{5}&\textbf{6}\\
 \hline
-\textbf{Main steam flow rate} 	[$kg/s$]		&166&163&170	&171&169&163\\
-\textbf{Main steam exit temp} 	[$^{\circ}C$]	&535&535&535	&535&535&535\\
-\textbf{RH steam flow rate} 	[$kg/s$]		&150&148&154	&154&153&147\\
-\textbf{RH steam exit temp} 	[$^{\circ}C$]	&535&535&535	&535&520&490\\
-\textbf{Boiler efficiency} 		[$\%$]			&86.2&84.9&88.8	&88.2&86.6&82.2\\
-\textbf{Attemperator 1} 		[$kg/s$]			&10.5&15&16		&11.5&9.5&12\\
-\textbf{Attemperator 2} 		[$kg/s$]			&5&8&5			&4&5&5.5\\
-\textbf{Attemperator RH} 		[$kg/s$]			&0.5&1&1		&0&0&0\\
+\textbf{Main steam flow rate} 	[$kg/s$]		&175.8&172.9&180.5&180.2&179.1&184.1 \\
+\textbf{Main steam exit temp} 	[$^{\circ}C$]	&535& 535 &535&535 &535& 535\\
+\textbf{RH steam flow rate} 	[$kg/s$]		&158.2&155.6&162.5&162.2&161.2&165.6\\
+\textbf{RH steam exit temp} 	[$^{\circ}C$]	&524&527&531&520&510&512\\
+\textbf{Boiler efficiency} 		[$\%$]			&85.3&84.1&87.9	&87.2&85.9&89.1\\
+\textbf{ATT1} 		[$kg/s$]					&10.4&16.9&13.9&7.9&5.5&10.9\\
+\textbf{ATT2} 		[$kg/s$]					&1.7&3.8&4.2&3.8&3.67&4.2\\
+\textbf{ATT-RH} 		[$kg/s$]				&0.0&0.0&0.0&0.0&0.0&0.0\\
 \hline
 \end{tabularx}}
 \end{table}
 
-\begin{table}[h!]
+\begin{table}[h!]\label{tbl_cfd_results}
 \centering
 \caption{Furnace exit conditions and SH wall temperatures}
 \label{fuel}
@@ -480,18 +493,15 @@ Need flownex model and process modelling description
 \textbf{Exit temperature} [$K$] & 1168 & 1230 & 1215 & 1208 & 1306 & 1298\\
 \textbf{Unburnt carbon} [$(\times 10^{-3})\,\%$] & 1.83 & 1.94 & 1.54 & 1.81 & 1.89 & 1.62\\
 \multicolumn{7}{l}{\textit{Platen SH}}\\
-\textbf{Max wall temperature} [$K$]  &754 & 750 & 765 & 766 & 753 & 763\\
-\textbf{Mean wall temperature} [$K$] &726 & 712 & 719 & 727 & 715 & 724\\
-\multicolumn{7}{l}{\textit{Pendant SH}}\\
-\textbf{Max wall temperature} [$K$]  & 805 & 807 & 811 & 808 & 800 & 802\\
-\textbf{Mean wall temperature} [$K$] & 793 & 788 & 792 & 795 & 788 & 784\\
+\textbf{Max wall temperature} [$^{\circ}C$]  &477 & 492 & 481  & 480 & 493 & 490\\
+\textbf{Mean wall temperature} [$^{\circ}C$] &439 & 453 & 446 & 454 & 442 & 451\\
+\multicolumn{7}{l}{\textit{Final SH}}\\
+\textbf{Max wall temperature} [$^{\circ}C$]  & 602 & 624 & 608 & 595 & 626 & 612\\
+\textbf{Mean wall temperature} [$^{\circ}C$] & 520 & 523 & 517 & 512 & 520 & 511\\
 \hline
 \end{tabularx}}
 \end{table}
 
-\begin{equation}
-T_{metal} = T_{wall} - \left(\frac{\dot{q}_{SH}t_{ASH}}{\lambda_{ASH}}\right)
-\end{equation}
 
 \begin{table}[h!]
 \centering
