@@ -46,7 +46,7 @@
   \item [{$\alpha_g$}]\begingroup Gas absorption coefficient \nomunit{$m^{-1}$}\nomeqref {0}\nompageref{4}
   \item [{$\alpha_H$}]\begingroup Mixture void fraction \nomunit{$-$}\nomeqref {0}\nompageref{4}
   \item [{$\alpha_p$}]\begingroup Particle absorption coefficient \nomunit{$m^{-1}$}\nomeqref {0}\nompageref{4}
-  \item [{$\epsilon$}]\begingroup Emissivity \nomunit{$-$}\nomeqref {0}\nompageref{4}
+  \item [{$\epsilon_p$}]\begingroup Particle emissivity \nomunit{$-$}\nomeqref {0}\nompageref{4}
   \item [{$\phi$}]\begingroup Scalar variable \nomunit{$-$}\nomeqref {0}\nompageref{4}
   \item [{$\rho$}]\begingroup Gas density \nomunit{$kg/m^3$}\nomeqref {0}\nompageref{4}
   \item [{$\rho_g$}]\begingroup Gas density \nomunit{$kg/m^3$}\nomeqref {0}\nompageref{4}
