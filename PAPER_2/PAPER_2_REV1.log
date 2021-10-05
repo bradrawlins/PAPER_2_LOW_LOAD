@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  28 SEP 2021 09:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  5 OCT 2021 07:59
 entering extended mode
 **./PAPER_2_REV1.tex
 (PAPER_2_REV1.tex
@@ -1086,7 +1086,7 @@ Package rerunfilecheck Info: File `PAPER_2_REV1.out' has not changed.
 Here is how much of TeX's memory you used:
  12611 strings out of 479616
  191849 string characters out of 2863101
- 541993 words of memory out of 3000000
+ 541961 words of memory out of 3000000
  29437 multiletter control sequences out of 15000+200000
  408436 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1117,7 +1117,7 @@ rs/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8
 .pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmtt10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmtt8.pfb>
-Output written on PAPER_2_REV1.pdf (33 pages, 3473478 bytes).
+Output written on PAPER_2_REV1.pdf (33 pages, 3473424 bytes).
 PDF statistics:
  676 PDF objects out of 1000 (max. 8388607)
  157 named destinations out of 1000 (max. 500000)
