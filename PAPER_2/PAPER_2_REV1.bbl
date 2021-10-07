@@ -220,4 +220,9 @@ C.~Yin, \href{http://dx.doi.org/10.1016/j.apenergy.2015.01.142}{{On gas and
   {\path{doi:10.1016/j.apenergy.2015.01.142}}.
 \newline\urlprefix\url{http://dx.doi.org/10.1016/j.apenergy.2015.01.142}
 
+\bibitem{Gnielinski2016}
+V.~Gnielinski, {Heat transfer in cross-flow around single rows of tubes and
+  through tube bundles}, in: VDI Heat Atlas, Springer-Verlag, Berlin, 2016, pp.
+  756--760.
+
 \end{thebibliography}
