@@ -569,10 +569,11 @@ Investigating the combustion stability for all the cases, the symmetry and offse
 \label{tbl_cfd_results}
 \end{tabularx}}
 \end{table}
-The external tube metal temperatures, shown in Table \ref{tbl_cfd_results} were calculated using equation \ref{eqn_t_wall}, which takes into account the temperature drop due to the ash deposit present on platen and final SH. Fouling thermal resistances of 0.0067 and 0.015 [$m^2K/W$] were used for the platen and final SH respectively.  
+The external tube metal temperatures, shown in Table \ref{tbl_cfd_results} were calculated using equation \ref{eqn_t_wall}, which takes into account the temperature drop due to the ash deposit present on platen and final SH. Fouling thermal resistances of 0.0067 and 0.015 [$m^2K/W$] were used for the platen and final SH respectively.
 \begin{equation}\label{eqn_t_wall}
 T_{metal} = T_{wall} - \left(\frac{\dot{q}_{SH}t_{ASH}}{\lambda_{ASH}}\right)
 \end{equation}
+
 For the platen and final SH the maximum surface temperature are observed for Cases 2 and 5. For comparison, at 100\% MCR load the maximum and mean temperatures reported for the platen and final SH are 500 \& 446 $[^\circ C]$ and 623 \& 531 $[^\circ C]$ respectively, with the final SH operating in the materials creep range \cite{Laubscher2019b}. Thus, continued operation using the firing arrangement of Cases 2 and 5, could lead to SH failure.\\
 
 Using the process model of Figure \ref{fig_flownex} and the results of the CFD simulations the important process control parameters were determined. Table \ref{tbl_process_parameters} summarizes the results with the highest boiler efficiencies observed for Cases 3 and 6. With a lower SA flowrate Cases 4 to 6 exhibit a higher boiler efficiency due to the decrease in dry gas losses, when compared to Cases 1 to 3. All cases exhibit adequate control of the main steam exit temperature by use of ATT1 and ATT2. The exit temperature of the reheaters, for all Cases, are determined to within the 20 [$^\circ C$] tolerance for the intermediate turbine inlet conditions, as stipulated in the design C-schedules for the plant. However, with the lack of ATT-RH control, a sudden decrease in steam generation can lead to RH overheating and possible RH failure. Considering all of the above, Cases 3 and 6 are seen as the best firing arrangements for continuous low-load operation at a load of 32\% MCR.\\
