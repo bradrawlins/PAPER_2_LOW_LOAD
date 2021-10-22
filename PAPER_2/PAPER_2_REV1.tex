@@ -157,7 +157,7 @@ CFD\sep Boiler \sep Low-load operation \sep Co-simulation
 \nomenclature[C]{$ATT$}{Attemperator}
 \nomenclature[C]{$EC$}{Economiser}
 \nomenclature{\mbox{}}{}
-%\linenumbers
+\linenumbers
 \section{Introduction}
 The use of coal-fired power plants (CFPP) for electricity generation is intended to be phased out to reduce the rate of climate change. However, the move to sustainable generation sources poses great challenges for developing countries due to the long transition times and costs involved \cite{ugum2019}. Due to the abundance of coal resources present in Southern Africa, CFPPs are still the dominant power generation source, with approximately 80\% of the energy needs being met using CFPPs \cite{eskom}.\\
 
@@ -576,9 +576,7 @@ T_{metal} = T_{wall} - \left(\frac{\dot{q}_{SH}t_{ASH}}{\lambda_{ASH}}\right)
 
 For the platen and final SH the maximum surface temperature are observed for Cases 2 and 5. For comparison, at 100\% MCR load the maximum and mean temperatures reported for the platen and final SH are 500 \& 446 $[^\circ C]$ and 623 \& 531 $[^\circ C]$ respectively, with the final SH operating in the materials creep range \cite{Laubscher2019b}. Thus, continued operation using the firing arrangement of Cases 2 and 5, could lead to SH failure.\\
 
-Using the process model of Figure \ref{fig_flownex} and the results of the CFD simulations the important process control parameters were determined. Table \ref{tbl_process_parameters} summarizes the results with the highest boiler efficiencies observed for Cases 3 and 6. With a lower SA flowrate Cases 4 to 6 exhibit a higher boiler efficiency due to the decrease in dry gas losses, when compared to Cases 1 to 3. All cases exhibit adequate control of the main steam exit temperature by use of ATT1 and ATT2. The exit temperature of the reheaters, for all Cases, are determined to within the 20 [$^\circ C$] tolerance for the intermediate turbine inlet conditions, as stipulated in the design C-schedules for the plant. However, with the lack of ATT-RH control, a sudden decrease in steam generation can lead to RH overheating and possible RH failure. Considering all of the above, Cases 3 and 6 are seen as the best firing arrangements for continuous low-load operation at a load of 32\% MCR.\\
-
-Table \ref{tbl_rad_conv} shows the radiative heat percentage of the total heat input into each heat-exchanger for Cases 3 and 6. It can be seen that heat transfer to the furnace and radiant SHs are dominated by radiation, with approximately $\pm$ 10\% being transferred via convection at low-load. Considering the convective pass heat exchangers (RH2 through to the EC, refer to Figure \ref{fig_flownex}) the convective heat transfer becomes more apparent as seen with the reduction in radiative heat transfer percentage. Case 6 involves less convective heat transfer due to the SA flowrate for non-firing burners. This will reduce the total amount of flue-gas flowing through the boiler, thereby reducing the convective heat transfer.
+Using the process model of Figure \ref{fig_flownex} and the results of the CFD simulations the important process control parameters were determined. Table \ref{tbl_process_parameters} summarizes the results with the highest boiler efficiencies observed for Cases 3 and 6. With a lower SA flowrate Cases 4 to 6 exhibit a higher boiler efficiency due to the decrease in dry gas losses, when compared to Cases 1 to 3. All cases exhibit adequate control of the main steam exit temperature by use of ATT1 and ATT2. The exit temperature of the reheaters, for all Cases, are determined to within the 20 [$^\circ C$] tolerance for the intermediate turbine inlet conditions, as stipulated in the design C-schedules for the plant. However, with the lack of ATT-RH control, a sudden decrease in steam generation can lead to RH overheating and possible RH failure. Considering all of the above, Cases 3 and 6 are seen as the best firing arrangements for continuous low-load operation at a load of 32\% MCR.
 
 \begin{table}[h!]
 \centering
@@ -601,7 +599,8 @@ EC [\%] & 5.4& 6.5\\
 \end{tabularx}}
 \end{table}
 
-\clearpage
+Table \ref{tbl_rad_conv} shows the radiative heat percentage of the total heat input into each heat-exchanger for Cases 3 and 6. It can be seen that heat transfer to the furnace and radiant SHs are dominated by radiation, with approximately $\pm$ 10\% being transferred via convection at low-load. Considering the convective pass heat exchangers (RH2 through to the EC, refer to Figure \ref{fig_flownex}) the convective heat transfer becomes more apparent as seen with the reduction in radiative heat transfer percentage. Case 6 involves less convective heat transfer due to the SA flowrate for non-firing burners. This will reduce the total amount of flue-gas flowing through the boiler, thereby reducing the convective heat transfer.
+
 \section{Conclusions}
 The present study demonstrates the use of a coupled CFD/process model to study the effects of burner configuration at a boiler load of 32\% MCR. A validation case was first performed for the CFD model, which showed adequate results for heat fluxes to the walls, with a general tendency of the model to under-predict the heat fluxes to the furnace. The model also showed sufficient accuracy in determining the combustion characteristics at the 100 \% MCR load. \\
 
