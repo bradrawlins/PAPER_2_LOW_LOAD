@@ -1,0 +1,70 @@
+\nomenclatureentry{A$A$@[{$A$}]\begingroup Area \nomunit{$m^2$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$A_p$@[{$A_p$}]\begingroup Particle surface area \nomunit{$m^2$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$A_{pn}$@[{$A_{pn}$}]\begingroup Projected particle surface area \nomunit{$m^2$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$A_{c}$@[{$A_{c}$}]\begingroup Carbon pre-exponential factor \nomunit{$s^{-1}$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$A_{vol}$@[{$A_{vol}$}]\begingroup Volatile pre-exponential factor \nomunit{$s^{-1}$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$d_p$@[{$d_p$}]\begingroup Particle diameter \nomunit{$m$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$E$@[{$E$}]\begingroup Fluid total energy \nomunit{$J/kg$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$E_{a,c}$@[{$E_{a,c}$}]\begingroup Carbon activation energy \nomunit{$J/kmol$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$E_{a,vol}$@[{$E_{a,vol}$}]\begingroup Volatile activation energy \nomunit{$J/kmol$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$E_p$@[{$E_p$}]\begingroup Particle emission power \nomunit{$W/m^3$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$f_{heat}$@[{$f_{heat}$}]\begingroup Near surface char oxidation fraction \nomunit{$-$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$f_{p}$@[{$f_{p}$}]\begingroup Forward scattering factor \nomunit{$-$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$G$@[{$G$}]\begingroup Incident radiation \nomunit{$W/m^2$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$g$@[{$g$}]\begingroup Gravitational constant \nomunit{$m/s^2$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$h_{fg}$@[{$h_{fg}$}]\begingroup Enthalpy of evaporation \nomunit{$J/kg$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$h_M$@[{$h_M$}]\begingroup Mixture enthalpy \nomunit{$J/kg$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$h_{rxn}$@[{$h_{rxn}$}]\begingroup Enthalpy of reaction \nomunit{$J/kg$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$J_k$ @[{$J_k$ }]\begingroup Species diffusion flux \nomunit{$m^2/s$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$m_{0,vol}$@[{$m_{0,vol}$}]\begingroup Original mass of volatiles \nomunit{$kg$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$m_{char}$@[{$m_{char}$}]\begingroup Mass of carbon \nomunit{$kg$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$m_{evap}$@[{$m_{evap}$}]\begingroup Mass of moisture \nomunit{$kg$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$m_{vol}$@[{$m_{vol}$}]\begingroup Mass of volatiles \nomunit{$kg$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$N_{p}$@[{$N_{p}$}]\begingroup Number of particles \nomunit{$-$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$P$@[{$P$}]\begingroup Perimeter \nomunit{$m$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$p$@[{$p$}]\begingroup Pressure \nomunit{$Pa$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$p_{O_{2}}$@[{$p_{O_{2}}$}]\begingroup Partial pressure of $O_2$ \nomunit{$Pa$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$\dot{Q}_{conv}$@[{$\dot{Q}_{conv}$}]\begingroup Convective heat transfer rate \nomunit{$W$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$\dot{Q}_{rad}$@[{$\dot{Q}_{rad}$}]\begingroup Radiative heat transfer rate \nomunit{$W$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$\dot{Q}_{w}$@[{$\dot{Q}_{w}$}]\begingroup Wall heat transfer rate \nomunit{$W$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$R$@[{$R$}]\begingroup Universal gas constant \nomunit{$J/molK$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$R_{c}$@[{$R_{c}$}]\begingroup Carbon reaction rate \nomunit{$s^{-1}$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$R_{diff}$@[{$R_{diff}$}]\begingroup Diffusion reaction rate \nomunit{$s^{-1}$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$R_{vol}$@[{$R_{vol}$}]\begingroup Volatile reaction rate \nomunit{$s^{-1}$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$T_g$@[{$T_g$}]\begingroup Gas temperature \nomunit{$K$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$T_p$@[{$T_p$}]\begingroup Particle temperature \nomunit{$K$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$t$@[{$t$}]\begingroup Time \nomunit{$s$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$u$@[{$u$}]\begingroup Velocity \nomunit{$m/s$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$V$@[{$V$}]\begingroup Volume \nomunit{$m^3$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$Y_k$@[{$Y_k$}]\begingroup Species mass fraction \nomunit{$kg/kg$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{A$x$@[{$x$}]\begingroup Quality \nomunit{$-$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\alpha_g$@[{$\alpha_g$}]\begingroup Gas absorption coefficient \nomunit{$m^{-1}$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\alpha_H$@[{$\alpha_H$}]\begingroup Mixture void fraction \nomunit{$-$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\alpha_p$@[{$\alpha_p$}]\begingroup Particle absorption coefficient \nomunit{$m^{-1}$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\epsilon_p$@[{$\epsilon_p$}]\begingroup Particle emissivity \nomunit{$-$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\rho$@[{$\rho$}]\begingroup Gas density \nomunit{$kg/m^3$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\rho_{eff}$@[{$\rho_{eff}$}]\begingroup Effective density \nomunit{$kg/m^3$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\rho_g$@[{$\rho_g$}]\begingroup Gas density \nomunit{$kg/m^3$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\rho_l$@[{$\rho_l$}]\begingroup Liquid density \nomunit{$kg/m^3$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\rho_M$@[{$\rho_M$}]\begingroup Mixture density \nomunit{$kg/m^3$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\rho_p$@[{$\rho_p$}]\begingroup Particle density \nomunit{$kg/m^3$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\sigma_{SB}$@[{$\sigma_{SB}$}]\begingroup Stefan-Boltzmann constant \nomunit{$W/m^2K^4$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\sigma_{p}$@[{$\sigma_{p}$}]\begingroup Particle scattering coefficient \nomunit{$m^{-1}$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{B$\phi$@[{$\phi$}]\begingroup Scalar variable \nomunit{$-$}\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$MCR$@[{$MCR$}]\begingroup Maximum continuous rating\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$CFPP$@[{$CFPP$}]\begingroup Coal fired power plant\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$CFD$@[{$CFD$}]\begingroup Computational fluid dynamics\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$SH$@[{$SH$}]\begingroup Superheater\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$EE$@[{$EE$}]\begingroup Eulerian-Eulerian\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$WSGGM$@[{$WSGGM$}]\begingroup Weighted sum of gray gas model\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$RTE$@[{$RTE$}]\begingroup Radiative transport equation\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$HHV$@[{$HHV$}]\begingroup Higher heating value\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$DAF$@[{$DAF$}]\begingroup Dry ash free\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$AR$@[{$AR$}]\begingroup As-received\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$PA$@[{$PA$}]\begingroup Primary air\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$SA-AH$@[{$SA-AH$}]\begingroup Secondary air - air heater\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$SA$@[{$SA$}]\begingroup Secondary air\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$RH$@[{$RH$}]\begingroup Reheater\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$ATT$@[{$ATT$}]\begingroup Attemperator\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{C$EC$@[{$EC$}]\begingroup Economiser\nomeqref {0}|nompageref}{2}
+\nomenclatureentry{a\mbox{}@[{\mbox{}}]\begingroup \nomeqref {0}|nompageref}{2}
