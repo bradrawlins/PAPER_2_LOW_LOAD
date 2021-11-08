@@ -26,14 +26,7 @@
   \ifstrequal{#1}{C}{Abbreviations}{}}}%
 ]}
 
-\makeatletter
-\def\ps@pprintTitle{%
- \let\@oddhead\@empty
- \let\@evenhead\@empty
- \def\@oddfoot{\centerline{\thepage}}%
- \let\@evenfoot\@oddfoot}
-\makeatother
-
+\journal{Energy} 
 
 %%%%%%%%%%%%%%%%%%%%%%%
 %% Elsevier bibliography styles
@@ -71,19 +64,19 @@
 
 \begin{frontmatter}
 
-\title{Application of computational fluid dynamics and process modelling to investigate low-load operation of a subcritical utility-scale boiler.}
+\title{Numerical investigation of low-load operation of a subcritical power boiler using CFD and process modelling}
 
 %% Group authors per affiliation:
-\author{B.T. Rawlins $^{a}$ \corref{mycorrespondingauthor}}
+\author{B.T. Rawlins}
+\author{R. Laubscher\corref{mycorrespondingauthor}}
 \cortext[mycorrespondingauthor]{Corresponding author}
-\ead{rwlbra001@myuct.ac.za}
-\author{R. Laubscher $^b$}
-\author{P. Rousseau $^a$}
-\address{$^a$ Department of Mechanical Engineering, Applied Thermal-Fluid Process Modelling Research Unit, University of Cape Town, Library Rd, Rondebosch, Cape Town, 7701, South Africa}
-\address{$^b$ Department of Mechanical Engineering, Stellenbosch University, Stellenbosch Central, Stellenbosch, 7599, South-Africa}
+\ead{rlaubscher@sun.ac.za}
+\author{P. Rousseau}
+\address{Department of Mechanical Engineering, Applied Thermal-Fluid Process Modelling Research Unit, University of Cape Town, Library Rd, Rondebosch, Cape Town, 7701, South Africa}
+\address{$^*$ Department of Mechanical Engineering, Stellenbosch University, Stellenbosch Central, Stellenbosch, 7599, South-Africa}
 
 \begin{abstract}
-To enable the inclusion of intermittent renewable energy sources on existing power grids requires base-load coal-fired power plants to operate flexibly, including fast load changes and continuous low-load operation. Low-load operation of a 620 $MWe$ sub-critical boiler is analysed with the aid of a co-simulation methodology that incorporates a detail three dimensional computational fluid dynamics (CFD) model together with a one dimensional process model. A discretized one dimensional model of the water/steam circuit was developed for the furnace, the radiant superheaters and the convective/back pass heat exchangers. This is coupled with a detailed CFD model incorporating the furnace and radiant superheaters using a Eulerian-Eulerian reference frame. The coupled model is used to investigate the combustion stability, water/steam side effects, and the radiant heat exchanger operational limits for six different burner firing arrangements at a low boiler load of 32\% of Maximum Continuous Rating. The results show that certain firing arrangements can lead to a high risk of fire-side corrosion and overheating of heat exchanger components. Based on analyses of combustion stability, boiler efficiency and the safe operation of heat exchanger components, a mixed firing arrangement with a higher secondary air mass flowrate for non-firing burners was selected as the best operational strategy at this low load for the boiler under investigation.
+Low-load operation of a 620 $MWe$ sub-critical boiler is analysed with the aid of a co-simulation methodology that incorporates a detail three dimensional computational fluid dynamics (CFD) model together with a one dimensional process model. A discretized one dimensional model of the water/steam circuit was developed for the furnace, the radiant superheaters and the convective/back pass heat exchangers. This is coupled with a detailed CFD model incorporating the furnace and radiant superheaters using a Eulerian-Eulerian reference frame. The coupled model is used to investigate the combustion stability, water/steam side effects, and the radiant heat exchanger operational limits for six different burner firing arrangements at a low boiler load of 32\% of Maximum Continuous Rating. The results show that certain firing arrangements can lead to a high risk of fire-side corrosion and overheating of heat exchanger components. Based on analyses of combustion stability, boiler efficiency and the safe operation of heat exchanger components, a mixed firing arrangement with a higher secondary air mass flowrate for non-firing burners was selected as the best operational strategy at this low load for the boiler under investigation.
 \end{abstract}
 
 \begin{keyword}

@@ -1,180 +1,108 @@
-\documentclass[review]{elsarticle}
-\usepackage[utf8]{inputenc} 
-\usepackage{lineno,hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% asme2ej.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Template for producing ASME-format journal articles using LaTeX    %
+% Written by   Harry H. Cheng, Professor and Director                %
+%              Integration Engineering Laboratory                    %
+%              Department of Mechanical and Aeronautical Engineering %
+%              University of California                              %
+%              Davis, CA 95616                                       %
+%              Tel: (530) 752-5020 (office)                          %
+%                   (530) 752-1028 (lab)                             %
+%              Fax: (530) 752-4158                                   %
+%              Email: hhcheng@ucdavis.edu                            %
+%              WWW:   http://iel.ucdavis.edu/people/cheng.html       %
+%              May 7, 1994                                           %
+% Modified: February 16, 2001 by Harry H. Cheng                      %
+% Modified: January  01, 2003 by Geoffrey R. Shiflett                %
+% Use at your own risk, send complaints to /dev/null                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% use twocolumn and 10pt options with the asme2ej format
+\documentclass[twocolumn,10pt]{asme2ej}
+
+\usepackage{graphicx} %% for loading jpg figures
 \usepackage{tabu}
 \usepackage{float}
 \usepackage{tabularx}
 \usepackage{subfigure}
-\usepackage[fleqn]{amsmath}
-\modulolinenumbers[5]
+\usepackage{amsmath}
+%% The class has several options
+%  onecolumn/twocolumn - format for one or two columns per page
+%  10pt/11pt/12pt - use 10, 11, or 12 point font
+%  oneside/twoside - format for oneside/twosided printing
+%  final/draft - format for final/draft copy
+%  cleanfoot - take out copyright info in footer leave page number
+%  cleanhead - take out the conference banner on the title page
+%  titlepage/notitlepage - put in titlepage or leave out titlepage
+%  
+%% The default is oneside, onecolumn, 10pt, final
 
-\usepackage{framed}
-\usepackage{multicol} % Multiple columns environment
-
-\usepackage{nomencl} % Nomenclature package
-\makenomenclature
-\setlength{\nomitemsep}{0pt}
-
-\newcommand{\nomunit}[1]{%
-  \renewcommand{\nomentryend}{\hspace*{\fill}#1}%
-}
-
-\renewcommand\nomgroup[1]{% 
-  \item[\bfseries
-  \ifstrequal{#1}{A}{Symbols}{%
-  \ifstrequal{#1}{B}{Greek symbols}{%
-  \ifstrequal{#1}{C}{Abbreviations}{}}}%
-]}
-
-\makeatletter
-\def\ps@pprintTitle{%
- \let\@oddhead\@empty
- \let\@evenhead\@empty
- \def\@oddfoot{\centerline{\thepage}}%
- \let\@evenfoot\@oddfoot}
-\makeatother
-
-
-%%%%%%%%%%%%%%%%%%%%%%%
-%% Elsevier bibliography styles
-%%%%%%%%%%%%%%%%%%%%%%%
-%% To change the style, put a % in front of the second line of the current style and
-%% remove the % from the second line of the style you would like to use.
-%%%%%%%%%%%%%%%%%%%%%%%
-
-%% Numbered
-%\bibliographystyle{model1-num-names}
-
-%% Numbered without titles
-%\bibliographystyle{model1a-num-names}
-
-%% Harvard
-%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
-
-%% Vancouver numbered
-%\usepackage{numcompress}\bibliographystyle{model3-num-names}
-
-%% Vancouver name/year
-%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
-
-%% APA style
-%\bibliographystyle{model5-names}\biboptions{authoryear}
-
-%% AMA style
-%\usepackage{numcompress}\bibliographystyle{model6-num-names}
-
-%% `Elsevier LaTeX' style
-\bibliographystyle{elsarticle-num}
-%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{document}
-
-\begin{frontmatter}
 
 \title{Application of computational fluid dynamics and process modelling to investigate low-load operation of a subcritical utility-scale boiler.}
 
-%% Group authors per affiliation:
-\author{B.T. Rawlins $^{a}$ \corref{mycorrespondingauthor}}
-\cortext[mycorrespondingauthor]{Corresponding author}
-\ead{rwlbra001@myuct.ac.za}
-\author{R. Laubscher $^b$}
-\author{P. Rousseau $^a$}
-\address{$^a$ Department of Mechanical Engineering, Applied Thermal-Fluid Process Modelling Research Unit, University of Cape Town, Library Rd, Rondebosch, Cape Town, 7701, South Africa}
-\address{$^b$ Department of Mechanical Engineering, Stellenbosch University, Stellenbosch Central, Stellenbosch, 7599, South-Africa}
+%%% first author
+\author{Harry H. Cheng
+    \affiliation{
+	Professor, Fellow of ASME\\
+	Integration Engineering Laboratory\\
+	Department of Mechanical Engineering\\
+	University of Cape Town\\
+    Email: rwlbra001@myuct.ac.za
+    }	
+}
 
+%%% second author
+%%% remove the following entry for single author papers
+%%% add more entries for additional authors
+\author{J. Michael McCarthy\thanks{Address all correspondence related to ASME style format and figures to this author.} \\
+    \affiliation{ Editor, Fellow of ASME\\
+	Journal of Mechanical Design\\
+        Email: jmmccart@uci.edu
+    }
+}
+
+%%% third author
+%%% remove the following entry for single author papers
+%%% add more entries for additional authors
+\author{Third Co-author\\
+        Graduate Research Assistan, Student Member of ASME\\
+       {\tensfb Fourth Co-author}\thanks{Address all correspondence for other issues to this author.} 
+    \affiliation{Title, Member of ASME\\
+        Department or Division Name\\
+        Company or College Name\\
+        City, State (spelled out), Zip Code\\
+        Country (only if not U.S.)\\
+        Email address (if available)
+    }
+}
+
+
+\begin{document}
+
+\maketitle    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-To enable the inclusion of intermittent renewable energy sources on existing power grids requires base-load coal-fired power plants to operate flexibly, including fast load changes and continuous low-load operation. Low-load operation of a 620 $MWe$ sub-critical boiler is analysed with the aid of a co-simulation methodology that incorporates a detail three dimensional computational fluid dynamics (CFD) model together with a one dimensional process model. A discretized one dimensional model of the water/steam circuit was developed for the furnace, the radiant superheaters and the convective/back pass heat exchangers. This is coupled with a detailed CFD model incorporating the furnace and radiant superheaters using a Eulerian-Eulerian reference frame. The coupled model is used to investigate the combustion stability, water/steam side effects, and the radiant heat exchanger operational limits for six different burner firing arrangements at a low boiler load of 32\% of Maximum Continuous Rating. The results show that certain firing arrangements can lead to a high risk of fire-side corrosion and overheating of heat exchanger components. Based on analyses of combustion stability, boiler efficiency and the safe operation of heat exchanger components, a mixed firing arrangement with a higher secondary air mass flowrate for non-firing burners was selected as the best operational strategy at this low load for the boiler under investigation.
+{\it To enable the inclusion of intermittent renewable energy sources on existing power grids requires base-load coal-fired power plants to operate flexibly, including fast load changes and continuous low-load operation. Low-load operation of a 620 $MWe$ sub-critical boiler is analysed with the aid of a co-simulation methodology that incorporates a detail three dimensional computational fluid dynamics (CFD) model together with a one dimensional process model. A discretized one dimensional model of the water/steam circuit was developed for the furnace, the radiant superheaters and the convective/back pass heat exchangers. This is coupled with a detailed CFD model incorporating the furnace and radiant superheaters using a Eulerian-Eulerian reference frame. The coupled model is used to investigate the combustion stability, water/steam side effects, and the radiant heat exchanger operational limits for six different burner firing arrangements at a low boiler load of 32\% of Maximum Continuous Rating. The results show that certain firing arrangements can lead to a high risk of fire-side corrosion and overheating of heat exchanger components. Based on analyses of combustion stability, boiler efficiency and the safe operation of heat exchanger components, a mixed firing arrangement with a higher secondary air mass flowrate for non-firing burners was selected as the best operational strategy at this low load for the boiler under investigation.
+}
 \end{abstract}
 
-\begin{keyword}
-CFD\sep Boiler \sep Low-load operation \sep Co-simulation
-\end{keyword}
-\newpage
-\end{frontmatter}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{nomenclature}
+\entry{A}{You may include nomenclature here.}
+\entry{$\alpha$}{There are two arguments for each entry of the nomemclature environment, the symbol and the definition.}
+\end{nomenclature}
 
-\printnomenclature
-
-\nomenclature[A]{$A$}{Area \nomunit{$m^2$}}
-\nomenclature[A]{$A_p$}{Particle surface area \nomunit{$m^2$}}
-\nomenclature[A]{$A_{pn}$}{Projected particle surface area \nomunit{$m^2$}}
-\nomenclature[A]{$A_{c}$}{Carbon pre-exponential factor \nomunit{$s^{-1}$}}
-\nomenclature[A]{$A_{vol}$}{Volatile pre-exponential factor \nomunit{$s^{-1}$}}
-\nomenclature[A]{$d_p$}{Particle diameter \nomunit{$m$}}
-\nomenclature[A]{$E$}{Fluid total energy \nomunit{$J/kg$}}
-\nomenclature[A]{$E_{a,c}$}{Carbon activation energy \nomunit{$J/kmol$}}
-\nomenclature[A]{$E_{a,vol}$}{Volatile activation energy \nomunit{$J/kmol$}}
-\nomenclature[A]{$E_p$}{Particle emission power \nomunit{$W/m^3$}}
-\nomenclature[A]{$f_{heat}$}{Near surface char oxidation fraction \nomunit{$-$}}
-\nomenclature[A]{$f_{p}$}{Forward scattering factor \nomunit{$-$}}
-\nomenclature[A]{$G$}{Incident radiation \nomunit{$W/m^2$}}
-\nomenclature[A]{$g$}{Gravitational constant \nomunit{$m/s^2$}}
-\nomenclature[A]{$h_{fg}$}{Enthalpy of evaporation \nomunit{$J/kg$}}
-\nomenclature[A]{$h_M$}{Mixture enthalpy \nomunit{$J/kg$}}
-\nomenclature[A]{$h_{rxn}$}{Enthalpy of reaction \nomunit{$J/kg$}}
-\nomenclature[A]{$J_k$ }{Species diffusion flux \nomunit{$m^2/s$}}
-\nomenclature[A]{$m_{0,vol}$}{Original mass of volatiles \nomunit{$kg$}}
-\nomenclature[A]{$m_{char}$}{Mass of carbon \nomunit{$kg$}}
-\nomenclature[A]{$m_{evap}$}{Mass of moisture \nomunit{$kg$}}
-\nomenclature[A]{$m_{vol}$}{Mass of volatiles \nomunit{$kg$}}
-\nomenclature[A]{$N_{p}$}{Number of particles \nomunit{$-$}}
-\nomenclature[A]{$P$}{Perimeter \nomunit{$m$}}
-\nomenclature[A]{$p$}{Pressure \nomunit{$Pa$}}
-\nomenclature[A]{$p_{O_{2}}$}{Partial pressure of $O_2$ \nomunit{$Pa$}}
-\nomenclature[A]{$\dot{Q}_{conv}$}{Convective heat transfer rate \nomunit{$W$}}
-\nomenclature[A]{$\dot{Q}_{rad}$}{Radiative heat transfer rate \nomunit{$W$}}
-\nomenclature[A]{$\dot{Q}_{w}$}{Wall heat transfer rate \nomunit{$W$}}
-\nomenclature[A]{$R$}{Universal gas constant \nomunit{$J/molK$}}
-\nomenclature[A]{$R_{c}$}{Carbon reaction rate \nomunit{$s^{-1}$}}
-\nomenclature[A]{$R_{diff}$}{Diffusion reaction rate \nomunit{$s^{-1}$}}
-\nomenclature[A]{$R_{vol}$}{Volatile reaction rate \nomunit{$s^{-1}$}}
-\nomenclature[A]{$T_g$}{Gas temperature \nomunit{$K$}}
-\nomenclature[A]{$T_p$}{Particle temperature \nomunit{$K$}}
-\nomenclature[A]{$t$}{Time \nomunit{$s$}}
-\nomenclature[A]{$u$}{Velocity \nomunit{$m/s$}}
-\nomenclature[A]{$V$}{Volume \nomunit{$m^3$}}
-\nomenclature[A]{$Y_k$}{Species mass fraction \nomunit{$kg/kg$}}
-\nomenclature[A]{$x$}{Quality \nomunit{$-$}}
-\nomenclature[B]{$\alpha_g$}{Gas absorption coefficient \nomunit{$m^{-1}$}}
-\nomenclature[B]{$\alpha_H$}{Mixture void fraction \nomunit{$-$}}
-\nomenclature[B]{$\alpha_p$}{Particle absorption coefficient \nomunit{$m^{-1}$}}
-\nomenclature[B]{$\epsilon_p$}{Particle emissivity \nomunit{$-$}}
-\nomenclature[B]{$\rho$}{Gas density \nomunit{$kg/m^3$}}
-\nomenclature[B]{$\rho_{eff}$}{Effective density \nomunit{$kg/m^3$}}
-\nomenclature[B]{$\rho_g$}{Gas density \nomunit{$kg/m^3$}}
-\nomenclature[B]{$\rho_l$}{Liquid density \nomunit{$kg/m^3$}}
-\nomenclature[B]{$\rho_M$}{Mixture density \nomunit{$kg/m^3$}}
-\nomenclature[B]{$\rho_p$}{Particle density \nomunit{$kg/m^3$}}
-\nomenclature[B]{$\sigma_{SB}$}{Stefan-Boltzmann constant \nomunit{$W/m^2K^4$}}
-\nomenclature[B]{$\sigma_{p}$}{Particle scattering coefficient \nomunit{$m^{-1}$}}
-\nomenclature[B]{$\phi$}{Scalar variable \nomunit{$-$}}
-\nomenclature[C]{$MCR$}{Maximum continuous rating}
-\nomenclature[C]{$CFPP$}{Coal fired power plant}
-\nomenclature[C]{$CFD$}{Computational fluid dynamics}
-\nomenclature[C]{$SH$}{Superheater}
-\nomenclature[C]{$EE$}{Eulerian-Eulerian}
-\nomenclature[C]{$WSGGM$}{Weighted sum of gray gas model}
-\nomenclature[C]{$RTE$}{Radiative transport equation}
-\nomenclature[C]{$HHV$}{Higher heating value}
-\nomenclature[C]{$DAF$}{Dry ash free}
-\nomenclature[C]{$AR$}{As-received}
-\nomenclature[C]{$PA$}{Primary air}
-\nomenclature[C]{$SA-AH$}{Secondary air - air heater}
-\nomenclature[C]{$SA$}{Secondary air}
-\nomenclature[C]{$RH$}{Reheater}
-\nomenclature[C]{$ATT$}{Attemperator}
-\nomenclature[C]{$EC$}{Economiser}
-\nomenclature{\mbox{}}{}
-\linenumbers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 The use of coal-fired power plants (CFPP) for electricity generation is intended to be phased out to reduce the rate of climate change. However, the move to sustainable generation sources poses great challenges for developing countries due to the long transition times and costs involved \cite{ugum2019}. Due to the abundance of coal resources present in Southern Africa, CFPPs are still the dominant power generation source, with approximately 80\% of the energy needs being met using CFPPs \cite{eskom}.\\
 
 The integration of renewable energy sources will push CFPPs from primarily base load operation to a mid-merit/flexible operating protocol, which includes prolonged operation at low-loads. Long term deviation from design conditions can lead to operational inefficiencies affecting combustion stability \cite{Hernik2020}, an increase in harmful emissions \cite{Chang2021}, and the localised overheating of heat exchangers due to insufficient cooling being provided by the internal working fluid \cite{Modlinski2019}.\\
 
-While full scale testing or experimentation on CFPPs is deemed too expensive to pursue, mathematical models that can accurately capture the thermal response of boilers at varying loads can be used to determine the safe and efficient operating limits \cite{Laubscher2019b}. Computational fluid dynamics (CFD) allows for the modelling of full-scale CFPP boilers, at steady-state operating conditions. CFD simulations have been successfully used to model a variety of CFPP boiler types (\cite{Laubscher2019a}, \cite{Gu2020}) and cover various aspects such as pollution control (\cite{Du2017},\cite{Fan2001}), gas-solid flow effects (\cite{Chen2017}) and boiler retrofitting (\citep{Gu2020}, \cite{He2007}).\\
+While full scale testing or experimentation on CFPPs is deemed too expensive to pursue, mathematical models that can accurately capture the thermal response of boilers at varying loads can be used to determine the safe and efficient operating limits \cite{Laubscher2019b}. Computational fluid dynamics (CFD) allows for the modelling of full-scale CFPP boilers, at steady-state operating conditions. CFD simulations have been successfully used to model a variety of CFPP boiler types (\cite{Laubscher2019a}, \cite{Gu2020}) and cover various aspects such as pollution control (\cite{Du2017},\cite{Fan2001}), gas-solid flow effects (\cite{Chen2017}) and boiler retrofitting (\cite{Gu2020}, \cite{He2007}).\\
 
-Recent CFD studies investigating low-load operation of CFPP boilers have focused on the combustion stability, harmful emissions and the gas flow-solid flow interactions \cite{Jiang2021}. The works of Belosevic et al \citep{Belosevic2019a} found that the low-load operation of boilers considerably affects the flow and temperature fields, the flame geometry, chemical reactions and concentrations of combustion products.\\
+Recent CFD studies investigating low-load operation of CFPP boilers have focused on the combustion stability, harmful emissions and the gas flow-solid flow interactions \cite{Jiang2021}. The works of Belosevic et al \cite{Belosevic2019a} found that the low-load operation of boilers considerably affects the flow and temperature fields, the flame geometry, chemical reactions and concentrations of combustion products.\\
 
-Hernik et al \cite{Hernik2020} investigated the effects of using different mill system configurations at a minimum boiler load of 40\%. The most favourable mill system configuration was selected based on the case that exhibited suitable combustion stability and emission of harmful substances. Similarly, Chang et al \citep{Chang2021} investigated the various firing arrangements of a 630 $MWe$ tangentially fired boiler. A burner angle of -15 $^\circ$ was found to be the optimal arrangement resulting in the best compromise between combustion stability and lower emissions. The aforementioned research specifically investigated combustion and gas-side effects.\\
+Hernik et al \cite{Hernik2020} investigated the effects of using different mill system configurations at a minimum boiler load of 40\%. The most favourable mill system configuration was selected based on the case that exhibited suitable combustion stability and emission of harmful substances. Similarly, Chang et al \cite{Chang2021} investigated the various firing arrangements of a 630 $MWe$ tangentially fired boiler. A burner angle of -15 $^\circ$ was found to be the optimal arrangement resulting in the best compromise between combustion stability and lower emissions. The aforementioned research specifically investigated combustion and gas-side effects.\\
 
 Various one-dimensional (1-D) process modelling approaches have also been used by researchers to investigate the water and gas side heat transfer interactions. These studies are usually aimed at investigating a transient event, such as a sudden disturbance, start-up, or boiler load ramping \cite{Alobaid2017}. Due to the non-uniformities found in CFPP furnaces which are composed of complex combustion dynamics, gas-solid interactions and  radiation heat transfer phenomena, 1-D process models can not resolve the fireside with sufficient accuracy. However it can adequately resolve the waterside energy and momentum transport in a computationally inexpensive manner.\\
 
@@ -223,14 +151,14 @@ The process of coal combustion comprises of four sequential steps namely, inert 
 \end{split}
 \end{gather}
 
-A devolatilization temperature of 553 [$K$] \citep{Ranade2015} along with the kinetic parameters (equation \ref{eqn_vol_arrhenuis}) of Sheng et al \cite{Sheng2004} were utilized in the present study.\\
+A devolatilization temperature of 553 [$K$] \cite{Ranade2015} along with the kinetic parameters (equation \ref{eqn_vol_arrhenuis}) of Sheng et al \cite{Sheng2004} were utilized in the present study.\\
 
 The char oxidation process is modelled using the diffusion-kinetics limited model developed by Baum and Street \cite{Baum1971}, which is given in equation (\ref{eqn_char_rate}). The product species of the char oxidation reaction was set to $CO$ as shown in equation (\ref{eqn_CO_reaction}). 
 \begin{gather}
 \frac{dm_{char}}{dt} = -A_p p_{O_{2}} \frac{R_{diff}R_c}{R_{diff} + R_c}  \label{eqn_char_rate}\\
 C_{(s)}+0.5O_{2(g)}\to CO_{(g)} \label{eqn_CO_reaction}
 \end{gather}
-The diffusion and kinetic rates of equation (\ref{eqn_char_rate}) are defined in equations (\ref{eqn_char_diff_rate})  and (\ref{eqn_char_kin_rate}) with the kinetic parameters again taken from the works of Sheng et al \citep{Sheng2004}.
+The diffusion and kinetic rates of equation (\ref{eqn_char_rate}) are defined in equations (\ref{eqn_char_diff_rate})  and (\ref{eqn_char_kin_rate}) with the kinetic parameters again taken from the works of Sheng et al \cite{Sheng2004}.
 \begin{gather}
 R_{diff} = \frac{5\times10^{-12}}{d_p} \left(\frac{T_g+T_p}{2}\right)^{0.75} \label{eqn_char_diff_rate}\\
 \begin{split}
@@ -271,7 +199,7 @@ The energy transport of the pseudo particle phase, is captured by defining a par
 The equation accounts for all the processes associated with energy transport to the particle, namely convection $\left(\dot{Q}_{conv}\right)$, radiation $\left(\dot{Q}_{rad}\right)$, latent heat transport $\left(\frac{dm_{evap}}{dt}h_{fg}\right)$ and near surface char oxidation $\left(f_{heat}\frac{dm_{c}}{dt}h_{rxn}\right)$. This gives the model the ability to track the particle temperature in the domain, which distinguishes it from the thermal equilibrium approach incorporated by previous studies using an EE approach (\cite{Benim2005}, \cite{Vicente2003} and \cite{Cai2015}). The particle temperature is important in describing the sequential steps found in modelling combustion processes, especially at low boiler loads where mixing and ignition become problematic. To solve the additional transport equations and their source terms, C programs were developed.
 
 \subsection{Heat transfer modelling}
-Radiation heat transfer is the dominant form of heat transfer found in industrial furnaces \citep{Basu2000} and is solved by applying the gray-participating-gas and particle medium configuration of the radiation transport equation (RTE) \cite{Modest2013} shown in equation (\ref{eqn_RTE}).
+Radiation heat transfer is the dominant form of heat transfer found in industrial furnaces \cite{Basu2000} and is solved by applying the gray-participating-gas and particle medium configuration of the radiation transport equation (RTE) \cite{Modest2013} shown in equation (\ref{eqn_RTE}).
 \begin{equation}\label{eqn_RTE}
 \frac{d I(\vec{r},\hat{s})}{ds} = \alpha_g \frac{\sigma_{SB} T_{g}^4}{\pi}-(\alpha_g+\alpha_p+\sigma_p)I(\vec{r},\hat{s}) + \frac{\sigma_p}{4\pi}\int_{4\pi}I(\vec{r},\hat{s})\Phi d \Omega
 \end{equation}
@@ -290,7 +218,7 @@ The flue gas absorptivity was calculated using the domain based weighted sum of 
 E_p = \frac{\epsilon_p \sigma_{SB} T_p^4 A_{pn}N_p}{V}\label{eqn_part_emisp}
 \end{gather}
 
-It is important to note that variable properties for ($\epsilon_p$) and ($f_p$) were used, that are based on the correlations of Lockwood et al \cite{Lockwood1986} and Yin \citep{Yin2015} respectively.
+It is important to note that variable properties for ($\epsilon_p$) and ($f_p$) were used, that are based on the correlations of Lockwood et al \cite{Lockwood1986} and Yin \cite{Yin2015} respectively.
 
 \subsection{Process simulation model}
 A 1D discretized model of the furnace evaporator, platen SH, final SH, and subsequent downstream heat exchangers was developed using Flownex SE\textsuperscript{\textregistered} 2021. The model simulates the internal convection heat transfer inside the tubes and the conduction through the tube walls. The model is able to simulate the attemperation flows and momentum transport through the steam/water circuit. The heat exchangers were modelled using a homogeneous two-phase mixture approach, which assumes that the fluid properties, phase velocities and temperatures are uniform per cross-sectional area. The homogeneous mixture fraction and mixture density are defined in equations (\ref{eqn_vol_frac}) and (\ref{eqn_mix_rho}) respectively.
@@ -349,7 +277,7 @@ The component model accounts for the radiative (gas and direct), convective and 
 \newpage
 \subsection{Model inputs}
 Table \ref{tbl_fuel} presents the coal characteristics utilized in the current study along with the higher heating value (HHV) of the fuel.\\
-\begin{table}[h!]
+\begin{table*}[h!]
 \centering
 \caption{Utility boiler fuel characteristics}
 \vspace{2mm}
@@ -376,7 +304,7 @@ Moisture & $0.0550$ & $kg/kg_{fuel}$\\
 Higher heating value & $15070$ & $kJ/kg_{fuel}$\\
 \hline
 \end{tabularx}}
-\end{table}
+\end{table*}
 
 For a boiler load 32\% MCR the current operational protocol is to use the bottom front and rear burner rows to meet the low-load demand during start-up.  For this study six cases are simulated with the following three burner firing configurations being investigated:
 \begin{enumerate}
@@ -420,13 +348,13 @@ The spatial discretization for all fields (except pressure) was set to first-ord
 
 \section{Results \& discussion}
 \subsection{Model validation}\label{sec_model_valid}
-The validation of the proposed model was conducted for three steady-state MCR loads of 100\%, 80\% and 60\% respectively. Actual plant measurements were used to calculate the thermal heat loads of the three heat exchangers, namely the furnace, platen and final SH, to quantify the accuracy. The model inputs and boundary conditions can be obtained from the study conducted by Laubscher and Rousseau \citep{Laubscher2019b}, where using the same boiler of the present study, they evaluated the thermal performance of the heat exchanging components at full and reduced boiler loads.
+The validation of the proposed model was conducted for three steady-state MCR loads of 100\%, 80\% and 60\% respectively. Actual plant measurements were used to calculate the thermal heat loads of the three heat exchangers, namely the furnace, platen and final SH, to quantify the accuracy. The model inputs and boundary conditions can be obtained from the study conducted by Laubscher and Rousseau \cite{Laubscher2019b}, where using the same boiler of the present study, they evaluated the thermal performance of the heat exchanging components at full and reduced boiler loads.
 
-\begin{figure}[h!]
-\centerline{
-	\subfigure[100\% MCR]{\includegraphics[width=0.4\textwidth]{100_VALID_BAR}}
-	\subfigure[80\% MCR]{\includegraphics[width=0.4\textwidth]{80_VALID_BAR}}
-	\subfigure[60\% MCR]{\includegraphics[width=0.4\textwidth]{60_VALID_BAR}}}
+\begin{figure}[h]
+\centering
+	\subfigure[100\% MCR]{\includegraphics[width=0.3\textwidth]{100_VALID_BAR}}
+	\subfigure[80\% MCR]{\includegraphics[width=0.3\textwidth]{80_VALID_BAR}}
+	\subfigure[60\% MCR]{\includegraphics[width=0.3\textwidth]{60_VALID_BAR}}
 \caption{Comparison of experimentally calculated and model heat loads for the furnace, platen SH and final SH}
 \label{fig_heat_valid}
 \end{figure}
@@ -448,7 +376,7 @@ Figure \ref{fig_probe_valid} shows the averaged measurement values compared to t
 \subsection{Simulation results for various burner firing arrangements at 32\% MCR }
 The temperature and velocity profiles for the various firing arrangements are shown in Figures \ref{fig_cfd_temp} and \ref{fig_cfd_velo} respectively. With the middle burner rows firing (Cases 2 and 5) a substantial cold region is formed in the lower half the furnace, resulting in the lowest heat uptake. This is further exacerbated when considering Table \ref{tbl_process_parameters} where it is illustrated that the mid-firing arrangements produce the lowest steam flow rates resulting in the lowest boiler efficiencies. The bottom firing arrangement (Cases 1 and 4) results in a high temperature zone located in the bottom half on the burner, while the mixed firing arrangement (Cases 3 and 6) results is an even distribution of high temperature gases across the furnace domain (Figure \ref{fig_cfd_temp}). This leads to the highest steam generation rate in the furnace and boiler efficiency as shown in Table \ref{tbl_process_parameters}.
 
-\begin{figure}[h!]
+\begin{figure*}[h!]
 \centering
 \includegraphics[scale = 0.45]{TEMP_KEY} [$K$]\\
 \subfigure[Case 1]{\includegraphics[width=0.32\textwidth]{BOT_TEMP}}
@@ -459,9 +387,9 @@ The temperature and velocity profiles for the various firing arrangements are sh
 \subfigure[Case 6]{\includegraphics[width=0.32\textwidth]{FBRM05_TEMP}}
 \caption{Temperature fields for Cases 1 through 6 [(a)-(f)]}
 \label{fig_cfd_temp}
-\end{figure}
+\end{figure*}
 
-\begin{figure}[h!]
+\begin{figure*}[h!]
 \centering
 \includegraphics[scale = 0.45]{VEL_KEY} [$m/s$]\\
 \subfigure[Case 1]{\includegraphics[width=0.32\textwidth]{BOT_VEL}}
@@ -472,7 +400,7 @@ The temperature and velocity profiles for the various firing arrangements are sh
 \subfigure[Case 6]{\includegraphics[width=0.32\textwidth]{FBRM05_VEL}}
 \caption{Velocity fields for Cases 1 through 6 [(a)-(f)]}
 \label{fig_cfd_velo}
-\end{figure}
+\end{figure*}
 
 \begin{table}[h!]
 \centering
@@ -499,7 +427,7 @@ The temperature and velocity profiles for the various firing arrangements are sh
 
 Figure \ref{fig_cfd_heat_flux} illustrates the heat flux profiles for the simulated cases. Both cases 1 and 4 highlight high heat flux zones near the burner inlets which, in the presence of high temperatures and incomplete combustion near these regions, can lead to high-temperature corrosion \cite{Du2017}. An even distribution of heat fluxes is seen in Cases 3 and 6 with minimal localised heat flux concentrations being observed. Cases 2 and 5 show that most of the heat is absorbed in the upper half of the boiler with Case 5 showing a higher heat flux on the rear wall. This could be due the use of a lower SA flowrate leading to higher velocity profiles developing closer to the rear wall, as seen in Figure \ref{fig_cfd_velo}. With this is mind a lower SA flowrate, in general leads to hot gases and velocity profiles impinging closer to the furnace walls, which can be seen in Cases 4, 5 and 6 of Figures \ref{fig_cfd_temp} and \ref{fig_cfd_velo} respectively. With high gas temperatures and high velocity impingement, Cases 4, 5 and 6 (of Figure \ref{fig_cfd_heat_flux}) experience concentrated heat fluxes around the burner inlets in comparison to corresponding Cases 1, 2 and 3.\\
 
-\begin{figure}[h!]
+\begin{figure*}[h!]
 \centering
 \includegraphics[scale = 0.45]{HEATFLUX_KEY} [$W/m^2$]\\
 \subfigure[Case 1]{\includegraphics[scale = 0.35]{BOT_HEATFLUX}}
@@ -514,43 +442,46 @@ Figure \ref{fig_cfd_heat_flux} illustrates the heat flux profiles for the simula
 \subfigure[Case 6]{\includegraphics[scale = 0.35]{FBRM05_HEATFLUX}}
 \caption{Heat fluxes profiles for Cases 1 through 6 [(a)-(f)]}
 \label{fig_cfd_heat_flux}
-\end{figure}
+\end{figure*}
 
-The works of Dugum et al \citep{Du2017}, highlights the issue of high-temperature corrosion caused by significant levels of $CO$ ($X_{CO}$ 0.01 - 0.1) and no-free $O_2$ near regions of high wall temperatures. For low-load operation this phenomenon becomes important to avoid since combustion instability can lead to these non-ideal circumstances. Figure \ref{fig_cfd_coppm} shows the $CO$ molar concentration in the domain located on an iso-surface set 1600 $[K]$. The figures generally highlight the location and distribution of the flame core for each case. Cases 1 and 4 illustrate the highest likelihood of high-temperature corrosion occurring near the furnace hopper, due to the high concentration and temperatures in that region.\\
+The works of Dugum et al \cite{Du2017}, highlights the issue of high-temperature corrosion caused by significant levels of $CO$ ($X_{CO}$ 0.01 - 0.1) and no-free $O_2$ near regions of high wall temperatures. For low-load operation this phenomenon becomes important to avoid since combustion instability can lead to these non-ideal circumstances. Figure \ref{fig_cfd_coppm} shows the $CO$ molar concentration in the domain located on an iso-surface set 1600 $[K]$. The figures generally highlight the location and distribution of the flame core for each case. Cases 1 and 4 illustrate the highest likelihood of high-temperature corrosion occurring near the furnace hopper, due to the high concentration and temperatures in that region.\\
 
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.45]{CO_MF_KEY} [$X_{CO}$] \\
+\begin{figure*}[h!]
+\centerline{
+\includegraphics[width = 6.85in,scale=0.45]{CO_MF_KEY} [$X_{CO}$]\\}
+\centerline{
 \subfigure[Case 1]{	\includegraphics[width=0.18\textwidth, height = 7cm]{BOT_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{BOT_ISO_COPPM_S}}
 \subfigure[Case 2]{	\includegraphics[width=0.18\textwidth, height = 7cm]{MID_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{MID_ISO_COPPM_S}}
 \subfigure[Case 3]{	\includegraphics[width=0.18\textwidth, height = 7cm]{FBRM_ISO_COPPM_F}
-				\includegraphics[height = 7cm]{FBRM_ISO_COPPM_S}}\\
+				\includegraphics[height = 7cm]{FBRM_ISO_COPPM_S}}\\}
+\centerline{	
 \subfigure[Case 4]{	\includegraphics[width=0.18\textwidth, height = 7cm]{BOT05_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{BOT05_ISO_COPPM_S}}
 \subfigure[Case 5]{	\includegraphics[width=0.18\textwidth, height = 7cm]{MID05_ISO_COPPM_F}
 				\includegraphics[height = 7cm]{MID05_ISO_COPPM_S}}
 \subfigure[Case 6]{	\includegraphics[width=0.18\textwidth, height = 7cm]{FBRM05_ISO_COPPM_F}
-				\includegraphics[height = 7cm]{FBRM05_ISO_COPPM_S}}\\
+				\includegraphics[height = 7cm]{FBRM05_ISO_COPPM_S}}}
 \caption{CO molar fraction ($X_{CO}$) concentrations for 
 Cases 1 through 6 [(a)-(f)] on a temperature iso-surface of 1600 [K]}
 \label{fig_cfd_coppm}
-\end{figure}
-
+\end{figure*}
+\clearpage
 Investigating the combustion stability for all the cases, the symmetry and offset vertical probe plots (as highlighted in Figure \ref{fig_geometry}) are given in Figure \ref{fig_cfd_probe}. Cases 2 and 5 illustrates the highest $X_{O_{2}}$ concentration in the lower half of the burner since there is minimal combustion occurring. The unburnt carbon content and exit flue-gas temperatures for each case are reported in Table \ref{tbl_cfd_results}. With the use of the middle burners (Cases 2 and 5) the highest exit temperature and unburnt carbon content is observed, since the flame core is located in the upper half of the furnace leading to the least possibility of complete combustion due to the shorter residence time. Cases 3 and 6 exhibit the best characteristics with the least amount of unburnt carbon content being observed. It is important to note the effects of a lower SA mass flow rate has on the furnace exit conditions for non-firing burners, which generally leads to a hotter exit gas temperature as seen with Cases 4 to 6. 
 
-\begin{figure}[h!]
-\centering
-\subfigure[Symmetry vertical plot]{\includegraphics[scale = 0.36]{SYMMETRY_PROBE_COPPM}}
+\begin{figure*}[h!]
+\centerline{
+\subfigure[Symmetry vertical plot]{\includegraphics[width = 3in, scale = 0.2]{SYMMETRY_PROBE_COPPM}}
 \hspace{5mm}
-\subfigure[Offset vertical plot]{\includegraphics[scale = 0.36]{OFFSET_PROBE_COPPM}}\\
-\subfigure[Symmetry vertical plot]{\includegraphics[scale = 0.35]{SYMMETRY_PROBE_XO2}}
+\subfigure[Offset vertical plot]{\includegraphics[width = 3in,scale = 0.2]{OFFSET_PROBE_COPPM}}\\}
+\centerline{
+\subfigure[Symmetry vertical plot]{\includegraphics[width = 3in,scale = 0.2]{SYMMETRY_PROBE_XO2}}
 \hspace{5mm}
-\subfigure[Offset vertical plot]{\includegraphics[scale = 0.35]{OFFSET_PROBE_XO2}}
+\subfigure[Offset vertical plot]{\includegraphics[width = 3in,scale = 0.2]{OFFSET_PROBE_XO2}}}
 \caption{$CO_{PPM}$ [(a) and (b)] and $X_{O_{2}}$ [(c) and (d)] line plots on symmetry and offset vertical probe lines}
 \label{fig_cfd_probe}
-\end{figure}
+\end{figure*}
 \clearpage
 
 \begin{table}[h!]
@@ -609,19 +540,163 @@ EC [\%] & 5.4& 6.5\\
 Table \ref{tbl_rad_conv} shows the radiative heat percentage of the total heat input into each heat-exchanger for Cases 3 and 6. It can be seen that heat transfer to the furnace and radiant SHs are dominated by radiation, with approximately $\pm$ 10\% being transferred via convection at low-load. Considering the convective pass heat exchangers (RH2 through to the EC, refer to Figure \ref{fig_flownex}) the convective heat transfer becomes more apparent as seen with the reduction in radiative heat transfer percentage. Case 6 involves less convective heat transfer due to the SA flowrate for non-firing burners. This will reduce the total amount of flue-gas flowing through the boiler, thereby reducing the convective heat transfer.
 
 \section{Conclusions}
-The present study demonstrates the use of a coupled CFD/process model to study the effects of burner configuration at a boiler load of 32\% MCR. A validation case was first performed for the CFD model, which showed adequate results for heat fluxes to the walls, with a general tendency of the model to under-predict the heat fluxes to the furnace. The model also showed sufficient accuracy in determining the combustion characteristics at the 100 \% MCR load. \\
+The present study demonstrates the use of a coupled CFD/process model to study the effects of burner configuration at a boiler load of 32\% MCR. A validation case was first performed for the CFD model, which showed adequate results for heat fluxes to the walls, with a general tendency of the model to under-predict the heat fluxes to the furnace. The model also showed sufficient accuracy in determining the combustion characteristics at the 100 \% MCR load. 
 
-The subsequent analysis results show that using a burner arrangement that raises the position of the flame core (Cases 2 and 5) increases the exit flue-gas temperature and runs the risk of final SH failure due to overheating. This firing arrangement also results in a higher unburnt carbon percentage at the exit flue-gas stream and therefore the lowest boiler utilization efficiency.\\
+The subsequent analysis results show that using a burner arrangement that raises the position of the flame core (Cases 2 and 5) increases the exit flue-gas temperature and runs the risk of final SH failure due to overheating. This firing arrangement also results in a higher unburnt carbon percentage at the exit flue-gas stream and therefore the lowest boiler utilization efficiency.
 
-Operation of the boiler using firing arrangements of Cases 1 and 4 also results in a lower boiler utilization efficiency and exit flue-gas temperature compared to Cases3 and 6. Higher $X_{CO}$ concentrations are observed near the bottom half of the furnace, along with high temperatures, which can lead to a high risk of fire side corrosion occurring at continuous low-load operation.\\
+Operation of the boiler using firing arrangements of Cases 1 and 4 also results in a lower boiler utilization efficiency and exit flue-gas temperature compared to Cases3 and 6. Higher $X_{CO}$ concentrations are observed near the bottom half of the furnace, along with high temperatures, which can lead to a high risk of fire side corrosion occurring at continuous low-load operation.
 
-The mixed firing arrangements, of Cases 3 and 6, exhibit the best boiler utilization efficiencies. A 4.8\% decrease in unburnt carbon percentage is observed when operating using Case 3 in relation to Case 6. The predicted re-heater exit steam temperature of Case 3 is substantially closer to the desired temperature of 535 $[^\circ C]$, thus allowing for better control.\\
+The mixed firing arrangements, of Cases 3 and 6, exhibit the best boiler utilization efficiencies. A 4.8\% decrease in unburnt carbon percentage is observed when operating using Case 3 in relation to Case 6. The predicted re-heater exit steam temperature of Case 3 is substantially closer to the desired temperature of 535 $[^\circ C]$, thus allowing for better control.
 
 Based on analyses of combustion stability, boiler efficiency and the safe operation of heat exchanger components, Case 3 is considered to be the best operational strategy at this low load for the boiler under investigation.
 
-\section*{Acknowledgements}
-The authors would like to thank the Eskom EPPEI program for financially supporting the present study and acknowledge the computational resources provided by the Centre for High Performance Computing (CHPC), South Africa.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Use of SI Units}
+
+An ASME paper should use SI units.  When preference is given to SI units, the U.S. customary units may be given in parentheses or omitted. When U.S. customary units are given preference, the SI equivalent {\em shall} be provided in parentheses or in a supplementary table. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Mathematics}
+
+Equations should be numbered consecutively beginning with (1) to the end of the paper, including any appendices.  The number should be enclosed in parentheses and set flush right in the column on the same line as the equation.  An extra line of space should be left above and below a displayed equation or formula. \LaTeX\ can automatically keep track of equation numbers in the paper and format almost any equation imaginable. An example is shown in Eqn.~(\ref{eq_ASME}). The number of a referenced equation in the text should be preceded by Eqn.\ unless the reference starts a sentence in which case Eqn.\ should be expanded to Equation.
+
+\begin{equation}
+f(t) = \int_{0_+}^t F(t) dt + \frac{d g(t)}{d t}
+\label{eq_ASME}
+\end{equation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Figures}
+\label{sect_figure}
+
+All figures should be positioned at the top of the page where possible.  All figures should be numbered consecutively and centered under the figure as shown in Fig.~\ref{figure_ASME}. All text within the figure should be no smaller than 7~pt. There should be a minimum two line spaces between figures and text. The number of a referenced figure or table in the text should be preceded by Fig.\ or Tab.\ respectively unless the reference starts a sentence in which case Fig.\ or Tab.\ should be expanded to Figure or Table.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% begin figure %%%%%%%%%%%%%%%%%%%
+\begin{figure}[t]
+\begin{center}
+\setlength{\unitlength}{0.012500in}%
+\begin{picture}(115,35)(255,545)
+\thicklines
+\put(255,545){\framebox(115,35){}}
+\put(275,560){Beautiful Figure}
+\end{picture}
+\end{center}
+\caption{The caption of a single sentence does not have period at the end}
+\label{figure_ASME} 
+\end{figure}
+%%%%%%%%%%%%%%%% end figure %%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In the following subsections, I have inserted figures that have been provided by authors in order to demonstrate what to avoid.  In each case the authors provided figures that are 3.25in wide and 600dpi in the .tif graphics format.  The papers containing these figures have been held from production due to their poor quality. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The 3rd Example of Bad Figure}
+%%%%%%%%%%%%%%%% begin figure %%%%%%%%%%%%%%%%%%%
+\begin{figure} 
+\centerline{\includegraphics[width=3.25in]{figure/FMANU_MD_04_1274_13.jpg}}
+\caption{Another example of a figure with unreadable text.  Even when the paper was expanded to double column width the text as shown in Fig.~\ref{fig_example4.jpg} was of such low quality that the paper was held from production.}
+\label{fig_example3.jpg}
+\end{figure}
+%%%%%%%%%%%%%%%% end figure %%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%% begin figure %%%%%%%%%%%%%%%%%%%
+%%% the maximum width in double column is 6.85in
+\begin{figure*} 
+\centerline{\includegraphics[width=6.85in]{figure/FMANU_MD_04_1274_13.jpg}}
+\caption{A figure expanded to double column width the text from Figure~\ref{fig_example3.jpg}}
+\label{fig_example4.jpg}
+\end{figure*}
+%%%%%%%%%%%%%%%% end figure %%%%%%%%%%%%%%%%%%%
+An author provided the high resolution image 
+in Fig.~\ref{fig_example3.jpg}
+that was sized to a single column width of 3.25in.  Upon seeing the poor quality of the text, the publisher scaled the image to double column width as shown in Fig.~\ref{fig_example4.jpg} 
+at which point it took half of a page.  The publisher went on to do this for all eight figures generating four pages of figures that the author did not expect. ASME stopped production of the paper even with the larger figures due to the pixilation of the font.
+
+Clearly the text in this figure is unreadable, and it is doubtful that the author can print the output in a way that it is readable.  This is a problem that the author must solve, not the publisher. 
+
+As you might expect, I have many more examples, but in the end the author is the best judge of what is needed in each figure.  ASME simply requires that the image meet a minimum standard for font and line quality, specifically the font should be the appropriate size and not be blurred or pixilated, and that lines should be the appropriate weight and have minimal, preferably no, pixilation or rasterization.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Tables}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% begin table   %%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[t]
+\caption{Figure and table captions do not end with a period}
+\begin{center}
+\label{table_ASME}
+\begin{tabular}{c l l}
+& & \\ % put some space after the caption
+\hline
+Example & Time & Cost \\
+\hline
+1 & 12.5 & \$1,000 \\
+2 & 24 & \$2,000 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+%%%%%%%%%%%%%%%% end table %%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+All tables should be numbered consecutively  and centered above the table as shown in Table~\ref{table_ASME}. The body of the table should be no smaller than 7 pt.  There should be a minimum two line spaces between tables and text.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+The present study demonstrates the use of a coupled CFD/process model to study the effects of burner configuration at a boiler load of 32\% MCR. A validation case was first performed for the CFD model, which showed adequate results for heat fluxes to the walls, with a general tendency of the model to under-predict the heat fluxes to the furnace. The model also showed sufficient accuracy in determining the combustion characteristics at the 100 \% MCR load. 
+
+The subsequent analysis results show that using a burner arrangement that raises the position of the flame core (Cases 2 and 5) increases the exit flue-gas temperature and runs the risk of final SH failure due to overheating. This firing arrangement also results in a higher unburnt carbon percentage at the exit flue-gas stream and therefore the lowest boiler utilization efficiency.
+
+Operation of the boiler using firing arrangements of Cases 1 and 4 also results in a lower boiler utilization efficiency and exit flue-gas temperature compared to Cases3 and 6. Higher $X_{CO}$ concentrations are observed near the bottom half of the furnace, along with high temperatures, which can lead to a high risk of fire side corrosion occurring at continuous low-load operation.
+
+The mixed firing arrangements, of Cases 3 and 6, exhibit the best boiler utilization efficiencies. A 4.8\% decrease in unburnt carbon percentage is observed when operating using Case 3 in relation to Case 6. The predicted re-heater exit steam temperature of Case 3 is substantially closer to the desired temperature of 535 $[^\circ C]$, thus allowing for better control.
+
+Based on analyses of combustion stability, boiler efficiency and the safe operation of heat exchanger components, Case 3 is considered to be the best operational strategy at this low load for the boiler under investigation.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{acknowledgment}
+The authors would like to thank the Eskom EPPEI program for financially supporting the present study and acknowledge the computational resources provided by the Centre for High Performance Computing (CHPC), South Africa.
+\end{acknowledgment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The bibliography is stored in an external database file
+% in the BibTeX format (file_name.bib).  The bibliography is
+% created by the following command and it will appear in this
+% position in the document. You may, of course, create your
+% own bibliography by using thebibliography environment as in
+%
+% \begin{thebibliography}{12}
+% ...
+% \bibitem{itemreference} D. E. Knudsen.
+% {\em 1966 World Bnus Almanac.}
+% {Permafrost Press, Novosibirsk.}
+% ...
+% \end{thebibliography}
+
+% Here's where you specify the bibliography style file.
+% The full file name for the bibliography style file 
+% used for an ASME paper is asmems4.bst.
+\bibliographystyle{asmems4}
+
+% Here's where you specify the bibliography database file.
+% The full file name of the bibliography database for this
+% article is asme2e.bib. The name for your database is up
+% to you.
 \bibliography{PAPER1_LOW_LOAD}
+
 
 \end{document}
