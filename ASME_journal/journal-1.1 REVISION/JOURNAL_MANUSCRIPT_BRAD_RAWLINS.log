@@ -1,0 +1,1455 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  8 NOV 2021 14:18
+entering extended mode
+**./JOURNAL_MANUSCRIPT_BRAD_RAWLINS.tex
+(JOURNAL_MANUSCRIPT_BRAD_RAWLINS.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-06> xparse <2020-03-03> (asme2ej.cls
+
+LaTeX Warning: You have requested document class `asme2ej',
+               but the document class provides `asme2e'.
+
+Document Class: asme2e 2001/2/14 v2.0 Standard LaTeX document class
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptm.sty
+Package: mathptm 2020/03/25 PSNFSS-v9.3 Times w/ Math (SPQR, WaS) 
+
+
+Package mathptm Warning: This package is to be regarded as obsolete.
+(mathptm)                See the PSNFSS documentation.
+
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 32.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 32.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 32.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 33.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 33.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 33.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 34.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 34.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 34.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 38.
+) (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+Ten Point
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 3
+01.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\tempbox=\box47
+\c@figure=\count183
+\c@table=\count184
+\@authcnt=\count185
+\@tmpcnt=\count186
+\bibindent=\dimen138
+\tempbox=\box48
+\minute=\count187
+\hour=\count188
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
+ty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
+ty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphi
+cs.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex
+.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.s
+ty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen141
+\ar@mcellbox=\box49
+\extrarowheight=\dimen142
+\NC@list=\toks16
+\extratabsurround=\skip47
+\backup@length=\skip48
+\ar@cellbox=\box50
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.s
+ty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box51
+\sift@deathcycles=\count189
+\@vwid@loff=\dimen143
+\@vwid@roff=\dimen144
+)
+\c@taburow=\count190
+\tabu@nbcols=\count191
+\tabu@cnt=\count192
+\tabu@Xcol=\count193
+\tabu@alloc=\count194
+\tabu@nested=\count195
+\tabu@target=\dimen145
+\tabu@spreadtarget=\dimen146
+\tabu@naturalX=\dimen147
+\tabucolX=\dimen148
+\tabu@Xsum=\dimen149
+\extrarowdepth=\dimen150
+\abovetabulinesep=\dimen151
+\belowtabulinesep=\dimen152
+\tabustrutrule=\dimen153
+\tabu@thebody=\toks17
+\tabu@footnotes=\toks18
+\tabu@box=\box52
+\tabu@arstrutbox=\box53
+\tabu@hleads=\box54
+\tabu@vleads=\box55
+\tabu@cellskip=\skip49
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count196
+\float@exts=\toks19
+\float@box=\box56
+\@float@everytoks=\toks20
+\@floatcapt=\box57
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\tabular
+x.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen154
+\TX@old@table=\dimen155
+\TX@old@col=\dimen156
+\TX@target=\dimen157
+\TX@delta=\dimen158
+\TX@cols=\count197
+\TX@ftn=\toks21
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure
+.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip50
+\subfigcapskip=\skip51
+\subfigcaptopadj=\dimen159
+\subfigbottomskip=\skip52
+\subfigcapmargin=\dimen160
+\subfiglabelskip=\skip53
+\c@subfigure=\count198
+\c@lofdepth=\count199
+\c@subtable=\count266
+\c@lotdepth=\count267
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure
+.cfg)
+\subfig@top=\skip54
+\subfig@bottom=\skip55
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip56
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen161
+))
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen162
+) (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.st
+y
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count268
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count269
+\leftroot@=\count270
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count271
+\DOTSCASE@=\count272
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box58
+\strutbox@=\box59
+\big@size=\dimen163
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count273
+\c@MaxMatrixCols=\count274
+\dotsspace@=\muskip16
+\c@parentequation=\count275
+\dspbrk@lvl=\count276
+\tag@help=\toks23
+\row@=\count277
+\column@=\count278
+\maxfields@=\count279
+\andhelp@=\toks24
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks25
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\multico
+l.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count280
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+141.
+
+\mult@box=\box60
+\multicol@leftmargin=\dimen170
+\c@unbalance=\count281
+\c@collectmore=\count282
+\doublecol@number=\count283
+\multicoltolerance=\count284
+\multicolpretolerance=\count285
+\full@width=\dimen171
+\page@free=\dimen172
+\premulticols=\dimen173
+\postmulticols=\dimen174
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box61
+\last@line=\box62
+\maxbalancingoverflow=\dimen175
+\mult@rightbox=\box63
+\mult@grightbox=\box64
+\mult@gfirstbox=\box65
+\mult@firstbox=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\c@minrows=\count286
+\c@columnbadness=\count287
+\c@finalcolumnbadness=\count288
+\last@try=\dimen176
+\multicolovershoot=\dimen177
+\multicolundershoot=\dimen178
+\mult@nat@firstbox=\box104
+\colbreak@box=\box105
+\mc@col@check@num=\count289
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
+8.
+ (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-pdftex.def
+File: l3backend-pdftex.def 2021-02-06 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count290
+\l__pdf_internal_box=\box106
+) (JOURNAL_MANUSCRIPT_BRAD_RAWLINS.aux)
+\openout1 = `JOURNAL_MANUSCRIPT_BRAD_RAWLINS.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
+f.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count291
+\scratchdimen=\dimen179
+\scratchbox=\box107
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen180
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks28
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
+df-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line
+ 80.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line
+ 80.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
+ 80.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line
+ 80.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+
+Underfull \hbox (badness 10000) detected at line 80
+[]
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+19.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+[1{C:/Users/RWLBRA001/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+
+]
+Underfull \hbox (badness 1132) in paragraph at lines 165--166
+\OT1/ptm/m/n/10 Africa, CF-PPs are still the dom-i-nant power gen-er-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 167--168
+[]\OT1/ptm/m/n/10 The in-te-gra-tion of re-new-able en-ergy sources will
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 167--168
+\OT1/ptm/m/n/10 com-bus-tion sta-bil-ity [3], an in-crease in harm-ful emis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 171--172
+\OT1/ptm/m/n/10 harm-ful emis-sions and the gas flow-solid flow in-ter-ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 175--176
+[]\OT1/ptm/m/n/10 Various one-dimensional (1-D) pro-cess mod-elling
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 175--176
+\OT1/ptm/m/n/10 such as a sud-den dis-tur-bance, start-up, or boiler load
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 175--176
+\OT1/ptm/m/n/10 fur-naces which are com-posed of com-plex com-bus-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 179--180
+\OT1/ptm/m/n/10 fir-ing con-fig-u-ra-tion on var-i-ous pro-cess pa-ram-e-ters s
+uch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 215--216
+\OT1/ptm/m/n/10 The model gen-er-ally pro-duces higher ac-cu-racy re-sults,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+[3]
+Underfull \hbox (badness 1796) in paragraph at lines 228--229
+[]\OT1/ptm/m/n/10 The char ox-i-da-tion pro-cess is mod-elled us-ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Overfull \hbox (4.41199pt too wide) in paragraph at lines 263--263
+[]|\OT1/ptm/m/n/10 Variable| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
+[]|\OT1/ptm/m/n/10 Original/initial mass
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 263--263
+[]|\OT1/ptm/m/n/10 Moisture present in
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 263--263
+[]|\OT1/ptm/m/n/10 Fixed car-bon present
+ []
+
+
+Overfull \hbox (9.6152pt too wide) in alignment at lines 263--263
+[][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (11.19615pt too wide) detected at line 269
+[]\OT1/ptmcm/m/n/10 (\OML/ptmcm/m/it/10 u[][]\OT1/ptmcm/m/n/10 ) = [] []
+ []
+
+
+Underfull \vbox (badness 7888) has occurred while \output is active []
+
+ [4]
+<GEOMETRY.png, id=25, 1046.40938pt x 478.03593pt>
+File: GEOMETRY.png Graphic file (type png)
+<use GEOMETRY.png>
+Package pdftex.def Info: GEOMETRY.png  used on input line 298.
+(pdftex.def)             Requested size: 470.87987pt x 215.11418pt.
+<FLOWNEX_SETUP.png, id=26, 749.80125pt x 550.30594pt>
+File: FLOWNEX_SETUP.png Graphic file (type png)
+<use FLOWNEX_SETUP.png>
+Package pdftex.def Info: FLOWNEX_SETUP.png  used on input line 304.
+(pdftex.def)             Requested size: 374.8997pt x 275.1523pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 339--340
+[]\OT1/ptm/m/n/10 The pro-cess model of the boiler con-fig-u-ra-tion is
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 339--340
+\OT1/ptm/m/n/10 (SH1), pri-mary re-heater (RH1), economiser (EC) and
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 339--340
+\OT1/ptm/m/n/10 re-quired at-tem-per-a-tion flowrates and wa-ter/steam side
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./GEOMETRY.png> <./FLOWNEX_SETUP.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+<HEAT_EXCHANGER_PROCESS_MODEL.png, id=33, 871.00406pt x 551.05875pt>
+File: HEAT_EXCHANGER_PROCESS_MODEL.png Graphic file (type png)
+<use HEAT_EXCHANGER_PROCESS_MODEL.png>
+Package pdftex.def Info: HEAT_EXCHANGER_PROCESS_MODEL.png  used on input line 3
+47.
+(pdftex.def)             Requested size: 348.39545pt x 220.41959pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+ []
+
+
+Overfull \hbox (5.7309pt too wide) in alignment at lines 381--381
+[][][] 
+ []
+
+
+Overfull \hbox (8.99966pt too wide) in alignment at lines 413--413
+[][][] 
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 420--421
+\OT1/ptm/m/n/10 Flu-ent v19.5$[]$ pressure-based solver. The pressure-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+[7]
+Underfull \hbox (badness 1087) in paragraph at lines 426--427
+\OT1/ptm/m/n/10 re-spec-tively. Ac-tual plant mea-sure-ments were used to
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 426--427
+\OT1/ptm/m/n/10 ac-cu-racy. The model in-puts and bound-ary con-di-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+
+ []
+
+<VALIDATION.png, id=38, 1216.545pt x 456.20438pt>
+File: VALIDATION.png Graphic file (type png)
+<use VALIDATION.png>
+Package pdftex.def Info: VALIDATION.png  used on input line 433.
+(pdftex.def)             Requested size: 486.60938pt x 182.4785pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<COPPM_VALID.png, id=39, 391.7034pt x 301.125pt>
+File: COPPM_VALID.png Graphic file (type png)
+<use COPPM_VALID.png>
+Package pdftex.def Info: COPPM_VALID.png  used on input line 439.
+(pdftex.def)             Requested size: 234.88638pt x 142.26852pt.
+<XO2_VALID.png, id=40, 393.1488pt x 300.6432pt>
+File: XO2_VALID.png Graphic file (type png)
+<use XO2_VALID.png>
+Package pdftex.def Info: XO2_VALID.png  used on input line 441.
+(pdftex.def)             Requested size: 234.87727pt x 142.2611pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 447--447
+[]\OT1/ptm/b/n/10 Simulation re-sults for var-i-ous burner fir-ing ar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+
+ []
+
+<TEMP_KEY.png, id=41, 639.13782pt x 63.23625pt>
+File: TEMP_KEY.png Graphic file (type png)
+<use TEMP_KEY.png>
+Package pdftex.def Info: TEMP_KEY.png  used on input line 452.
+(pdftex.def)             Requested size: 361.34999pt x 35.7517pt.
+<BOT_TEMP.jpg, id=43, 240.9pt x 403.5075pt>
+File: BOT_TEMP.jpg Graphic file (type jpg)
+<use BOT_TEMP.jpg>
+Package pdftex.def Info: BOT_TEMP.jpg  used on input line 453.
+(pdftex.def)             Requested size: 123.76248pt x 207.30072pt.
+<MID_TEMP.jpg, id=44, 283.81032pt x 460.72125pt>
+File: MID_TEMP.jpg Graphic file (type jpg)
+<use MID_TEMP.jpg>
+Package pdftex.def Info: MID_TEMP.jpg  used on input line 454.
+(pdftex.def)             Requested size: 123.76248pt x 200.91125pt.
+<FBRM_TEMP.jpg, id=45, 292.84406pt x 470.50781pt>
+File: FBRM_TEMP.jpg Graphic file (type jpg)
+<use FBRM_TEMP.jpg>
+Package pdftex.def Info: FBRM_TEMP.jpg  used on input line 455.
+(pdftex.def)             Requested size: 123.76248pt x 198.84677pt.
+<BOT05_TEMP.jpg, id=46, 284.56313pt x 461.47406pt>
+File: BOT05_TEMP.jpg Graphic file (type jpg)
+<use BOT05_TEMP.jpg>
+Package pdftex.def Info: BOT05_TEMP.jpg  used on input line 456.
+(pdftex.def)             Requested size: 123.76248pt x 200.70438pt.
+<MID05_TEMP.jpg, id=47, 280.79906pt x 469.755pt>
+File: MID05_TEMP.jpg Graphic file (type jpg)
+<use MID05_TEMP.jpg>
+Package pdftex.def Info: MID05_TEMP.jpg  used on input line 457.
+(pdftex.def)             Requested size: 123.76248pt x 207.04407pt.
+<FBRM05_TEMP.jpg, id=48, 294.34969pt x 468.24937pt>
+File: FBRM05_TEMP.jpg Graphic file (type jpg)
+<use FBRM05_TEMP.jpg>
+Package pdftex.def Info: FBRM05_TEMP.jpg  used on input line 458.
+(pdftex.def)             Requested size: 123.76248pt x 196.87773pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<VEL_KEY.png, id=49, 618.81187pt x 59.47218pt>
+File: VEL_KEY.png Graphic file (type png)
+<use VEL_KEY.png>
+Package pdftex.def Info: VEL_KEY.png  used on input line 465.
+(pdftex.def)             Requested size: 361.34999pt x 34.72983pt.
+<BOT_VEL.jpg, id=50, 359.3425pt x 574.145pt>
+File: BOT_VEL.jpg Graphic file (type jpg)
+<use BOT_VEL.jpg>
+Package pdftex.def Info: BOT_VEL.jpg  used on input line 466.
+(pdftex.def)             Requested size: 123.76248pt x 197.73857pt.
+<MID_VEL.jpg, id=51, 283.0575pt x 462.22687pt>
+File: MID_VEL.jpg Graphic file (type jpg)
+<use MID_VEL.jpg>
+Package pdftex.def Info: MID_VEL.jpg  used on input line 467.
+(pdftex.def)             Requested size: 123.76248pt x 202.0968pt.
+<FBRM_VEL.jpg, id=52, 267.24844pt x 440.39531pt>
+File: FBRM_VEL.jpg Graphic file (type jpg)
+<use FBRM_VEL.jpg>
+Package pdftex.def Info: FBRM_VEL.jpg  used on input line 468.
+(pdftex.def)             Requested size: 123.76248pt x 203.94843pt.
+<BOT05_VEL.jpg, id=53, 287.57437pt x 458.46281pt>
+File: BOT05_VEL.jpg Graphic file (type jpg)
+<use BOT05_VEL.jpg>
+Package pdftex.def Info: BOT05_VEL.jpg  used on input line 469.
+(pdftex.def)             Requested size: 123.76248pt x 197.30305pt.
+<MID05_VEL.jpg, id=54, 284.56313pt x 459.96844pt>
+File: MID05_VEL.jpg Graphic file (type jpg)
+<use MID05_VEL.jpg>
+Package pdftex.def Info: MID05_VEL.jpg  used on input line 470.
+(pdftex.def)             Requested size: 123.76248pt x 200.04956pt.
+<FBRM05_VEL.jpg, id=55, 286.82156pt x 468.24937pt>
+File: FBRM05_VEL.jpg Graphic file (type jpg)
+<use FBRM05_VEL.jpg>
+Package pdftex.def Info: FBRM05_VEL.jpg  used on input line 471.
+(pdftex.def)             Requested size: 123.76248pt x 202.0435pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]|\OT1/ptm/b/n/10 Exit tem-per-a-
+ []
+
+
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1168| 
+ []
+
+
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1230| 
+ []
+
+
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1215| 
+ []
+
+
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1208| 
+ []
+
+
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1306| 
+ []
+
+
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1298| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1.83| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1.94| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1.54| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1.81| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1.89| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 1.62| 
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 495--495
+[]|\OT1/ptm/b/n/10 Max wall tem-
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 477| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 492| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 481| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 480| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 493| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 490| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 439| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 453| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 446| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 454| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 442| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 451| 
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 495--495
+[]|\OT1/ptm/b/n/10 Max wall tem-
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 602| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 624| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 608| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 595| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 626| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 612| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 520| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 523| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 517| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 512| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 520| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 511| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <./HEAT_EXCHANGER_PROCESS_MODEL.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
+
+ []
+
+<HEATFLUX_KEY.png, id=59, 654.19406pt x 54.2025pt>
+File: HEATFLUX_KEY.png Graphic file (type png)
+<use HEATFLUX_KEY.png>
+Package pdftex.def Info: HEATFLUX_KEY.png  used on input line 502.
+(pdftex.def)             Requested size: 361.34999pt x 29.93883pt.
+<BOT_HEATFLUX.jpg, id=60, 191.21437pt x 459.21562pt>
+File: BOT_HEATFLUX.jpg Graphic file (type jpg)
+<use BOT_HEATFLUX.jpg>
+Package pdftex.def Info: BOT_HEATFLUX.jpg  used on input line 503.
+(pdftex.def)             Requested size: 89.10535pt x 213.99551pt.
+<MID_HEATFLUX.jpg, id=61, 222.07968pt x 462.97969pt>
+File: MID_HEATFLUX.jpg Graphic file (type jpg)
+<use MID_HEATFLUX.jpg>
+Package pdftex.def Info: MID_HEATFLUX.jpg  used on input line 505.
+(pdftex.def)             Requested size: 99.00847pt x 206.40326pt.
+<FBRM_HEATFLUX.jpg, id=62, 214.55156pt x 469.00218pt>
+File: FBRM_HEATFLUX.jpg Graphic file (type jpg)
+<use FBRM_HEATFLUX.jpg>
+Package pdftex.def Info: FBRM_HEATFLUX.jpg  used on input line 507.
+(pdftex.def)             Requested size: 99.00847pt x 216.43063pt.
+<BOT05_HEATFLUX.jpg, id=63, 248.93pt x 576.1525pt>
+File: BOT05_HEATFLUX.jpg Graphic file (type jpg)
+<use BOT05_HEATFLUX.jpg>
+Package pdftex.def Info: BOT05_HEATFLUX.jpg  used on input line 508.
+(pdftex.def)             Requested size: 89.10535pt x 206.2367pt.
+<MID05_HEATFLUX.jpg, id=64, 215.30438pt x 466.74374pt>
+File: MID05_HEATFLUX.jpg Graphic file (type jpg)
+<use MID05_HEATFLUX.jpg>
+Package pdftex.def Info: MID05_HEATFLUX.jpg  used on input line 510.
+(pdftex.def)             Requested size: 99.00847pt x 214.64063pt.
+<FBRM05_HEATFLUX.jpg, id=65, 217.5628pt x 467.49657pt>
+File: FBRM05_HEATFLUX.jpg Graphic file (type jpg)
+<use FBRM05_HEATFLUX.jpg>
+Package pdftex.def Info: FBRM05_HEATFLUX.jpg  used on input line 512.
+(pdftex.def)             Requested size: 99.00847pt x 212.75406pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9 <./VALIDATION.png> <./COPPM_VALID.png (PNG copy)> <./XO2_VALID.png (PNG copy
+)>]
+<CO_MF_KEY.png, id=69, 658.71094pt x 53.44969pt>
+File: CO_MF_KEY.png Graphic file (type png)
+<use CO_MF_KEY.png>
+Package pdftex.def Info: CO_MF_KEY.png  used on input line 520.
+(pdftex.def)             Requested size: 361.34999pt x 29.32155pt.
+<BOT_ISO_COPPM_F.jpg, id=70, 134.75343pt x 441.90094pt>
+File: BOT_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use BOT_ISO_COPPM_F.jpg>
+Package pdftex.def Info: BOT_ISO_COPPM_F.jpg  used on input line 522.
+(pdftex.def)             Requested size: 79.2098pt x 199.17049pt.
+<BOT_ISO_COPPM_S.jpg, id=71, 92.59593pt x 444.15938pt>
+File: BOT_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use BOT_ISO_COPPM_S.jpg>
+Package pdftex.def Info: BOT_ISO_COPPM_S.jpg  used on input line 522.
+(pdftex.def)             Requested size: 41.52083pt x 199.16928pt.
+<MID_ISO_COPPM_F.jpg, id=72, 127.97812pt x 402.75468pt>
+File: MID_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use MID_ISO_COPPM_F.jpg>
+Package pdftex.def Info: MID_ISO_COPPM_F.jpg  used on input line 525.
+(pdftex.def)             Requested size: 79.20891pt x 199.1706pt.
+<MID_ISO_COPPM_S.jpg, id=73, 89.58469pt x 442.65375pt>
+File: MID_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use MID_ISO_COPPM_S.jpg>
+Package pdftex.def Info: MID_ISO_COPPM_S.jpg  used on input line 525.
+(pdftex.def)             Requested size: 40.30862pt x 199.16928pt.
+<FBRM_ISO_COPPM_F.jpg, id=74, 133.24782pt x 421.575pt>
+File: FBRM_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use FBRM_ISO_COPPM_F.jpg>
+Package pdftex.def Info: FBRM_ISO_COPPM_F.jpg  used on input line 528.
+(pdftex.def)             Requested size: 79.21124pt x 199.1695pt.
+<FBRM_ISO_COPPM_S.jpg, id=75, 93.34875pt x 443.40656pt>
+File: FBRM_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use FBRM_ISO_COPPM_S.jpg>
+Package pdftex.def Info: FBRM_ISO_COPPM_S.jpg  used on input line 528.
+(pdftex.def)             Requested size: 41.93105pt x 199.16928pt.
+<BOT05_ISO_COPPM_F.jpg, id=76, 136.25906pt x 442.65375pt>
+File: BOT05_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use BOT05_ISO_COPPM_F.jpg>
+Package pdftex.def Info: BOT05_ISO_COPPM_F.jpg  used on input line 530.
+(pdftex.def)             Requested size: 79.2091pt x 199.17207pt.
+<BOT05_ISO_COPPM_S.jpg, id=77, 91.09032pt x 447.17062pt>
+File: BOT05_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use BOT05_ISO_COPPM_S.jpg>
+Package pdftex.def Info: BOT05_ISO_COPPM_S.jpg  used on input line 530.
+(pdftex.def)             Requested size: 40.57188pt x 199.16928pt.
+<MID05_ISO_COPPM_F.jpg, id=78, 135.50626pt x 441.90094pt>
+File: MID05_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use MID05_ISO_COPPM_F.jpg>
+Package pdftex.def Info: MID05_ISO_COPPM_F.jpg  used on input line 533.
+(pdftex.def)             Requested size: 79.2119pt x 199.17049pt.
+<MID05_ISO_COPPM_S.jpg, id=79, 91.09032pt x 441.90094pt>
+File: MID05_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use MID05_ISO_COPPM_S.jpg>
+Package pdftex.def Info: MID05_ISO_COPPM_S.jpg  used on input line 533.
+(pdftex.def)             Requested size: 41.05557pt x 199.16928pt.
+<FBRM05_ISO_COPPM_F.jpg, id=80, 132.495pt x 434.37282pt>
+File: FBRM05_ISO_COPPM_F.jpg Graphic file (type jpg)
+<use FBRM05_ISO_COPPM_F.jpg>
+Package pdftex.def Info: FBRM05_ISO_COPPM_F.jpg  used on input line 536.
+(pdftex.def)             Requested size: 79.21051pt x 199.171pt.
+<FBRM05_ISO_COPPM_S.jpg, id=81, 91.09032pt x 441.14813pt>
+File: FBRM05_ISO_COPPM_S.jpg Graphic file (type jpg)
+<use FBRM05_ISO_COPPM_S.jpg>
+Package pdftex.def Info: FBRM05_ISO_COPPM_S.jpg  used on input line 536.
+(pdftex.def)             Requested size: 41.12508pt x 199.16928pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./TEMP_KEY.png> <./BOT_TEMP.jpg> <./MID_TEMP.jpg> <./FBRM_TEMP.jpg> <./BO
+T05_TEMP.jpg> <./MID05_TEMP.jpg> <./FBRM05_TEMP.jpg>]
+<SYMMETRY_PROBE_COPPM.png, id=86, 371.4678pt x 427.3566pt>
+File: SYMMETRY_PROBE_COPPM.png Graphic file (type png)
+<use SYMMETRY_PROBE_COPPM.png>
+Package pdftex.def Info: SYMMETRY_PROBE_COPPM.png  used on input line 546.
+(pdftex.def)             Requested size: 167.15897pt x 192.30869pt.
+<OFFSET_PROBE_COPPM.png, id=87, 371.4678pt x 427.3566pt>
+File: OFFSET_PROBE_COPPM.png Graphic file (type png)
+<use OFFSET_PROBE_COPPM.png>
+Package pdftex.def Info: OFFSET_PROBE_COPPM.png  used on input line 548.
+(pdftex.def)             Requested size: 167.15897pt x 192.30869pt.
+<SYMMETRY_PROBE_XO2.png, id=88, 379.6584pt x 426.8748pt>
+File: SYMMETRY_PROBE_XO2.png Graphic file (type png)
+<use SYMMETRY_PROBE_XO2.png>
+Package pdftex.def Info: SYMMETRY_PROBE_XO2.png  used on input line 550.
+(pdftex.def)             Requested size: 170.8447pt x 192.09187pt.
+<OFFSET_PROBE_XO2.png, id=89, 379.6584pt x 426.8748pt>
+File: OFFSET_PROBE_XO2.png Graphic file (type png)
+<use OFFSET_PROBE_XO2.png>
+Package pdftex.def Info: OFFSET_PROBE_XO2.png  used on input line 552.
+(pdftex.def)             Requested size: 170.8447pt x 192.09187pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 562--563
+[]\OT1/ptm/m/n/10 For the platen and fi-nal SH the max-i-mum sur-face
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+
+Underfull \vbox (badness 1038) has occurred while \output is active []
+
+ [11 <./VEL_KEY.png> <./BOT_VEL.jpg> <./MID_VEL.jpg> <./FBRM_VEL.jpg> <./BOT05_
+VEL.jpg> <./MID05_VEL.jpg> <./FBRM05_VEL.jpg>]
+Underfull \hbox (badness 1960) in paragraph at lines 564--565
+\OT1/ptm/m/n/10 of the CFD sim-u-la-tions the im-por-tant pro-cess con-trol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\OT1/ptm/b/n/10 Main steam
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 175.8| 
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 172.9| 
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 180.5| 
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 180.2| 
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 179.1| 
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 184.1| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 535| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 535| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 535| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 535| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 535| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 535| 
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 585--585
+[]|\OT1/ptm/b/n/10 RH steam flow
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 158.2| 
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 155.6| 
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 162.5| 
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 162.2| 
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 161.2| 
+ []
+
+
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 165.6| 
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 585--585
+[]|\OT1/ptm/b/n/10 RH steam exit
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 524| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 527| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 531| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 512| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 510| 
+ []
+
+
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 520| 
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 585--585
+[]|\OT1/ptm/b/n/10 Boiler ef-fi-ciency
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 85.3| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 84.1| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 87.9| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 87.2| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 85.9| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 89.1| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 10.4| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 16.9| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 13.9| 
+ []
+
+
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 585--585
+[]|\OT1/ptm/m/n/10 10.9| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./HEATFLUX_KEY.png> <./BOT_HEATFLUX.jpg> <./MID_HEATFLUX.jpg> <./FBRM_HEAT
+FLUX.jpg> <./BOT05_HEATFLUX.jpg> <./MID05_HEATFLUX.jpg> <./FBRM05_HEATFLUX.jpg>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 613--614
+
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 615--616
+[]\OT1/ptm/m/n/10 The sub-se-quent anal-y-sis re-sults show that us-ing a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
+
+ []
+
+[13 <./CO_MF_KEY.png> <./BOT_ISO_COPPM_F.jpg> <./BOT_ISO_COPPM_S.jpg> <./MID_IS
+O_COPPM_F.jpg> <./MID_ISO_COPPM_S.jpg> <./FBRM_ISO_COPPM_F.jpg> <./FBRM_ISO_COP
+PM_S.jpg> <./BOT05_ISO_COPPM_F.jpg> <./BOT05_ISO_COPPM_S.jpg> <./MID05_ISO_COPP
+M_F.jpg> <./MID05_ISO_COPPM_S.jpg> <./FBRM05_ISO_COPPM_F.jpg> <./FBRM05_ISO_COP
+PM_S.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
+
+ []
+
+[14 <./SYMMETRY_PROBE_COPPM.png (PNG copy)> <./OFFSET_PROBE_COPPM.png (PNG copy
+)> <./SYMMETRY_PROBE_XO2.png (PNG copy)> <./OFFSET_PROBE_XO2.png (PNG copy)>]
+(JOURNAL_MANUSCRIPT_BRAD_RAWLINS.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \hbox (badness 6526) in paragraph at lines 140--145
+[]\OT1/ptm/m/n/10 Benim, A. C., Ep-ple, B., and Krohmer, B.,
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 140--145
+\OT1/ptm/m/n/10 2005.  ``Mod-elling of pul-verised coal com-bus-tion
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 140--145
+\OT1/ptm/m/it/10 Progress in Com-pu-ta-tional Fluid Dy-nam-ics, \OT1/ptm/b/n/10
+ 5\OT1/ptm/m/n/10 (6),
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [16]
+(JOURNAL_MANUSCRIPT_BRAD_RAWLINS.aux) ) 
+Here is how much of TeX's memory you used:
+ 3856 strings out of 479616
+ 57781 string characters out of 2863101
+ 360078 words of memory out of 3000000
+ 20964 multiletter control sequences out of 15000+200000
+ 444848 words of font info for 100 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,18n,74p,1518b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/RWLBRA001/AppData/Local/Progra
+ms/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/RWLBRA001/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RWLBRA001/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/R
+WLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fo
+nts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/RWLBRA001/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/RWLBRA001/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/RWLBRA001/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/RWLBRA001/AppData
+/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on JOURNAL_MANUSCRIPT_BRAD_RAWLINS.pdf (16 pages, 3290284 bytes)
+.
+PDF statistics:
+ 148 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+
