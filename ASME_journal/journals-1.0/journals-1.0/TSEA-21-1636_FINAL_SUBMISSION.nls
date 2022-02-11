@@ -1,0 +1,15 @@
+
+\begin{thenomenclature} 
+\nomgroup{A}
+  \item [{$\rho$}]\begingroup Friction Index\nomeqref {0}\nompageref{1}
+  \item [{$m$}]\begingroup Mass \nomunit{[Kg]}\nomeqref {0}\nompageref{1}
+  \item [{$t$}]\begingroup Time \nomunit{[s]}\nomeqref {0}\nompageref{1}
+  \item [{$V$}]\begingroup Velocity \nomunit{[m/s]}\nomeqref {0}\nompageref{1}
+\nomgroup{B}
+  \item [{${H}$}]\begingroup Quaternions\nomeqref {0}\nompageref{1}
+  \item [{${C}$}]\begingroup Complex Numbers\nomeqref {0}\nompageref{1}
+  \item [{${R}$}]\begingroup Real Numbers\nomeqref {0}\nompageref{1}
+\nomgroup{C}
+  \item [{$V$}]\begingroup Constant Volume\nomeqref {0}\nompageref{1}
+
+\end{thenomenclature}

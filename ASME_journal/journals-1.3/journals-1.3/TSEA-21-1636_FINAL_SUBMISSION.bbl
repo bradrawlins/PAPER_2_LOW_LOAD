@@ -1,0 +1,205 @@
+\begin{thebibliography}{10}
+
+\bibitem{ugum2019}
+Dugum, A., and Hanjali{\'{c}}, K., 2019,
+\newblock ``{Numerical simulation of coal-air mixture flow in a real
+  double-swirl burner and implications on combustion anomalies in a utility
+  boiler},''
+\newblock {\em Energy, {\bf 170}}, pp.~942--953.
+
+\bibitem{eskom}
+, 2017,
+\newblock {Eskom Power Generation}.
+
+\bibitem{Hernik2020}
+Hernik, B., and Zab{\l}ocki, W., 2020,
+\newblock ``{Numerical research of combustion with a minimum boiler load},''
+\newblock {\em Archives of Thermodynamics, {\bf 41}}(4), pp.~93--114.
+
+\bibitem{Chang2021}
+Chang, J., Wang, X., Zhou, Z., Chen, H., and Niu, Y., 2021,
+\newblock ``{CFD modeling of hydrodynamics, combustion and NOx emission in a
+  tangentially fired pulverized-coal boiler at low load operating
+  conditions},''
+\newblock {\em Advanced Powder Technology, {\bf 32}}(2), pp.~290--303.
+
+\bibitem{Modlinski2019}
+Modli{\'{n}}ski, N., Szczepanek, K., Nabag{\l}o, D., Madejski, P., and
+  Modli{\'{n}}ski, Z., 2019,
+\newblock ``{Mathematical procedure for predicting tube metal temperature in
+  the second stage reheater of the operating flexibly steam boiler},''
+\newblock {\em Applied Thermal Engineering, {\bf 146}}(October 2018),
+  pp.~854--865.
+
+\bibitem{Laubscher2019b}
+Laubscher, R., and Rousseau, P., 2019,
+\newblock ``{CFD study of pulverized coal-fired boiler evaporator and radiant
+  superheaters at varying loads},''
+\newblock {\em Applied Thermal Engineering, {\bf 160}}.
+
+\bibitem{Laubscher2019a}
+Laubscher, R., and Rousseau, P., 2019,
+\newblock ``{Numerical investigation into the effect of burner swirl direction
+  on furnace and superheater heat absorption for a 620 MWe opposing wall-fired
+  pulverized coal boiler},''
+\newblock {\em International Journal of Heat and Mass Transfer, {\bf 137}},
+  pp.~506--522.
+
+\bibitem{Gu2020}
+Gu, J., Liu, Q., Zhong, W., and Yu, A., 2020,
+\newblock ``{Study on scale-up characteristics of oxy-fuel combustion in
+  circulating fluidized bed boiler by 3D CFD simulation},''
+\newblock {\em Advanced Powder Technology, {\bf 31}}(5), pp.~2136--2151.
+
+\bibitem{Du2017}
+Du, Y., Wang, C., Lv, Q., Li, D., Liu, H., and Che, D., 2017,
+\newblock ``{CFD investigation on combustion and NOx emission characteristics
+  in a 600 MW wall-fired boiler under high temperature and strong reducing
+  atmosphere},''
+\newblock {\em Applied Thermal Engineering, {\bf 126}}(x), pp.~407--418.
+
+\bibitem{Fan2001}
+Fan, J., Qian, L., Ma, Y., Sun, P., and Cen, K., 2001,
+\newblock ``{Computational modeling of pulverized coal combustion processes in
+  tangentially fired furnaces},''
+\newblock {\em Chemical Engineering Journal, {\bf 81}}(1-3), pp.~261--269.
+
+\bibitem{Chen2017}
+Chen, S., He, B., He, D., Cao, Y., Ding, G., Liu, X., Duan, Z., Zhang, X.,
+  Song, J., and Li, X., 2017,
+\newblock ``{Numerical investigations on different tangential arrangements of
+  burners for a 600 MW utility boiler},''
+\newblock {\em Energy, {\bf 122}}(x), pp.~287--300.
+
+\bibitem{He2007}
+He, B., Zhu, L., Wang, J., Liu, S., Liu, B., Cui, Y., Wang, L., and Wei, G.,
+  2007,
+\newblock ``{Computational fluid dynamics based retrofits to reheater panel
+  overheating of No. 3 boiler of Dagang Power Plant},''
+\newblock {\em Computers and Fluids, {\bf 36}}(2), pp.~435--444.
+
+\bibitem{Jiang2021}
+Jiang, Y., Lee, B.-H., Oh, D.-H., and Jeon, C.-H., 2021,
+\newblock ``{Optimization of operating conditions to achieve combustion
+  stability and reduce NOx emission at half-load for a 550-MW tangentially
+  fired pulverized coal boiler},''
+\newblock {\em Fuel, {\bf 306}}(February), p.~121727.
+
+\bibitem{Belosevic2019a}
+Belo{\v{s}}evi{\'{c}}, S., Tomanovi{\'{c}}, I., Crnomarkovi{\'{c}}, N., and
+  Mili{\'{c}}evi{\'{c}}, A., 2019,
+\newblock ``{Full-scale CFD investigation of gas-particle flow, interactions
+  and combustion in tangentially fired pulverized coal furnace},''
+\newblock {\em Energy, {\bf 179}}.
+
+\bibitem{Alobaid2017}
+Alobaid, F., Mertens, N., Starkloff, R., Lanz, T., Heinze, C., and Epple, B.,
+  2017,
+\newblock ``{Progress in dynamic simulation of thermal power plants},''
+\newblock {\em Progress in Energy and Combustion Science, {\bf 59}},
+  pp.~79--162.
+
+\bibitem{Laubscher2020}
+Laubscher, R., and Rousseau, P., 2020,
+\newblock ``{Numerical investigation on the impact of variable particle
+  radiation properties on the heat transfer in high ash pulverized coal boiler
+  through co-simulation},''
+\newblock {\em Energy, {\bf 195}}, p.~117006.
+
+\bibitem{Yu2019}
+Yu, C., Xiong, W., Ma, H., Zhou, J., Si, F., Jiang, X., and Fang, X., 2019,
+\newblock ``{Numerical investigation of combustion optimization in a tangential
+  firing boiler considering steam tube overheating},''
+\newblock {\em Applied Thermal Engineering, {\bf 154}}(2), pp.~87--101.
+
+\bibitem{Ranade2015}
+Ranade, V., and Gupta, D., 2015,
+\newblock {\em {Computational modeling of pulverized coal fired boilers}},
+  1~ed.
+\newblock Taylor {\&} Francis, Boca Raton.
+
+\bibitem{Sheng2004}
+Sheng, C., Moghtaderi, B., Gupta, R., and Wall, T.~F., 2004,
+\newblock ``{A computational fluid dynamics based study of the combustion
+  characteristics of coal blends in pulverised coal-fired furnace},''
+\newblock {\em Fuel, {\bf 83}}(11-12), pp.~1543--1552.
+
+\bibitem{Baum1971}
+Baum, M., and Street, P., 1971,
+\newblock ``{Predicting the combustion behaviour of coal particles},''
+\newblock {\em Combustion science and Technolodgy, {\bf 3}}(43), p.~231.
+
+\bibitem{Knaus2001a}
+Knaus, H., Schnell, U., and Klaus, R., 2001,
+\newblock ``{On the modelling of coal combustion in a 550MWe coal fired utility
+  boiler},''
+\newblock {\em Progress in Computational Fluid Dynamics, {\bf 1}},
+  pp.~194--207.
+
+\bibitem{Benim2005}
+Benim, A.~C., Epple, B., and Krohmer, B., 2005,
+\newblock ``{Modelling of pulverised coal combustion by a Eulerian-Eulerian
+  two-phase flow formulation},''
+\newblock {\em Progress in Computational Fluid Dynamics, {\bf 5}}(6),
+  pp.~345--361.
+
+\bibitem{Versteeg2007}
+Versteeg, H., and Malalasekera, W., 2007,
+\newblock {\em {Introduction to Computational Fluid Dynamics, The finite volume
+  method}}, second~ed.
+\newblock Pearson Prentice Hall.
+
+\bibitem{Vicente2003}
+Vicente, W., Ochoa, S., Aguill{\'{o}}n, J., and Barrios, E., 2003,
+\newblock ``{An Eulerian model for the simulation of an entrained flow coal
+  gasifier},''
+\newblock {\em Applied Thermal Engineering, {\bf 23}}(15), pp.~1993--2008.
+
+\bibitem{Cai2015}
+Cai, J., Handa, M., and Modest, M.~F., 2015,
+\newblock ``{Eulerian-Eulerian multi-fluid methods for pulverized coal flames
+  with nongray radiation},''
+\newblock {\em Combustion and Flame, {\bf 162}}(4), pp.~1550--1565.
+
+\bibitem{Basu2000}
+Basu, P., Kefa, C., and Jestin, L., 2000,
+\newblock {\em {Boilers and burners: Design and theory}}, 1~ed.
+\newblock Springer, New York.
+
+\bibitem{Modest2013}
+Modest, M.~F., 2013,
+\newblock {\em {Radiative Heat Transfer}}, third~ed.
+\newblock Academic Press, Kidlington, Oxford, U.K.
+
+\bibitem{Smith1982}
+Smith, T., Shen, Z., and Friedman, J., 1982,
+\newblock ``{Evaluation of Coefficients for the Weighted Sum of Gray Gases
+  Model},''
+\newblock {\em Journal of Heat transfer, {\bf 104}}, pp.~602--608.
+
+\bibitem{Lockwood1986}
+Lockwood, F., Rizvi, S., and Shah, N., 1986,
+\newblock ``{Comparative predictive experience of coal firing},''
+\newblock {\em Proceedings of the Institution of Mechanical Engineers, {\bf
+  200}}, pp.~79--87.
+
+\bibitem{Yin2015}
+Yin, C., 2015,
+\newblock ``{On gas and particle radiation in pulverized fuel combustion
+  furnaces},''
+\newblock {\em Applied Energy, {\bf 157}}, pp.~554--561.
+
+\bibitem{Gnielinski2016}
+Gnielinski, V., 2016,
+\newblock ``{Heat transfer in cross-flow around single rows of tubes and
+  through tube bundles},''
+\newblock In {\em VDI Heat Atlas}. Springer-Verlag, Berlin, pp.~756--760.
+
+\bibitem{Laubscher2020b}
+Laubscher, R., and Rousseau, P., 2020,
+\newblock ``{Coupled simulation and validation of a utility-scale pulverized
+  coal-fired boiler radiant final-stage superheater},''
+\newblock {\em Thermal Science and Engineering Progress, {\bf 18}}(August
+  2019), p.~100512.
+
+\end{thebibliography}
