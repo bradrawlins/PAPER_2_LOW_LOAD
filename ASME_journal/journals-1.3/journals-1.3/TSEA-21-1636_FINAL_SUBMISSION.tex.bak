@@ -202,7 +202,7 @@
 \end{multicols}
 \end{nomenclature}
 
-
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 The use of coal-fired power plants (CFPP) for electricity generation is intended to be phased out to reduce the rate of climate change. However, the move to sustainable generation sources poses great challenges for developing countries due to the long transition times and costs involved \cite{ugum2019}. Due to the abundance of coal resources present in Southern Africa, CFPPs are still the dominant power generation source, with approximately 80\% of the energy needs being met using CFPPs \cite{eskom}.
@@ -221,67 +221,91 @@ The use of coupled simulations has proven to solve the deficiencies of a full 1-
 
 However, to the authors’ knowledge, the integration of a 1-D process model with a detail CFD model has not been used to investigate the steam side operational performance of a CFPP boiler specifically at low-load. The goal of the current work is therefore to investigate the effect of burner firing configuration on various process parameters such as steam temperatures, spray water flowrates and metal temperatures at low-load, using a detailed CFD model on the gas side coupled to a comprehensive process model on the water/steam side.\\
 To establish the accuracy of the CFD modelling approach a validation study was first conducted at loads of 100\%, 80\% and 60\% Maximum Continuous Rating (MCR) and compared to actual plant measurements. Thereafter the model was applied to simulate the boiler operation at 32\% of MCR with six different firing configurations.
+\newpage
 \section{Mathematical model}
 \subsection{Computational fluid dynamics modelling}
 The present CFD work makes use of a Eulerian-Eulerian approach to capture the distribution of solid and gaseous phase properties such as mass fractions and velocities. The approach is similar to that of the mixture model supplied in ANSYS Fluent v19.5\textsuperscript{\textregistered}, where a single momentum equation is solved for the different phases in the heterogenous mixture. The main difference between the model applied in the current work and the standard mixture model is that the latter solves a single energy equation, whereas the former solves two energy equations, one for the gas phase and another for the solid phase. This is an important feature as it allows the adequate resolution of the temperature-dependent solid fuel combustion processes such as devolatilization and char oxidation, and accurate prediction of particulate radiative heat transfer. Typically, in solid fuel combustion processes the particulate temperature is higher than the surrounding gas temperatures due to the energy release from surface combustion, and incident radiation.
 \subsubsection{Fluid flow, turbulence and combustion modelling}
-The flue gas-side was modelled using a Eulerian framework. The species transport modelling approach was used to approximate the mixture of chemical species in the gas phase. This approach solves a species continuity equation for each constituent present in the mixture. To reduce the computational burden, it was assumed that the various processes were in steady-state. The governing equations for the gas phase are written below in their respective Reynolds averaged forms.\\
+The flue gas-side was modelled using a Eulerian framework. The species transport modelling approach was used to approximate the mixture of chemical species in the gas phase. This approach solves a species continuity equation for each constituent present in the mixture. To reduce the computational burden, it was assumed that the various processes were in steady-state. The governing equations for the gas phase are written below in their respective Reynolds averaged forms.
+
 Mass conservation:
+\vspace{-5mm}
 \begin{equation}\label{eqn_RANS_mass}
 \frac{\partial}{\partial x_{i}}(\rho \bar{u}_{i})=S
+\vspace{-5mm}
 \end{equation}
+
 Momentum conservation:
+\vspace{-5mm}
 \begin{equation}\label{eqn_momentum}
 \frac{\partial}{\partial x_{i}}(\rho_{eff} u_{i}u_{j})+\frac{\partial \overline{p}}{\partial x_{j}}=\frac{\partial}{\partial x_{i}}\left[\mu\left\{\frac{\partial u_{j}}{\partial x_{i}}+\frac{\partial u_{i}}{\partial x_{j}}-\frac{2}{3}\delta_{ij}\frac{\partial u_{i}}{\partial x_{i}}\right\}\right]+\frac{\partial}{\partial x_{i}}(-\rho\overline{u_{i}^{'}u_{j}^{'}})+S_m
+\vspace{-5mm}
 \end{equation}
+\newpage
 Energy conservation:
+\vspace{-5mm}
 \begin{equation}\label{eqn_energy}
 \frac{\partial }{\partial x_{i}} (u_{i}[\rho E+p])=\frac{\partial }{\partial x_{j}}\left[\lambda\frac{\partial T_{g}}{\partial x_{j}}\right] +S_{h}
+\vspace{-5mm}
 \end{equation}
+
 Species transport:
+\vspace{-5mm}
 \begin{equation}\label{eqn_species}
 \begin{split}
 &\frac{\partial}{\partial x_{i}}(\rho u_{j}Y_{k})=-\frac{\partial}{\partial x_{j}}(\vec{J_{k}})+ \sum_r R_{j,r} + S_{k}\\
 &k = 1,2,3...N
 \end{split}
 \end{equation}
+\vspace{-10mm}
 
 To correctly account for the particle inertial effects on the gas phase convection, the model makes use of an effective density which is defined as follows:
+\vspace{-5mm}
 \begin{equation} \label{eqn_eff_rho}
 	\rho_{eff} = \frac{\rho \rho_p \left( \phi_{mp} + 1 \right)}{\rho \phi_{mp} + \rho_p}
+	\vspace{-5mm}
 \end{equation}
 
 In the present study the realizable k-$\varepsilon$ turbulence model was utilized to address the turbulence closure problem. This model has been successfully used by researchers (\cite{Belosevic2019a},\cite{Laubscher2019a} and \cite{Modlinski2019}), in modelling the effects of coal-fired swirl burners. The model generally produces higher accuracy results, when compared to the standard k-$\varepsilon$ model, for problems incorporating swirling and separating flows.
 
 The process of coal combustion comprises of four sequential steps namely, inert heating and evaporation of moisture, devolatilization, char oxidation and gas phase reactions. Equations (\ref{eqn_vol_rate}) and (\ref{eqn_vol_arrhenuis}) show the single rate kinetic model utilized in this study, to model the devolatilization process.
+\vspace{-5mm}
 \begin{gather}
 \frac{dm_{vol}}{dt} = R_{vol}(m_{0,vol}-m_{vol}) \label{eqn_vol_rate} \\
 \begin{split}
 &R_{vol} = A_{vol}exp\left(\frac{E_{a,vol}}{RT_p}\right)\\
-&A_{vol} = 2\times10^5 [s^{-1}]\,\,\,\,\,\,\,\,\,\,E_{a,vol} = 6.7\times10^7 [J/kmol] \label{eqn_vol_arrhenuis}
+&A_{vol} = 2\times10^5 [s^{-1}],\,\,\,\,\,\,\,\,\,\,E_{a,vol} = 6.7\times10^7 [J/kmol] \label{eqn_vol_arrhenuis}
 \end{split}
 \end{gather}
+\vspace{-10mm}
 
 A devolatilization temperature of 553 [$K$] \cite{Ranade2015} along with the kinetic parameters (Eqn. \ref{eqn_vol_arrhenuis}) of Sheng et al \cite{Sheng2004} were utilized in the present study.
 
 The char oxidation process is modelled using the diffusion-kinetics limited model developed by Baum and Street \cite{Baum1971}, which is given in Eqn. (\ref{eqn_char_rate}). The product species of the char oxidation reaction was set to $CO$ as shown in Eqn. (\ref{eqn_CO_reaction}). 
+\vspace{-5mm}
 \begin{gather}
 \frac{dm_{char}}{dt} = -A_p p_{O_{2}} \frac{R_{diff}R_c}{R_{diff} + R_c}  \label{eqn_char_rate}\\
 C_{(s)}+0.5O_{2(g)}\to CO_{(g)} \label{eqn_CO_reaction}
 \end{gather}
+\vspace{-15mm}
+
 The diffusion and kinetic rates of Eqn. (\ref{eqn_char_rate}) are defined in Eqn. (\ref{eqn_char_diff_rate})  and Eqn. (\ref{eqn_char_kin_rate}) with the kinetic parameters again taken from the works of Sheng et al \cite{Sheng2004}.
+\vspace{-5mm}
 \begin{gather}
 R_{diff} = \frac{5\times10^{-12}}{d_p} \left(\frac{T_g+T_p}{2}\right)^{0.75} \label{eqn_char_diff_rate}\\
 \begin{split}
 &R_{c} = A_{c}exp\left(\frac{E_{a,c}}{RT_p}\right)\\
-&A_{c} = 0.0053 [kg/m^2sPa]\,\,\,\,\,\,\,\,\,\,E_{a,c} = 8.37\times10^7 [J/kmol]
+&A_{c} = 0.0053 [kg/m^2sPa],\,\,\,\,\,\,\,\,\,\,E_{a,c} = 8.37\times10^7 [J/kmol]
 \end{split}
  \label{eqn_char_kin_rate}
 \end{gather}
+\vspace{-10mm}
 
 The turbulence-chemistry interactions of the gas phase reactions were approximated using the eddy-dissipation-finite rate model used in ANSYS Fluent v19.5\textsuperscript{\textregistered} which calculates three rates, namely chemical reaction rate, turbulent production eddies dissipation rate and reaction eddies dissipation rate. It then applies the minimum of the three for the source terms calculations. A description of the CFD gas phase reactions of the boiler under consideration, using the same coal, was previously published in the works of Laubscher and Rousseau \cite{Laubscher2019b}.
+\vspace{-3mm}
 \subsubsection{Particle modelling}
 The particles are modelled using a Eulerian reference frame, similar to the studies of Knaus et al \cite{Knaus2001a} and Benim et al \cite{Benim2005}. Both successfully used a Eulerian-Eulerain (EE) model to capture the characteristics of coal combustion and furnace heat transfer with adequate accuracy. The pseudo particle mass concentrations transported into the domain are modelled using the general scalar field transport equation with the necessary modifications to account for heat and mass transport \cite{Versteeg2007}. The pseudo-particles scalar fields are used to define the fuel characteristics based on the proximate analysis composition, namely consisting of moisture, volatile matter, fixed carbon and ash. The scalar field equations are provided in Tab. \ref{tab_scalars}.
+\vspace{-5mm}
 \begin{table}[h!]
 \centering
 \caption{Scalar field equation descriptions}\label{tab_scalars}  
@@ -295,24 +319,30 @@ $\phi_{M}$&Moisture present in particles&$\frac{\partial}{\partial x_{i}}(\rho u
 $\phi_{VM}$&Volatile matter present in particles&  $\frac{\partial}{\partial x_{i}}(\rho u_{i} \phi_{VM})=\frac{1}{V}\frac{dm_{vol}}{dt}$\\
 $\phi_{FC}$&Fixed carbon present in particles&$\frac{\partial}{\partial x_{i}}(\rho u_{i} \phi_{FC})=\frac{1}{V}\frac{dm_c}{dt}$\\
 $\phi_{ASH}$&Ash present in particles&$\frac{\partial}{\partial x_{i}}(\rho u_{i} \phi_{ASH})=0$\\
-$\phi_{hp}$&Enthalpy of particle&Equation \eqref{eqn_phi_hp}\\
+$\phi_{hp}$&Enthalpy of particle& Eqn. \eqref{eqn_phi_hp}\\
 \hline
 \end{tabularx}
+\vspace{-5mm}
 \end{table}
 
 The energy transport of the pseudo particle phase, is captured by defining a particle phase energy balance equation, which in turn uses the particle enthalpy.
+\vspace{-5mm}
 \begin{equation}\label{eqn_phi_hp}
 \frac{\partial}{\partial x_{i}}( \rho u_{i} \phi_{hp} )=\left( f_{heat}\frac{dm_{c}}{dt}h_{rxn} + \dot{Q}_{rad} + \dot{Q}_{conv} - \frac{dm_{evap}}{dt}h_{fg} \right) \frac{1}{V} 
+\vspace{-5mm}
 \end{equation}
 
 The equation accounts for all the processes associated with energy transport to the particle, namely convection $\left(\dot{Q}_{conv}\right)$, radiation $\left(\dot{Q}_{rad}\right)$, latent heat transport $\left(\frac{dm_{evap}}{dt}h_{fg}\right)$ and near surface char oxidation $\left(f_{heat}\frac{dm_{c}}{dt}h_{rxn}\right)$. This gives the model the ability to track the particle temperature in the domain, which distinguishes it from the thermal equilibrium approach incorporated by previous studies using an EE approach (\cite{Benim2005}, \cite{Vicente2003} and \cite{Cai2015}). The particle temperature is important in describing the sequential steps found in modelling combustion processes, especially at low boiler loads where mixing and ignition become problematic. To solve the additional transport equations and their source terms, user defined functions utilized by ANSYS Fluent, were developed using the \textit{C/C++} programming language.
 \subsection{Heat transfer modelling}
 Radiation heat transfer is the dominant form of heat transfer found in industrial furnaces \cite{Basu2000} and is solved by applying the gray-participating-gas and particle medium configuration of the radiation transport equation (RTE) \cite{Modest2013} shown in Eqn. (\ref{eqn_RTE}).
+\vspace{-3mm}
 \begin{equation}\label{eqn_RTE}
 \frac{d I(\vec{r},\hat{s})}{ds} = \alpha_g \frac{\sigma_{SB} T_{g}^4}{\pi}-(\alpha_g+\alpha_p+\sigma_p)I(\vec{r},\hat{s}) + \frac{\sigma_p}{4\pi}\int_{4\pi}I(\vec{r},\hat{s})\Phi d \Omega
+\vspace{-5mm}
 \end{equation}
 
 In the present work the RTE is solved using the P1 model. Ranade and Gupta \cite{Ranade2015} illustrated minimal differences between the two common radiation models (namely the P1 and discrete ordinates (DO)) for the resultant wall heat transfer rate values when modelling a 210 $MWe$ CFPP boiler. The P1 radiation model can include the effects of particle absorption ($\alpha_p$) and scattering ($\sigma_p$) as well as gas mixture absorption ($\alpha_g$). The P1 model transport variable is the incident radiation flux (G), and can be written for a particle laden domain as:
+\vspace{-3mm}
 \begin{equation}
 \begin{split}
 &\frac{\partial}{\partial x_{i}}\left(\Gamma\frac{\partial G}{\partial x_{i}}\right)=\left(\alpha_g+\alpha_p\right)G-4\left(\alpha_g \sigma_{SB} T_{g}^4-\pi E_p \right)\\
@@ -320,32 +350,54 @@ In the present work the RTE is solved using the P1 model. Ranade and Gupta \cite
 \end{split}
 \end{equation}
 
+\vspace{-5mm}
 The flue gas absorptivity was calculated using the domain based weighted sum of gray gas model (WSGGM) using the coefficients determined by Smith et al \cite{Smith1982}. The WSGGM accounts for the radiation emitted by tri-atomic gases, namely $CO_2$, $H_2O$ and $SO_2$ present in the flue gas stream. The Eulerian description of the terms $\alpha_p$, $\sigma_p$ and $E_b$ are determined using the effective number of particles ($N_p = \rho \phi_{mp0} V / \left( \rho_p \pi \bar{d_p}^3 /6 \right)$) present in a cell. The equations for the radiative properties are given in Eqn. (\ref{eqn_part_abs}) through Eqn. (\ref{eqn_part_emisp}).
-\begin{gather}
-\alpha_p = \frac{\epsilon_p A_{pn}N_p}{V} \label{eqn_part_abs}\\
-\sigma_p = \frac{(1-\epsilon_p)(1-f_p) A_{pn}N_p}{V} \label{eqn_part_scat} \\
+\vspace{-3mm}
+\begin{equation}
+\alpha_p = \frac{\epsilon_p A_{pn}N_p}{V} \label{eqn_part_abs}
+\vspace{-15mm}
+\end{equation}
+\begin{equation}
+\sigma_p = \frac{(1-\epsilon_p)(1-f_p) A_{pn}N_p}{V} \label{eqn_part_scat}
+\vspace{-15mm}
+\end{equation}
+\begin{equation}
 E_p = \frac{\epsilon_p \sigma_{SB} T_p^4 A_{pn}N_p}{V}\label{eqn_part_emisp}
-\end{gather}
+\vspace{-8mm}
+\end{equation}
 
 It is important to note that variable properties for ($\epsilon_p$) and ($f_p$) were used, that are based on the correlations of Lockwood et al \cite{Lockwood1986} and Yin \cite{Yin2015} respectively.
+\newpage
 \subsection{Process simulation model}
 A 1D discretized model of the furnace evaporator, platen SH, final SH, and subsequent downstream heat exchangers was developed using Flownex SE\textsuperscript{\textregistered} 2021. The data transfer between the two models makes use of a one-way approach, where the CFD simulation data is transferred to the Flownex process model when convergence of each case is achieved, a further explanation of the coupling interface is given in Section  \ref{sec_set_up}. The model simulates the internal convection heat transfer inside the tubes and the conduction through the tube walls. The model is able to simulate the attemperation flows and momentum transport through the steam/water circuit. The heat exchangers were modelled using a homogeneous two-phase mixture approach, which assumes that the fluid properties, phase velocities and temperatures are uniform per cross-sectional area. The homogeneous mixture fraction and mixture density are defined in Eqn. (\ref{eqn_vol_frac}) and Eqn. (\ref{eqn_mix_rho}) respectively.
-\begin{gather}
-\alpha_H = \frac{\rho_l x}{\rho_lx + \rho_g(1-x)} \label{eqn_vol_frac}\\  
+\vspace{-5mm}
+\begin{equation}
+\alpha_H = \frac{\rho_l x}{\rho_lx + \rho_g(1-x)} \label{eqn_vol_frac}
+\vspace{-15mm}
+\end{equation}
+\begin{equation}
 \rho_M = (1-\alpha_H)\rho_l + \alpha_H\rho_g \label{eqn_mix_rho}
-\end{gather}
-Applying the mixture density the following transport equations are solved per process model component;
+\vspace{-10mm}
+\end{equation}
+%\begin{gather}
+%\alpha_H = \frac{\rho_l x}{\rho_lx + \rho_g(1-x)} \label{eqn_vol_frac}\\  
+%\rho_M = (1-\alpha_H)\rho_l + \alpha_H\rho_g \label{eqn_mix_rho}
+%\vspace{-15mm}
+%\end{gather}
+
+Applying the mixture density the following transport equations are solved per process model component.
+\vspace{-5mm}
 \begin{equation}\label{eqn_mix_conti}
 \frac{\partial}{\partial t}(\rho_M A)+\frac{\partial}{\partial s}(\rho_MAu) = 0
+\vspace{-15mm}
 \end{equation}
 \begin{equation}\label{eqn_mix_mom}
 \frac{1}{A} \frac{\partial}{\partial t}(\rho_M A u)+\frac{1}{A} \frac{\partial}{\partial s}(\rho_M A u^2) = -\frac{\partial p}{\partial s}-\frac{\tau_W P}{A}- \rho_M g \frac{\partial z}{\partial s}
+\vspace{-15mm}
 \end{equation}
 \begin{equation}\label{eqn_mix_energy}
-\begin{split}
-&\frac{\partial}{\partial t}(\rho_Mh_M)+\frac{1}{A}\frac{\partial}{\partial s}(\rho_MAuh_M)+\frac{1}{2}\frac{\partial}{\partial s}(\rho_Mu^2)+\\
-&\frac{1}{2A}\frac{\partial}{\partial s}(\rho_MAu^3)=\frac{\partial p}{\partial t} + \frac{\dot{Q}_w}{V}-g\rho_Mu\frac{\partial z}{\partial s}
-\end{split}
+\frac{\partial}{\partial t}(\rho_Mh_M)+\frac{1}{A}\frac{\partial}{\partial s}(\rho_MAuh_M)+\frac{1}{2}\frac{\partial}{\partial s}(\rho_Mu^2)+\frac{1}{2A}\frac{\partial}{\partial s}(\rho_MAu^3)=\frac{\partial p}{\partial t} + \frac{\dot{Q}_w}{V}-g\rho_Mu\frac{\partial z}{\partial s}
+\vspace{-5mm}
 \end{equation}
 
 The process model is used to determine the required attemperation flow rates to achieve the exit steam conditions, boiler efficiency, and steam generation for each case. The results of this model aid in determining the best firing combination of burner rows for continuous low-load operation, and the effects on the water-side of the boiler system.
@@ -358,46 +410,50 @@ The modelled  boiler is a two-pass sub-critical power boiler with a furnace dept
 \caption{Boiler geometry and layout}
 \label{fig_geometry}
 \end{figure*}
-
-The boiler furnace is fed by six mills, each supplying a pulverised fuel and primary air (PA) mixture to a burner row consisting of six opposing wall mounted swirl burners. The swirl vanes were not modelled in this study, rather an axial and tangential velocity component were used for the secondary air (SA) inlets with these values being obtained from a detailed burner model supplied by the burner manufacturer, which included the vanes. The fuel/PA mixture is injected through the inner annulus of the burner while the SA air is fed through the outer annulus as seen in Fig. \ref{fig_burner_mesh}.
 \newpage
-\begin{figure*}
+The boiler furnace is fed by six mills, each supplying a pulverised fuel and primary air (PA) mixture to a burner row consisting of six opposing wall mounted swirl burners. The swirl vanes were not modelled in this study, rather an axial and tangential velocity component were used for the secondary air (SA) inlets with these values being obtained from a detailed burner model supplied by the burner manufacturer, which included the vanes. The fuel/PA mixture is injected through the inner annulus of the burner while the SA air is fed through the outer annulus as seen in Fig. \ref{fig_burner_mesh}.
+\begin{figure*}[h!]
 \centerline{\includegraphics[scale=0.45]{BURNER_MESH}}
 \caption{Burner layout and mesh details}
 \label{fig_burner_mesh}
 \end{figure*}
 
-The CFD wall boundary conditions were modelled using ANSYS Fluent v19.5’s convection boundary condition type, which requires the internal free stream temperature, the internal heat transfer coefficient, wall thicknesses and material conductivities.Being a flux boundary condition the wall heat flux ($\dot{q}_{wall}$) can be calculated using Eqn. 23.
+The CFD wall boundary conditions were modelled using ANSYS Fluent v19.5\textsuperscript{\textregistered}’s convection boundary condition type, which requires the internal free stream temperature, the internal heat transfer coefficient, wall thicknesses and material conductivities.Being a flux boundary condition the wall heat flux ($\dot{q}_{wall}$) can be calculated using Eqn. 23.
+\vspace{-5mm}
 \begin{equation}\label{eqn_q_flux}
 \dot{q}_{wall} = U_i(T_{wall,i}-T_{water})
+\vspace{-5mm}
 \end{equation}
-The overall heat transfer coefficient (U) is subsequently determined using the following expression.
+
+The overall heat transfer coefficient ($U_i$) is subsequently determined using the following expression.
+\vspace{-10mm}
 \begin{equation}\label{eqn_overall_heat_coeff}
-U_i=\frac{1}{\frac{1}{h_{int}}+\frac{t_{wall}}{\lambda_{wall}}+\frac{t_{ash}}{\lambda_{ash}}}
+U_i=\left(\frac{1}{h_{int}}+\frac{t_{wall}}{\lambda_{wall}}+\frac{t_{ash}}{\lambda_{ash}}\right)^{-1}
+\vspace{-5mm}
 \end{equation}
 
 A 1D process model was used to estimate the furnace, platen and final SH internal heat transfer coefficients and internal temperatures for the low load case. For the validation cases the experimental data from site was used to estimate the mean water temperature in the heat exchangers.
+\newpage
 \begin{figure*}[h!]
 \centering
 \includegraphics[scale=0.5]{FLOWNEX_SETUP}
-\caption{Process model of boiler set-up including the downstream convective components using Flownex SE 2021}
+\caption{Process model of boiler set-up including the downstream convective components using Flownex SE\textsuperscript{\textregistered} 2021}
 \label{fig_flownex}
 \end{figure*}
-
+\vspace{-5mm}
 The process model of the boiler configuration is shown in Fig. \ref{fig_flownex}. The process model includes all the heat exchangers up to and downstream of the final SH, which include the secondary reheater (RH2), primary SH (SH1), primary reheater (RH1), economiser (EC) and the SA air heaters (SA-AH). The model includes all the relevant attemperators (ATT1, ATT2 and ATT-RH), inlets and outlets. The process model is used to determine the required attemperation flowrates and water/steam side thermal response. The furnace water-walls are represented by a single lumped pipe flow component and forms part of the natural circulation system that includes the downcomers and steam drum. As with the furnace walls, the platen and final SHs are similarly represented by a single lumped parameter pipe flow component, interconnected with nodes that introduce the attemperation flows to the water/steam side.
- 
-The coupling interface between the simulation models are the heat-exchanger external tube surfaces, namely the furnace, platen and final SH walls. The CFD heat loads are used as energy sources for these components as indicated in Fig. \ref{fig_flownex}. The furnace heat load to the evaporator walls determines the circulation rate through the evaporator. The steam drum separates the gas from the liquid, with the liquid water being recirculated through the evaporator and the saturated vapour (steam) being sent through the main steam line for superheating. Thus the steam generation is calculated. Furthermore, the CFD flue-gas results (i.e. composition, mass flow and temperature) exiting the final SH are used as boundary values for the heat exchangers downstream of the final SH (SH3), as shown in Fig. \ref{fig_flownex}. The steam flow boundary values for the RH and EC sections are fixed inlet mass flows and temperatures with the corresponding outlets set to a fixed pressure.
-
-Figure \ref{fig_heat_exchanger_model} illustrates the heat exchanger component process model. This component is used for the heat exchangers downstream of SH3 (refer to Fig. \ref{fig_flownex}).
-
-The component model accounts for the radiative (gas and direct), convective and conduction heat transfer mechanisms to and from the gas-side and steam-side control volumes, as well as between up- and downstream heat exchangers on the gas side. The total heat transferred to the water-side control volume can be written as the sum of the absorbed direct radiation and the combined convective and gas radiative heat transfer (i.e. $\dot{Q}_{steam}=\dot{Q}_{abs}+\dot{Q}_{cr}$). The external heat transfer coefficient, from the flue-gas to the heat-exchanger walls makes use of the Gnielinski correlation \cite{Gnielinski2016} for the various heat-exchanger tube arrangements. Figure \ref{fig_heat_exchanger_model} incorporates the direct radiative interactions in each heat-exchanger. It shows that the portion of direct radiation from the preceding heat exchanger that is not absorbed is joined by the bypass radiation ($\dot{Q}_{bypass}$) of the flue-gas control volume which together make up  the direct radiation passed on to the downstream components.
 \begin{figure*}[h!]
-\centerline{\includegraphics[scale=0.4]{HEAT_EXCHANGER_PROCESS_MODEL}}
+\centerline{\includegraphics[scale=0.45]{HEAT_EXCHANGER_PROCESS_MODEL}}
 \caption{Heat-exchanger component model}
 \label{fig_heat_exchanger_model}
 \end{figure*}
+
+The coupling interface between the simulation models are the heat-exchanger external tube surfaces, namely the furnace, platen and final SH walls. The CFD heat loads are used as energy sources for these components as indicated in Fig. \ref{fig_flownex}. The furnace heat load to the evaporator walls determines the circulation rate through the evaporator. The steam drum separates the gas from the liquid, with the liquid water being recirculated through the evaporator and the saturated vapour (steam) being sent through the main steam line for superheating. Thus the steam generation is calculated. Furthermore, the CFD flue-gas results (i.e. composition, mass flow and temperature) exiting the final SH are used as boundary values for the heat exchangers downstream of the final SH (SH3), as shown in Fig. \ref{fig_flownex}. The steam flow boundary values for the RH and EC sections are fixed inlet mass flows and temperatures with the corresponding outlets set to a fixed pressure.
+
+Figure \ref{fig_heat_exchanger_model} illustrates the heat exchanger component process model. This component is used for the heat exchangers downstream of SH3 (refer to Fig. \ref{fig_flownex}). The component model accounts for the radiative (gas and direct), convective and conduction heat transfer mechanisms to and from the gas-side and steam-side control volumes, as well as between up- and downstream heat exchangers on the gas side. The total heat transferred to the water-side control volume can be written as the sum of the absorbed direct radiation and the combined convective and gas radiative heat transfer (i.e. $\dot{Q}_{steam}=\dot{Q}_{abs}+\dot{Q}_{cr}$). The external heat transfer coefficient, from the flue-gas to the heat-exchanger walls makes use of the Gnielinski correlation \cite{Gnielinski2016} for the various heat-exchanger tube arrangements. Figure \ref{fig_heat_exchanger_model} incorporates the direct radiative interactions in each heat-exchanger. It shows that the portion of direct radiation from the preceding heat exchanger that is not absorbed is joined by the bypass radiation ($\dot{Q}_{bypass}$) of the flue-gas control volume which together make up  the direct radiation passed on to the downstream components.
+
 \subsection{Model inputs}
-Table \ref{tbl_fuel} presents the coal characteristics utilized in the current study along with the higher heating value (HHV) of the fuel.\\
+Table \ref{tbl_fuel} presents the coal characteristics utilized in the current study along with the higher heating value (HHV) of the fuel.
 \begin{table}[h!]
 \centering
 \caption{Utility boiler fuel characteristics}
@@ -423,12 +479,10 @@ Moisture & $0.0550$ & $kg/kg_{fuel}$\\
 \hline
 Higher heating value & $15070$ & $kJ/kg_{fuel}$\\
 \hline
-\vspace{0pt}
 \end{tabularx}
 \end{table}
 
 For a boiler load 32\% MCR the current operational protocol is to use the bottom front and rear burner rows to meet the low-load demand during start-up.  For this study six cases are simulated with the following three burner firing configurations being investigated:
-\newpage
 \begin{enumerate}
 \item Bottom front and rear row burners are fired (Case 1 \& Case 4)
 \item Middle front and rear row burners are fired (Case 2 \& Case 5)
@@ -436,7 +490,7 @@ For a boiler load 32\% MCR the current operational protocol is to use the bottom
 \end{enumerate}
 \begin{table}[h!]
 \centering
-\caption{Case 1 to 6 model inputs on a per burner basis.}
+\caption{Case 1 to 6 model inputs on a per burner basis}
 \label{tbl_case_inputs}
 \vspace{2mm}
 {\tabulinesep=1.2mm
@@ -460,14 +514,15 @@ Input air temperatures& &\\
 \textbf{Excess air coefficients} & 1.37 & 1.32\\
 \hline
 \end{tabularx}}
-\vspace{0pt}
 \end{table}
-
+\newpage
 A secondary air flow rate of 5 kg/s is typically fed through the non-firing burners, to ensure sufficient cooling of the burner and mixing of fuel and air in the combustion chamber, with these three cases numbered 1, 2 and 3. The result is a high air-fuel ratio in the furnace, which leads to higher boiler dry gas loss. To lower this loss, this study will investigate the effect of reducing the air-fuel ratio by lowering the non-firing burner SA flowrate from 5 to 2.5 kg/s, with these three cases numbered 4, 5 and 6. Two permutations of the SA flowrate, at the non-firing burners, are used for each of the firing configurations mentioned above. Table 3 shows the input conditions for Cases 1 to 6. This data was obtained via conventional boiler mass and energy balance calculations.
 
 \subsection{Numerical solution strategy}\label{sec_num_sol}
-A numerical mesh consisting of approximately 6 million cells was used for the CFD simulations of this current study. To ensure that the results are grid size independent, simulations were also performed for mesh sizes of 3.5 million and 10 million cells during the validation study, discusses in Section \ref{sec_model_valid}. To ensure numerical stability during simulation the aspect ratio and mesh orthogonality quality where kept below 20 and above 0.2 respectively\\ %.
-The CFD simulations were performed using ANSYS Fluent v19.5\textsuperscript{\textregistered} pressure-based solver. The pressure-momentum coupling utilised the SIMPLE method. Second-order upwinding was used to discretize the momentum, energy and species equations, whereas PRESTO! was used to discretize the pressure equation. The scalar field equations used a second-order upwind scheme.\\
+A numerical mesh consisting of approximately 6 million cells was used for the CFD simulations of this current study. To ensure that the results are grid size independent, simulations were also performed for mesh sizes of 3.5 million and 10 million cells during the validation study, discusses in Section \ref{sec_model_valid}. To ensure numerical stability during simulation the aspect ratio and mesh orthogonality quality where kept below 20 and above 0.2 respectively.
+
+The CFD simulations were performed using ANSYS Fluent v19.5\textsuperscript{\textregistered} pressure-based solver. The pressure-momentum coupling utilised the SIMPLE method. Second-order upwinding was used to discretize the momentum, energy and species equations, whereas PRESTO! was used to discretize the pressure equation. The scalar field equations used a second-order upwind scheme.
+
 The spatial discretization for all fields (except pressure) was set to first-order upwind for the first 1000 iterations to ensure a stable solution, after which the discretization order was increased to the above mentioned criteria. For all cases the maximum mass imbalance was 0.024 [$kg/s$] for a total gas flowrate of 190 [$kg/s$], and a heat imbalance of 1770 [$kW$] for a total heat input of 283 [$MW$]. The remaining fields were solved till convergence.
 \section{Results \& discussion}
 \subsection{Model validation}\label{sec_model_valid}
@@ -477,10 +532,11 @@ The validation of the proposed model was conducted for three steady-state MCR lo
 \caption{Comparison of experimentally calculated and model heat loads for the furnace, platen SH and final SH}
 \label{fig_heat_valid}
 \end{figure*}
-
+\newpage
 Figure \ref{fig_heat_valid} shows that the calculated overall heat loads are in good agreement with the measured values where the model results are within the associated uncertainty range in all but one case. The simulation systematically under predicts the furnace heat loads, with a maximum percentage error of 2\%, while predominating overpredicting the platen SH loads, with a maximum percentage error of 7\%.
 
 The CFD model was further validated by comparing the $CO_{ppm}$ and $X_{O_{2}}$ measurements against the CFD results. The probe measurements were taken at a furnace height of 37.5 [$m$] near the center of the boiler during full load (100\% MCR) operating conditions. The probe is inserted from the side walls to a depth of 4.5 [$m$], and measurements were taken every 0.5 [$m$].
+\vspace{-3mm}
 \begin{figure*}[h!]
 \centering
 \subfigure[]{\includegraphics[width = 0.475\textwidth, height =5cm ]{COPPM_VALID}}
@@ -489,10 +545,10 @@ The CFD model was further validated by comparing the $CO_{ppm}$ and $X_{O_{2}}$ 
 \caption{Measured and predicted $CO_{ppm}$ (a) and $X_{O_{2}}$ (b) concentrations}
 \label{fig_probe_valid}
 \end{figure*}
+\vspace{-15mm}
 
 Figure \ref{fig_probe_valid} shows the averaged measurement values compared to the CFD predictions. It can be seen that the CFD model can resolve the $CO_{ppm}$ and $X_{O_{2}}$ concentrations at the given probe location with sufficient accuracy.
 \subsection{Simulation results for various burner firing arrangements at 32\% MCR }
-The temperature and velocity profiles for the various firing arrangements are shown in Fig. \ref{fig_cfd_temp} and Fig. \ref{fig_cfd_velo} respectively. With the middle burner rows firing (Cases 2 and 5) a substantial cold region is formed in the lower half the furnace, resulting in the lowest heat uptake. This is further exacerbated when considering Tab. \ref{tbl_process_parameters} where it is illustrated that the mid-firing arrangements produce the lowest steam flow rates resulting in the lowest boiler efficiencies. The bottom firing arrangement (Cases 1 and 4) results in a high temperature zone located in the bottom half on the burner, while the mixed firing arrangement (Cases 3 and 6) results is an even distribution of high temperature gases across the furnace domain (Fig. \ref{fig_cfd_temp}). This leads to the highest steam generation rate in the furnace and boiler efficiency as shown in Tab. \ref{tbl_process_parameters}.
 \begin{figure*}[h!]
 \centering
 \includegraphics[width = 5in]{TEMP_KEY} [$K$]\\
@@ -505,6 +561,8 @@ The temperature and velocity profiles for the various firing arrangements are sh
 \caption{Temperature fields for Cases 1 through 6 [(a)-(f)]}
 \label{fig_cfd_temp}
 \end{figure*}
+The temperature and velocity profiles for the various firing arrangements are shown in Fig. \ref{fig_cfd_temp} and Fig. \ref{fig_cfd_velo} respectively. With the middle burner rows firing (Cases 2 and 5) a substantial cold region is formed in the lower half the furnace, resulting in the lowest heat uptake. This is further exacerbated when considering Tab. \ref{tbl_process_parameters} where it is illustrated that the mid-firing arrangements produce the lowest steam flow rates resulting in the lowest boiler efficiencies. The bottom firing arrangement (Cases 1 and 4) results in a high temperature zone located in the bottom half on the burner, while the mixed firing arrangement (Cases 3 and 6) results is an even distribution of high temperature gases across the furnace domain (Fig. \ref{fig_cfd_temp}). This leads to the highest steam generation rate in the furnace and boiler efficiency as shown in Tab. \ref{tbl_process_parameters}.
+
 \begin{figure*}[h!]
 \centering
 \includegraphics[width = 5in]{VEL_KEY} [$m/s$]\\
@@ -517,6 +575,28 @@ The temperature and velocity profiles for the various firing arrangements are sh
 \caption{Velocity fields for Cases 1 through 6 [(a)-(f)]}
 \label{fig_cfd_velo}
 \end{figure*}
+\newpage
+\begin{figure*}[h!]
+\centering
+\includegraphics[width = 5in]{HEATFLUX_KEY} [$W/m^2$]\\
+\subfigure[Case 1]{\includegraphics[width=0.18\textwidth]{BOT_HEATFLUX}}
+\hspace{10mm}
+\subfigure[Case 2]{\includegraphics[width=0.2\textwidth]{MID_HEATFLUX}}
+\hspace{10mm}
+\subfigure[Case 3]{\includegraphics[width=0.2\textwidth]{FBRM_HEATFLUX}}\\
+\subfigure[Case 4]{\includegraphics[width=0.18\textwidth]{BOT05_HEATFLUX}}
+\hspace{10mm}
+\subfigure[Case 5]{\includegraphics[width=0.2\textwidth]{MID05_HEATFLUX}}
+\hspace{10mm}
+\subfigure[Case 6]{\includegraphics[width=0.2\textwidth]{FBRM05_HEATFLUX}}
+\caption{Heat fluxes profiles for Cases 1 through 6 [(a)-(f)]}
+\label{fig_cfd_heat_flux}
+\vspace{-3mm}
+\end{figure*}
+
+Figure \ref{fig_cfd_heat_flux} illustrates the heat flux profiles for the simulated cases. Both cases 1 and 4 highlight high heat flux zones near the burner inlets which, in the presence of high temperatures and incomplete combustion near these regions, can lead to high-temperature corrosion \cite{ugum2019}. An even distribution of heat fluxes is seen in Cases 3 and 6 with minimal localised heat flux concentrations being observed. Cases 2 and 5 show that most of the heat is absorbed in the upper half of the boiler with Case 5 showing a higher heat flux on the rear wall. This could be due the use of a lower SA flowrate leading to higher velocity profiles developing closer to the rear wall, as seen in Fig. \ref{fig_cfd_velo}. With this in mind a lower SA flowrate, in general leads to hot gases and velocity profiles impinging closer to the furnace walls, which can be seen in Cases 4, 5 and 6 of Fig. \ref{fig_cfd_temp} and Fig.\ref{fig_cfd_velo} respectively. With high gas temperatures and high velocity impingement, Cases 4, 5 and 6 (of Fig. \ref{fig_cfd_heat_flux}) experience concentrated heat fluxes around the burner inlets in comparison to the corresponding Cases 1, 2 and 3.
+
+The works of Dugum et al \cite{ugum2019}, highlights the issue of high-temperature corrosion caused by significant levels of $CO$ ($X_{CO}$ 0.01 - 0.1) and no-free $O_2$ near regions of high wall temperatures. For low-load operation this phenomenon becomes important to avoid since combustion instability can lead to these non-ideal circumstances. Figure \ref{fig_cfd_coppm} shows the $CO$ molar concentration in the domain located on an iso-surface set 1600 $[K]$. The figures generally highlight the location and distribution of the flame core for each case. Cases 1 and 4 illustrate the highest likelihood of high-temperature corrosion occurring near the furnace hopper, due to the high concentration and temperatures in that region.
 \begin{table}[h!]
 \centering
 \caption{Furnace exit conditions and SH wall temperatures}
@@ -538,9 +618,8 @@ The temperature and velocity profiles for the various firing arrangements are sh
 \hline
 \label{tbl_cfd_results}
 \end{tabularx}
+\vspace{-15mm}
 \end{table}
-\newpage
-Figure \ref{fig_cfd_heat_flux} illustrates the heat flux profiles for the simulated cases. Both cases 1 and 4 highlight high heat flux zones near the burner inlets which, in the presence of high temperatures and incomplete combustion near these regions, can lead to high-temperature corrosion \cite{ugum2019}. An even distribution of heat fluxes is seen in Cases 3 and 6 with minimal localised heat flux concentrations being observed. Cases 2 and 5 show that most of the heat is absorbed in the upper half of the boiler with Case 5 showing a higher heat flux on the rear wall. This could be due the use of a lower SA flowrate leading to higher velocity profiles developing closer to the rear wall, as seen in Fig. \ref{fig_cfd_velo}. With this in mind a lower SA flowrate, in general leads to hot gases and velocity profiles impinging closer to the furnace walls, which can be seen in Cases 4, 5 and 6 of Fig. \ref{fig_cfd_temp} and Fig.\ref{fig_cfd_velo} respectively. With high gas temperatures and high velocity impingement, Cases 4, 5 and 6 (of Fig. \ref{fig_cfd_heat_flux}) experience concentrated heat fluxes around the burner inlets in comparison to corresponding Cases 1, 2 and 3.
 \begin{table}[h!]
 \centering
 \caption{Process model control parameters}
@@ -561,25 +640,8 @@ Figure \ref{fig_cfd_heat_flux} illustrates the heat flux profiles for the simula
 \hline
 \label{tbl_process_parameters}
 \end{tabularx}
+\vspace{-15mm}
 \end{table}
-\begin{figure*}[h!]
-\centering
-\includegraphics[width = 5in]{HEATFLUX_KEY} [$W/m^2$]\\
-\subfigure[Case 1]{\includegraphics[width=0.18\textwidth]{BOT_HEATFLUX}}
-\hspace{10mm}
-\subfigure[Case 2]{\includegraphics[width=0.2\textwidth]{MID_HEATFLUX}}
-\hspace{10mm}
-\subfigure[Case 3]{\includegraphics[width=0.2\textwidth]{FBRM_HEATFLUX}}\\
-\subfigure[Case 4]{\includegraphics[width=0.18\textwidth]{BOT05_HEATFLUX}}
-\hspace{10mm}
-\subfigure[Case 5]{\includegraphics[width=0.2\textwidth]{MID05_HEATFLUX}}
-\hspace{10mm}
-\subfigure[Case 6]{\includegraphics[width=0.2\textwidth]{FBRM05_HEATFLUX}}
-\caption{Heat fluxes profiles for Cases 1 through 6 [(a)-(f)]}
-\label{fig_cfd_heat_flux}
-\end{figure*}
-
-The works of Dugum et al \cite{ugum2019}, highlights the issue of high-temperature corrosion caused by significant levels of $CO$ ($X_{CO}$ 0.01 - 0.1) and no-free $O_2$ near regions of high wall temperatures. For low-load operation this phenomenon becomes important to avoid since combustion instability can lead to these non-ideal circumstances. Figure \ref{fig_cfd_coppm} shows the $CO$ molar concentration in the domain located on an iso-surface set 1600 $[K]$. The figures generally highlight the location and distribution of the flame core for each case. Cases 1 and 4 illustrate the highest likelihood of high-temperature corrosion occurring near the furnace hopper, due to the high concentration and temperatures in that region.\\
 \begin{figure*}[h!]
 \centering
 \includegraphics[width = 5in]{CO_MF_KEY} [$X_{CO}$]\\
@@ -602,13 +664,15 @@ The works of Dugum et al \cite{ugum2019}, highlights the issue of high-temperatu
 \caption{CO molar fraction ($X_{CO}$) concentrations for 
 Cases 1 through 6 [(a)-(f)] on a temperature iso-surface of 1600 [K]}
 \label{fig_cfd_coppm}
+\vspace{-5mm}
 \end{figure*}
-Investigating the combustion stability for all the cases, the symmetry and offset vertical probe plots (as highlighted in Fig. \ref{fig_geometry}) are given in Fig. \ref{fig_cfd_probe}. Cases 2 and 5 illustrates the highest $X_{O_{2}}$ concentration in the lower half of the burner since there is minimal combustion occurring. The unburnt carbon content and exit flue-gas temperatures for each case are reported in Tab. \ref{tbl_cfd_results}. With the use of the middle burners (Cases 2 and 5) the highest exit temperature and unburnt carbon content is observed, since the flame core is located in the upper half of the furnace leading to the least possibility of complete combustion due to the shorter residence time. Cases 3 and 6 exhibit the best characteristics with the least amount of unburnt carbon content being observed. It is important to note the effects of a lower SA mass flow rate has on the furnace exit conditions for non-firing burners, which generally leads to a hotter exit gas temperature as seen with Cases 4 to 6. \\
+
+Investigating the combustion stability for all the cases, the symmetry and offset vertical probe plots (as highlighted in Fig. \ref{fig_geometry}) are given in Fig. \ref{fig_cfd_probe}. Cases 2 and 5 illustrates the highest $X_{O_{2}}$ concentration in the lower half of the burner since there is minimal combustion occurring. The unburnt carbon content and exit flue-gas temperatures for each case are reported in Tab. \ref{tbl_cfd_results}. With the use of the middle burners (Cases 2 and 5) the highest exit temperature and unburnt carbon content is observed, since the flame core is located in the upper half of the furnace leading to the least possibility of complete combustion due to the shorter residence time. Cases 3 and 6 exhibit the best characteristics with the least amount of unburnt carbon content being observed. It is important to note the effects of a lower SA mass flow rate has on the furnace exit conditions for non-firing burners, which generally leads to a hotter exit gas temperature as seen with Cases 4 to 6. 
 \begin{figure*}[h!]
 \centering
-\subfigure[Symmetry vertical plot]{\includegraphics[scale = 0.45]{SYMMETRY_PROBE_COPPM}}
+\subfigure[Symmetry vertical plot]{\includegraphics[scale = 0.47]{SYMMETRY_PROBE_COPPM}}
 \hspace{5mm}
-\subfigure[Offset vertical plot]{\includegraphics[scale = 0.45]{OFFSET_PROBE_COPPM}}
+\subfigure[Offset vertical plot]{\includegraphics[scale = 0.47]{OFFSET_PROBE_COPPM}}
 \hspace{5mm}
 \subfigure[Symmetry vertical plot]{\includegraphics[scale = 0.45]{SYMMETRY_PROBE_XO2}}
 \hspace{5mm}
@@ -616,9 +680,12 @@ Investigating the combustion stability for all the cases, the symmetry and offse
 \caption{$CO_{PPM}$ [(a) and (b)] and $X_{O_{2}}$ [(c) and (d)] line plots on symmetry and offset vertical probe lines}
 \label{fig_cfd_probe}
 \end{figure*}
+
 The external tube metal temperatures, shown in Tab. \ref{tbl_cfd_results} were calculated using Eqn. \ref{eqn_t_wall}, which takes into account the temperature drop due to the ash deposit present on platen and final SH. Fouling thermal resistances of 0.0067 and 0.015 [$m^2K/W$] were used for the platen and final SH respectively.
+\vspace{-5mm}
 \begin{equation}\label{eqn_t_wall}
 T_{metal} = T_{wall} - \left(\frac{\dot{q}_{SH}t_{ASH}}{\lambda_{ASH}}\right)
+\vspace{-5mm}
 \end{equation}
 
 For the platen and final SH the maximum surface temperature are observed for Cases 2 and 5. For comparison, at 100\% MCR load the maximum and mean temperatures reported for the platen and final SH are 500 \& 446 $[^\circ C]$ and 623 \& 531 $[^\circ C]$ respectively, with the final SH operating in the materials creep range \cite{Laubscher2019b}. Thus, continued operation using the firing arrangement of Cases 2 and 5, could lead to SH failure.
@@ -643,9 +710,10 @@ EC [\%] & 5.4& 6.5\\
 \hline
 \label{tbl_rad_conv}
 \end{tabularx}}
+\vspace{-10mm}
 \end{table}
 
-Table \ref{tbl_rad_conv} shows the radiative heat percentage of the total heat input into each heat-exchanger for Cases 3 and 6. It can be seen that heat transfer to the furnace and radiant SHs are dominated by radiation, with approximately $\pm$ 10\% being transferred via convection at low-load. Considering the convective pass heat exchangers (RH2 through to the EC, refer to Figure \ref{fig_flownex}) the convective heat transfer becomes more apparent as seen with the reduction in radiative heat transfer percentage. Case 6 involves less convective heat transfer due to the SA flowrate for non-firing burners. This will reduce the total amount of flue-gas flowing through the boiler, thereby reducing the convective heat transfer.
+Table \ref{tbl_rad_conv} shows the radiative heat percentage of the total heat input into each heat-exchanger for Cases 3 and 6. It can be seen that heat transfer to the furnace and radiant SHs are dominated by radiation, with approximately $\pm$10\% being transferred via convection at low-load. Considering the convective pass heat exchangers (RH2 through to the EC, refer to Figure \ref{fig_flownex}) the convective heat transfer becomes more apparent as seen with the reduction in radiative heat transfer percentage. Case 6 involves less convective heat transfer due to the SA flowrate for non-firing burners. This will reduce the total amount of flue-gas flowing through the boiler, thereby reducing the convective heat transfer.
 \section{Conclusions}
 The present study demonstrates the use of a coupled CFD/process model to study the effects of burner configuration at a boiler load of 32\% MCR. A validation case was first performed for the CFD model, which showed adequate results for heat fluxes to the walls, with a general tendency of the model to under-predict the heat fluxes to the furnace. The model also showed sufficient accuracy in determining the combustion characteristics at the 100 \% MCR load.
 
