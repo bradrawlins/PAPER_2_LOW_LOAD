@@ -1,0 +1,331 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  20 JAN 2022 10:19
+entering extended mode
+**./asme2ej.tex
+(asme2ej.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-06> xparse <2020-03-03> (asme2ej.cls
+
+LaTeX Warning: You have requested document class `asme2ej',
+               but the document class provides `asme2e'.
+
+Document Class: asme2e 2001/2/14 v2.0 Standard LaTeX document class
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptm.sty
+Package: mathptm 2020/03/25 PSNFSS-v9.3 Times w/ Math (SPQR, WaS) 
+
+
+Package mathptm Warning: This package is to be regarded as obsolete.
+(mathptm)                See the PSNFSS documentation.
+
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 32.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 32.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 32.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 33.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 33.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 33.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 34.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 34.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 34.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 38.
+) (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+Ten Point
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 3
+01.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\tempbox=\box47
+\c@figure=\count183
+\c@table=\count184
+\@authcnt=\count185
+\@tmpcnt=\count186
+\bibindent=\dimen138
+\tempbox=\box48
+\minute=\count187
+\hour=\count188
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
+ty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
+ty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphi
+cs.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex
+.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
+8.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-pdftex.def
+File: l3backend-pdftex.def 2021-02-06 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count189
+\l__pdf_internal_box=\box49
+) (asme2ej.aux)
+\openout1 = `asme2ej.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+\big@size=\dimen141
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
+f.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count190
+\scratchdimen=\dimen142
+\scratchbox=\box50
+\nofMPsegments=\count191
+\nofMParguments=\count192
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count193
+\MPscratchDim=\dimen143
+\MPnumerator=\count194
+\makeMPintoPDFobject=\count195
+\everyMPtoPDFconversion=\toks17
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
+df-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line
+ 80.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line
+ 80.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
+ 80.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line
+ 80.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+
+Underfull \hbox (badness 10000) detected at line 80
+[]
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+
+Overfull \vbox (15.64076pt too high) has occurred while \output is active []
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+04.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+LaTeX Warning: Citation `asmemanual' on page 1 undefined on input line 104.
+
+
+LaTeX Warning: Citation `latex' on page 1 undefined on input line 104.
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 104--105
+\OT1/ptm/m/n/10 lines [\OT1/ptm/b/n/10 ?\OT1/ptm/m/n/10 ], you should mod-ify n
+ei-ther the L[]T[]X macro
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+10.
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+[1{C:/Users/RWLBRA001/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+
+]
+Overfull \vbox (11.55132pt too high) has occurred while \output is active []
+
+<figure/FMANU_MD_05_1107_11.jpg, id=13, 240.9pt x 364.36125pt>
+File: figure/FMANU_MD_05_1107_11.jpg Graphic file (type jpg)
+<use figure/FMANU_MD_05_1107_11.jpg>
+Package pdftex.def Info: figure/FMANU_MD_05_1107_11.jpg  used on input line 191
+.
+(pdftex.def)             Requested size: 241.38153pt x 365.09978pt.
+
+[2]
+<figure/FMANU_MD_05_1272_5.jpg, id=19, 227.8914pt x 191.7564pt>
+File: figure/FMANU_MD_05_1272_5.jpg Graphic file (type jpg)
+<use figure/FMANU_MD_05_1272_5.jpg>
+Package pdftex.def Info: figure/FMANU_MD_05_1272_5.jpg  used on input line 213.
+
+(pdftex.def)             Requested size: 241.38153pt x 203.10571pt.
+<figure/FMANU_MD_04_1274_13.jpg, id=20, 225.4824pt x 168.63pt>
+File: figure/FMANU_MD_04_1274_13.jpg Graphic file (type jpg)
+<use figure/FMANU_MD_04_1274_13.jpg>
+Package pdftex.def Info: figure/FMANU_MD_04_1274_13.jpg  used on input line 229
+.
+(pdftex.def)             Requested size: 234.87749pt x 175.66438pt.
+File: figure/FMANU_MD_04_1274_13.jpg Graphic file (type jpg)
+<use figure/FMANU_MD_04_1274_13.jpg>
+Package pdftex.def Info: figure/FMANU_MD_04_1274_13.jpg  used on input line 238
+.
+(pdftex.def)             Requested size: 495.04993pt x 370.24864pt.
+ [3 <./figure/FMANU_MD_05_1107_11.jpg> <./figure/FMANU_MD_05_1272_5.jpg> <./fig
+ure/FMANU_MD_04_1274_13.jpg>] [4]
+
+LaTeX Warning: Citation `goosens' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `art' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `blt' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `ibk' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `icn' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `ips' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `mts' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `mis' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `pro' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `pts' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `trt' on page 5 undefined on input line 293.
+
+
+LaTeX Warning: Citation `upd' on page 5 undefined on input line 293.
+
+No file asme2ej.bbl.
+[5] (asme2ej.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1723 strings out of 479616
+ 26666 string characters out of 2863101
+ 310118 words of memory out of 3000000
+ 18867 multiletter control sequences out of 15000+200000
+ 452102 words of font info for 116 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,11n,74p,1047b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
+}<C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cmextra/cmex9.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RWLBRA001/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RWLBRA001/App
+Data/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/RWLBRA0
+01/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/
+RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
+/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb>
+<C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.
+pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utm
+r8a.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on asme2ej.pdf (5 pages, 422901 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
