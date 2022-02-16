@@ -428,10 +428,9 @@ title = {{Computational modeling of pulverized coal fired boilers}},
 year = {2015}
 }
 @misc{eskom,
-title = {{Eskom Power Generation}},
-url = {http://www.eskom.co.za/Whatweredoing/ElectricityGeneration/Pages/Electricity{\_}Generation.aspx},
-urldate = {2019-05-20},
-year = {2017}
+author = {{Eskom Power Generation}},
+year = {accessed June 18, 2020},
+howpublished = "{http://www.eskom.co.za/ElectricityGeneration.aspx}"
 }
 @article{Chen2017,
 abstract = {Corner-tangentially-fired boilers (CTFBs), in which the burners are installed at the four corners separately, have been widely used in the thermal power stations in China. However, due to the variation of coal types and the inherent design defects of the CTFB, slagging and high-temperature corrosion on the water-cooled walls, and large temperature deviation at the furnace outlet are often detected during operation. Wall-tangentially-fired boilers (WTFBs), in which the burners are arranged on the furnace walls, are believed to be able to solve the above-mentioned issues. In this work, the hydrodynamic and combustion characteristics of pulverized coal in a 600 MW utility boiler with different tangential burner arrangement schemes are numerically investigated by the commercial software, Fluent. After comprehensive analyses of the predicted velocity fields, the temperature fields, the species concentration fields, the heat fluxes through furnace walls, the phenomena at the furnace outlet, the swirl numbers (SNs) and the actual tangential circle diameters (TCDs), it is found that the wall-center-tangentially-fired boiler (WCTFB) is the best arrangement scheme because it has the best performance in this work.},

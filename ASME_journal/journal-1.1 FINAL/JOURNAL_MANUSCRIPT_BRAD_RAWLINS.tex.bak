@@ -179,7 +179,7 @@ The use of coal-fired power plants (CFPP) for electricity generation is intended
 
 The integration of renewable energy sources will push CFPPs from primarily base load operation to a mid-merit/flexible operating protocol, which includes prolonged operation at low-loads. Long term deviation from design conditions can lead to operational inefficiencies affecting combustion stability \cite{Hernik2020}, an increase in harmful emissions \cite{Chang2021}, and the localised overheating of heat exchangers due to insufficient cooling being provided by the internal working fluid \cite{Modlinski2019}.
 
-While full scale testing or experimentation on CFPPs is deemed too expensive to pursue, mathematical models that can accurately capture the thermal response of boilers at varying loads can be used to determine the safe and efficient operating limits \cite{Laubscher2019b}. Computational fluid dynamics (CFD) allows for the modelling of full-scale CFPP boilers, at steady-state operating conditions. CFD simulations have been successfully used to model a variety of CFPP boiler types (\cite{Laubscher2019a}, \cite{Gu2020}) and cover various aspects such as pollution control (\cite{Du2017},\cite{Fan2001}), gas-solid flow effects (\cite{Chen2017}) and boiler retrofitting (\cite{Gu2020}, \cite{He2007}).
+While full scale testing or experimentation on CFPPs is deemed too expensive to pursue, mathematical models that can accurately capture the thermal response of boilers at varying loads can be used to determine the safe and efficient operating limits \cite{Laubscher2019b}. Computational fluid dynamics (CFD) allows for the modelling of full-scale CFPP boilers, at steady-state operating conditions. CFD simulations have been successfully used to model a variety of CFPP boiler types \cite{Laubscher2019a, Gu2020} and cover various aspects such as pollution control \cite{Du2017, Fan2001}, gas-solid flow effects \cite{Chen2017} and boiler retrofitting \cite{Gu2020, He2007}.
 
 Recent CFD studies investigating low-load operation of CFPP boilers have focused on the combustion stability, harmful emissions and the gas flow-solid flow interactions \cite{Jiang2021}. The works of Belosevic et al \cite{Belosevic2019a} found that the low-load operation of boilers considerably affects the flow and temperature fields, the flame geometry, chemical reactions and concentrations of combustion products.
 
@@ -226,18 +226,18 @@ To correctly account for the particle inertial effects on the gas phase convecti
 	\rho_{eff} = \frac{\rho \rho_p \left( \phi_{mp} + 1 \right)}{\rho \phi_{mp} + \rho_p}
 \end{equation}
 
-In the present study the realizable k-$\varepsilon$ turbulence model was utilized to address the turbulence closure problem. This model has been successfully used by researchers (\cite{Belosevic2019a},\cite{Laubscher2019a} and \cite{Modlinski2019}), in modelling the effects of coal-fired swirl burners. The model generally produces higher accuracy results, when compared to the standard k-$\varepsilon$ model, for problems incorporating swirling and separating flows.
+In the present study the realizable k-$\varepsilon$ turbulence model was utilized to address the turbulence closure problem. This model has been successfully used by researchers (\cite{Belosevic2019a, Laubscher2019a, Modlinski2019}), in modelling the effects of coal-fired swirl burners. The model generally produces higher accuracy results, when compared to the standard k-$\varepsilon$ model, for problems incorporating swirling and separating flows.
 
 The process of coal combustion comprises of four sequential steps namely, inert heating and evaporation of moisture, devolatilization, char oxidation and gas phase reactions. Equations (\ref{eqn_vol_rate}) and (\ref{eqn_vol_arrhenuis}) show the single rate kinetic model utilized in this study, to model the devolatilization process.
 \begin{gather}
 \frac{dm_{vol}}{dt} = R_{vol}(m_{0,vol}-m_{vol}) \label{eqn_vol_rate} \\
 \begin{split}
 &R_{vol} = A_{vol}exp\left(\frac{E_{a,vol}}{RT_p}\right)\\
-&A_{vol} = 2\times10^5 [s^{-1}]\,\,\,\,\,\,\,\,\,\,E_{a,vol} = 6.7\times10^7 [J/kmol] \label{eqn_vol_arrhenuis}
+&A_{vol} = 2\times10^5 [s^{-1}],\,\,\,\,\,\,\,\,\,\,E_{a,vol} = 6.7\times10^7 [J/kmol] \label{eqn_vol_arrhenuis}
 \end{split}
 \end{gather}
 
-A devolatilization temperature of 553 [$K$] \cite{Ranade2015} along with the kinetic parameters (Eqn. \ref{eqn_vol_arrhenuis}) of Sheng et al \cite{Sheng2004} were utilized in the present study.
+A devolatilization temperature of 553 $K$ \cite{Ranade2015} along with the kinetic parameters (Eqn. \ref{eqn_vol_arrhenuis}) of Sheng et al \cite{Sheng2004} were utilized in the present study.
 
 The char oxidation process is modelled using the diffusion-kinetics limited model developed by Baum and Street \cite{Baum1971}, which is given in Eqn. (\ref{eqn_char_rate}). The product species of the char oxidation reaction was set to $CO$ as shown in Eqn. (\ref{eqn_CO_reaction}). 
 \begin{gather}
@@ -250,7 +250,7 @@ The diffusion and kinetic rates of Eqn. (\ref{eqn_char_rate}) are defined in Eqn
 R_{diff} = \frac{5\times10^{-12}}{d_p} \left(\frac{T_g+T_p}{2}\right)^{0.75} \label{eqn_char_diff_rate}\\
 \begin{split}
 &R_{c} = A_{c}exp\left(\frac{E_{a,c}}{RT_p}\right)\\
-&A_{c} = 0.0053 [kg/m^2sPa]\,\,\,\,\,\,\,\,\,\,E_{a,c} = 8.37\times10^7 [J/kmol]
+&A_{c} = 0.0053 [kg/m^2sPa],\,\,\,\,\,\,\,\,\,\,E_{a,c} = 8.37\times10^7 [J/kmol]
 \end{split}
  \label{eqn_char_kin_rate}
 \end{gather}
@@ -286,7 +286,7 @@ The energy transport of the pseudo particle phase, is captured by defining a par
 \end{split}
 \end{equation}
 
-The equation accounts for all the processes associated with energy transport to the particle, namely convection $\left(\dot{Q}_{conv}\right)$, radiation $\left(\dot{Q}_{rad}\right)$, latent heat transport $\left(\frac{dm_{evap}}{dt}h_{fg}\right)$ and near surface char oxidation $\left(f_{heat}\frac{dm_{c}}{dt}h_{rxn}\right)$. This gives the model the ability to track the particle temperature in the domain, which distinguishes it from the thermal equilibrium approach incorporated by previous studies using an EE approach (\cite{Benim2005}, \cite{Vicente2003} and \cite{Cai2015}). The particle temperature is important in describing the sequential steps found in modelling combustion processes, especially at low boiler loads where mixing and ignition become problematic. To solve the additional transport equations and their source terms, user defined functions utilized by ANSYS Fluent, were developed using the \textit{C/C++} programming language.
+The equation accounts for all the processes associated with energy transport to the particle, namely convection $\left(\dot{Q}_{conv}\right)$, radiation $\left(\dot{Q}_{rad}\right)$, latent heat transport $\left(\frac{dm_{evap}}{dt}h_{fg}\right)$ and near surface char oxidation $\left(f_{heat}\frac{dm_{c}}{dt}h_{rxn}\right)$. This gives the model the ability to track the particle temperature in the domain, which distinguishes it from the thermal equilibrium approach incorporated by previous studies using an EE approach \cite{Benim2005, Vicente2003, Cai2015}. The particle temperature is important in describing the sequential steps found in modelling combustion processes, especially at low boiler loads where mixing and ignition become problematic. To solve the additional transport equations and their source terms, user defined functions utilized by ANSYS Fluent, were developed using the \textit{C/C++} programming language.
 
 \subsection{Heat transfer modelling}
 Radiation heat transfer is the dominant form of heat transfer found in industrial furnaces \cite{Basu2000} and is solved by applying the gray-participating-gas and particle medium configuration of the radiation transport equation (RTE) \cite{Modest2013} shown in Eqn. (\ref{eqn_RTE}).
@@ -462,7 +462,7 @@ The spatial discretization for all fields (except pressure) was set to first-ord
 
 \section{Results \& discussion}
 \subsection{Model validation}\label{sec_model_valid}
-The validation of the proposed model was conducted for three steady-state MCR loads of 100\%, 80\% and 60\% respectively. Actual plant measurements were used to calculate the thermal heat loads of the three heat exchangers, namely the furnace, platen and final SH, to quantify the accuracy. The model inputs and thermal boundary conditions can be obtained from the studies conducted by Laubscher and Rousseau \cite{Laubscher2019b} \cite{Laubscher2020b}, where using the same boiler of the present study, they evaluated the thermal performance of the heat exchanging components at full and reduced boiler loads.
+The validation of the proposed model was conducted for three steady-state MCR loads of 100\%, 80\% and 60\% respectively. Actual plant measurements were used to calculate the thermal heat loads of the three heat exchangers, namely the furnace, platen and final SH, to quantify the accuracy. The model inputs and thermal boundary conditions can be obtained from the studies conducted by Laubscher and Rousseau \cite{Laubscher2019b, Laubscher2020b}, where using the same boiler of the present study, they evaluated the thermal performance of the heat exchanging components at full and reduced boiler loads.
 
 Figure \ref{fig_heat_valid} shows that the calculated overall heat loads are in good agreement with the measured values where the model results are within the associated uncertainty range in all but one case. The simulation systematically under predicts the furnace heat loads, with a maximum percentage error of 2\%, while predominating overpredicting the platen SH loads, with a maximum percentage error of 7\%.
 
