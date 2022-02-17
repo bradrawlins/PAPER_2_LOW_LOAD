@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  16 FEB 2022 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  17 FEB 2022 09:03
 entering extended mode
 **./JOURNAL_MANUSCRIPT_BRAD_RAWLINS.tex
 (JOURNAL_MANUSCRIPT_BRAD_RAWLINS.tex
@@ -368,8 +368,158 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.s
+ty
+Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.s
+ty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftex
+cmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infware
+rr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetke
+ys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvde
+finekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfesca
+pe.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxm
+acro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions
+.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen182
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-l
+angpatches.def
+File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
+nguages
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.s
+ty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds
+.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count292
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count293
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen183
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigint
+calc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count294
+\Field@Width=\dimen184
+\Fld@charsize=\dimen185
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.s
+ty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count295
+\c@Item=\count296
+\c@Hfootnote=\count297
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.de
+f
+File: hpdftex.def 2021-02-10 v7.00j Hyperref driver for pdfTeX
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.
+sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count298
+\c@bookmark@seq@number=\count299
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\reru
+nfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uni
+quecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip62
+)
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 8
-3.
+6.
 
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -377,39 +527,43 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
 -pdftex.def
 File: l3backend-pdftex.def 2021-02-06 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count290
+\l__color_backend_stack_int=\count300
 \l__pdf_internal_box=\box105
 ) (JOURNAL_MANUSCRIPT_BRAD_RAWLINS.aux)
 \openout1 = `JOURNAL_MANUSCRIPT_BRAD_RAWLINS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count291
-\scratchdimen=\dimen182
+\scratchcounter=\count301
+\scratchdimen=\dimen186
 \scratchbox=\box106
-\nofMPsegments=\count292
-\nofMParguments=\count293
+\nofMPsegments=\count302
+\nofMParguments=\count303
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count294
-\MPscratchDim=\dimen183
-\MPnumerator=\count295
-\makeMPintoPDFobject=\count296
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen187
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks33
 )
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
@@ -418,63 +572,72 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
+Package hyperref Info: Link coloring OFF on input line 86.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.st
+y
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.s
+ty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\ge
+ttitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count307
+)
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
+ (JOURNAL_MANUSCRIPT_BRAD_RAWLINS.out)
+(JOURNAL_MANUSCRIPT_BRAD_RAWLINS.out)
+\@outlinefile=\write3
+\openout3 = `JOURNAL_MANUSCRIPT_BRAD_RAWLINS.out'.
+
 LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line
- 85.
+ 89.
 
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line
- 85.
+ 89.
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
- 85.
+ 89.
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+psycm on input line
- 85.
+ 89.
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 
-Underfull \hbox (badness 10000) detected at line 85
+Underfull \hbox (badness 10000) detected at line 89
 []
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) detected at line 96
-$\OML/ptmcm/m/it/10 A$
- []
-
-
-Underfull \hbox (badness 10000) detected at line 97
-$\OML/ptmcm/m/it/10 A[]$
- []
-
-
-Underfull \hbox (badness 10000) detected at line 98
-$\OML/ptmcm/m/it/10 A[]$
- []
-
-
 Underfull \hbox (badness 10000) detected at line 99
-$\OML/ptmcm/m/it/10 A[]$
+$\OML/ptmcm/m/it/10 A$
  []
 
 
@@ -484,82 +647,82 @@ $\OML/ptmcm/m/it/10 A[]$
 
 
 Underfull \hbox (badness 10000) detected at line 101
-$\OML/ptmcm/m/it/10 d[]$
+$\OML/ptmcm/m/it/10 A[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 102
-$\OML/ptmcm/m/it/10 E$
+$\OML/ptmcm/m/it/10 A[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 103
-$\OML/ptmcm/m/it/10 E[]$
+$\OML/ptmcm/m/it/10 A[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 104
-$\OML/ptmcm/m/it/10 E[]$
+$\OML/ptmcm/m/it/10 d[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 105
-$\OML/ptmcm/m/it/10 E[]$
+$\OML/ptmcm/m/it/10 E$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 106
-$\OML/ptmcm/m/it/10 f[]$
+$\OML/ptmcm/m/it/10 E[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 107
-$\OML/ptmcm/m/it/10 f[]$
+$\OML/ptmcm/m/it/10 E[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 108
-$\OML/ptmcm/m/it/10 G$
+$\OML/ptmcm/m/it/10 E[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 109
-$\OML/ptmcm/m/it/10 g$
+$\OML/ptmcm/m/it/10 f[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 110
-$\OML/ptmcm/m/it/10 h[]$
+$\OML/ptmcm/m/it/10 f[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 111
-$\OML/ptmcm/m/it/10 h[]$
+$\OML/ptmcm/m/it/10 G$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 112
-$\OML/ptmcm/m/it/10 h[]$
+$\OML/ptmcm/m/it/10 g$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 113
-$\OML/ptmcm/m/it/10 J[]$ 
+$\OML/ptmcm/m/it/10 h[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 114
-$\OML/ptmcm/m/it/10 m[]$
+$\OML/ptmcm/m/it/10 h[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 115
-$\OML/ptmcm/m/it/10 m[]$
+$\OML/ptmcm/m/it/10 h[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 116
-$\OML/ptmcm/m/it/10 m[]$
+$\OML/ptmcm/m/it/10 J[]$ 
  []
 
 
@@ -569,36 +732,51 @@ $\OML/ptmcm/m/it/10 m[]$
 
 
 Underfull \hbox (badness 10000) detected at line 118
-$\OML/ptmcm/m/it/10 N[]$
+$\OML/ptmcm/m/it/10 m[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 119
-$\OML/ptmcm/m/it/10 P$
+$\OML/ptmcm/m/it/10 m[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 120
-$\OML/ptmcm/m/it/10 p$
+$\OML/ptmcm/m/it/10 m[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 121
-$\OML/ptmcm/m/it/10 p[]$
+$\OML/ptmcm/m/it/10 N[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 122
-$[]$
+$\OML/ptmcm/m/it/10 P$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 123
+$\OML/ptmcm/m/it/10 p$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 124
+$\OML/ptmcm/m/it/10 p[]$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 125
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 126
 $[]$
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-24.
+27.
 (C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -606,68 +784,53 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 ]
-Underfull \hbox (badness 10000) detected at line 124
+Underfull \hbox (badness 10000) detected at line 127
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 125
+Underfull \hbox (badness 10000) detected at line 128
 $\OML/ptmcm/m/it/10 q[]$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 126
+Underfull \hbox (badness 10000) detected at line 129
 $\OML/ptmcm/m/it/10 R$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 127
-$\OML/ptmcm/m/it/10 R[]$
- []
-
-
-Underfull \hbox (badness 10000) detected at line 128
-$\OML/ptmcm/m/it/10 R[]$
- []
-
-
-Underfull \hbox (badness 10000) detected at line 129
-$\OML/ptmcm/m/it/10 R[]$
- []
-
-
 Underfull \hbox (badness 10000) detected at line 130
-$\OML/ptmcm/m/it/10 S$
+$\OML/ptmcm/m/it/10 R[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 131
-$\OML/ptmcm/m/it/10 S[]$
+$\OML/ptmcm/m/it/10 R[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 132
-$\OML/ptmcm/m/it/10 S[]$
+$\OML/ptmcm/m/it/10 R[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 133
-$\OML/ptmcm/m/it/10 S[]$
+$\OML/ptmcm/m/it/10 S$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 134
-$\OML/ptmcm/m/it/10 T[]$
+$\OML/ptmcm/m/it/10 S[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 135
-$\OML/ptmcm/m/it/10 T[]$
+$\OML/ptmcm/m/it/10 S[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 136
-$\OML/ptmcm/m/it/10 T[]$
+$\OML/ptmcm/m/it/10 S[]$
  []
 
 
@@ -677,72 +840,72 @@ $\OML/ptmcm/m/it/10 T[]$
 
 
 Underfull \hbox (badness 10000) detected at line 138
-$\OML/ptmcm/m/it/10 t$
+$\OML/ptmcm/m/it/10 T[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 139
-$\OML/ptmcm/m/it/10 U[]$
+$\OML/ptmcm/m/it/10 T[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 140
-$\OML/ptmcm/m/it/10 u$
+$\OML/ptmcm/m/it/10 T[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 141
-$\OML/ptmcm/m/it/10 V$
+$\OML/ptmcm/m/it/10 t$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 142
-$\OML/ptmcm/m/it/10 Y[]$
+$\OML/ptmcm/m/it/10 U[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 143
-$\OML/ptmcm/m/it/10 x$
+$\OML/ptmcm/m/it/10 u$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 144
+$\OML/ptmcm/m/it/10 V$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 145
-$\OML/ptmcm/m/it/10 []$
+$\OML/ptmcm/m/it/10 Y[]$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 146
-$\OML/ptmcm/m/it/10 []$
- []
-
-
-Underfull \hbox (badness 10000) detected at line 147
-$\OML/ptmcm/m/it/10 []$
+$\OML/ptmcm/m/it/10 x$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 148
-$\OML/ptmcm/m/it/10 []$
+$\OML/ptmcm/m/it/10 []$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 149
-$\OML/ptmcm/m/it/10 $
+$\OML/ptmcm/m/it/10 []$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 150
-$\OML/ptmcm/m/it/10 []$
+$\OML/ptmcm/m/it/10 []$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 151
-$\OML/ptmcm/m/it/10 []$
+$\OML/ptmcm/m/it/10 []$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 152
-$\OML/ptmcm/m/it/10 []$
+$\OML/ptmcm/m/it/10 $
  []
 
 
@@ -757,131 +920,146 @@ $\OML/ptmcm/m/it/10 []$
 
 
 Underfull \hbox (badness 10000) detected at line 155
-$\OML/ptmcm/m/it/10 []$
+$\OML/ptmcm/m/it/10 []$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 156
-$\OML/ptmcm/m/it/10 []$
+$\OML/ptmcm/m/it/10 []$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 157
-$\OML/ptmcm/m/it/10 $
+$\OML/ptmcm/m/it/10 []$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 158
+$\OML/ptmcm/m/it/10 []$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 159
-$\OML/ptmcm/m/it/10 MCR$
+$\OML/ptmcm/m/it/10 []$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 160
-$\OML/ptmcm/m/it/10 CFPP$
- []
-
-
-Underfull \hbox (badness 10000) detected at line 161
-$\OML/ptmcm/m/it/10 CFD$
+$\OML/ptmcm/m/it/10 $
  []
 
 
 Underfull \hbox (badness 10000) detected at line 162
-$\OML/ptmcm/m/it/10 SH$
+$\OML/ptmcm/m/it/10 MCR$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 163
-$\OML/ptmcm/m/it/10 EE$
+$\OML/ptmcm/m/it/10 CFPP$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 164
-$\OML/ptmcm/m/it/10 WSGGM$
+$\OML/ptmcm/m/it/10 CFD$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 165
-$\OML/ptmcm/m/it/10 RTE$
+$\OML/ptmcm/m/it/10 SH$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 166
-$\OML/ptmcm/m/it/10 HHV$
+$\OML/ptmcm/m/it/10 EE$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 167
-$\OML/ptmcm/m/it/10 DAF$
+$\OML/ptmcm/m/it/10 WSGGM$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 168
-$\OML/ptmcm/m/it/10 AR$
+$\OML/ptmcm/m/it/10 RTE$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 169
-$\OML/ptmcm/m/it/10 PA$
+$\OML/ptmcm/m/it/10 HHV$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 170
-$\OML/ptmcm/m/it/10 SA$\OT1/ptm/m/n/10 -$\OML/ptmcm/m/it/10 AH$
+$\OML/ptmcm/m/it/10 DAF$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 171
-$\OML/ptmcm/m/it/10 SA$
+$\OML/ptmcm/m/it/10 AR$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 172
-$\OML/ptmcm/m/it/10 RH$
+$\OML/ptmcm/m/it/10 PA$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 173
-$\OML/ptmcm/m/it/10 ATT$
+$\OML/ptmcm/m/it/10 SA$\OT1/ptm/m/n/10 -$\OML/ptmcm/m/it/10 AH$
  []
 
 
 Underfull \hbox (badness 10000) detected at line 174
+$\OML/ptmcm/m/it/10 SA$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 175
+$\OML/ptmcm/m/it/10 RH$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 176
+$\OML/ptmcm/m/it/10 ATT$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 177
 $\OML/ptmcm/m/it/10 EC$
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 180--181
+Underfull \hbox (badness 2189) in paragraph at lines 183--184
 \OT1/ptm/m/n/10 CF-PPs from pri-mar-ily base load op-er-a-tion to a mid-
  []
 
 [2]
-Underfull \hbox (badness 1796) in paragraph at lines 242--243
+Underfull \hbox (badness 1796) in paragraph at lines 245--246
 []\OT1/ptm/m/n/10 The char ox-i-da-tion pro-cess is mod-elled us-ing the
  []
 
 [3]
-Overfull \hbox (4.41199pt too wide) in paragraph at lines 278--278
+Overfull \hbox (4.41199pt too wide) in paragraph at lines 281--281
 []|\OT1/ptm/m/n/10 Variable| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 []|\OT1/ptm/m/n/10 Original/initial mass
  []
 
 
-Underfull \hbox (badness 7344) in paragraph at lines 278--278
+Underfull \hbox (badness 7344) in paragraph at lines 281--281
 []|\OT1/ptm/m/n/10 Moisture present in
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 278--278
+Underfull \hbox (badness 1072) in paragraph at lines 281--281
 []|\OT1/ptm/m/n/10 Fixed car-bon present
  []
 
 
-Overfull \hbox (9.6152pt too wide) in alignment at lines 278--278
+Overfull \hbox (9.6152pt too wide) in alignment at lines 281--281
 [][][] 
  []
 
@@ -892,20 +1070,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 1590) has occurred while \output is active []
 
  [4]
-<GEOMETRY.png, id=26, 928.21782pt x 478.03593pt>
+<GEOMETRY.png, id=189, 928.21782pt x 478.03593pt>
 File: GEOMETRY.png Graphic file (type png)
 <use GEOMETRY.png>
-Package pdftex.def Info: GEOMETRY.png  used on input line 317.
+Package pdftex.def Info: GEOMETRY.png  used on input line 320.
 (pdftex.def)             Requested size: 417.69417pt x 215.11418pt.
-<BURNER_MESH.png, id=28, 449.42906pt x 255.20343pt>
+<BURNER_MESH.png, id=191, 449.42906pt x 255.20343pt>
 File: BURNER_MESH.png Graphic file (type png)
 <use BURNER_MESH.png>
-Package pdftex.def Info: BURNER_MESH.png  used on input line 322.
+Package pdftex.def Info: BURNER_MESH.png  used on input line 325.
 (pdftex.def)             Requested size: 202.2412pt x 114.84047pt.
-<FLOWNEX_SETUP.png, id=29, 749.80125pt x 550.30594pt>
+<FLOWNEX_SETUP.png, id=192, 749.80125pt x 550.30594pt>
 File: FLOWNEX_SETUP.png Graphic file (type png)
 <use FLOWNEX_SETUP.png>
-Package pdftex.def Info: FLOWNEX_SETUP.png  used on input line 328.
+Package pdftex.def Info: FLOWNEX_SETUP.png  used on input line 331.
 (pdftex.def)             Requested size: 374.8997pt x 275.1523pt.
 
 
@@ -930,327 +1108,327 @@ Overfull \vbox (11.7469pt too high) has occurred while \output is active []
 
 
 [6 <./GEOMETRY.png> <./BURNER_MESH.png> <./FLOWNEX_SETUP.png>]
-<HEAT_EXCHANGER_PROCESS_MODEL.png, id=38, 880.03781pt x 534.49687pt>
+<HEAT_EXCHANGER_PROCESS_MODEL.png, id=232, 880.03781pt x 534.49687pt>
 File: HEAT_EXCHANGER_PROCESS_MODEL.png Graphic file (type png)
 <use HEAT_EXCHANGER_PROCESS_MODEL.png>
 Package pdftex.def Info: HEAT_EXCHANGER_PROCESS_MODEL.png  used on input line 3
-80.
+83.
 (pdftex.def)             Requested size: 352.00888pt x 213.79495pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (5.7309pt too wide) in alignment at lines 414--414
+Overfull \hbox (5.7309pt too wide) in alignment at lines 417--417
 [][][] 
  []
 
 [7]
-Overfull \hbox (1.77223pt too wide) in alignment at lines 450--450
+Overfull \hbox (1.77223pt too wide) in alignment at lines 453--453
 [][][] 
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 459--460
+Underfull \hbox (badness 2600) in paragraph at lines 462--463
 []\OT1/ptm/m/n/10 The CFD sim-u-la-tions were per-formed us-ing AN-
  []
 
 [8 <./HEAT_EXCHANGER_PROCESS_MODEL.png>]
-<VALIDATION.png, id=46, 1216.545pt x 456.20438pt>
+<VALIDATION.png, id=255, 1216.545pt x 456.20438pt>
 File: VALIDATION.png Graphic file (type png)
 <use VALIDATION.png>
-Package pdftex.def Info: VALIDATION.png  used on input line 472.
+Package pdftex.def Info: VALIDATION.png  used on input line 475.
 (pdftex.def)             Requested size: 486.60938pt x 182.4785pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<COPPM_VALID.png, id=47, 391.7034pt x 301.125pt>
+<COPPM_VALID.png, id=256, 391.7034pt x 301.125pt>
 File: COPPM_VALID.png Graphic file (type png)
 <use COPPM_VALID.png>
-Package pdftex.def Info: COPPM_VALID.png  used on input line 478.
+Package pdftex.def Info: COPPM_VALID.png  used on input line 481.
 (pdftex.def)             Requested size: 234.88638pt x 142.26852pt.
-<XO2_VALID.png, id=48, 393.1488pt x 300.6432pt>
+<XO2_VALID.png, id=257, 393.1488pt x 300.6432pt>
 File: XO2_VALID.png Graphic file (type png)
 <use XO2_VALID.png>
-Package pdftex.def Info: XO2_VALID.png  used on input line 480.
+Package pdftex.def Info: XO2_VALID.png  used on input line 483.
 (pdftex.def)             Requested size: 234.87727pt x 142.2611pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 486--486
+Underfull \hbox (badness 1024) in paragraph at lines 489--489
 []\OT1/ptm/b/n/10 Simulation re-sults for var-i-ous burner fir-ing ar-
  []
 
-<TEMP_KEY.png, id=49, 639.13782pt x 63.23625pt>
+<TEMP_KEY.png, id=264, 639.13782pt x 63.23625pt>
 File: TEMP_KEY.png Graphic file (type png)
 <use TEMP_KEY.png>
-Package pdftex.def Info: TEMP_KEY.png  used on input line 491.
+Package pdftex.def Info: TEMP_KEY.png  used on input line 494.
 (pdftex.def)             Requested size: 361.34999pt x 35.7517pt.
-<BOT_TEMP.jpg, id=50, 240.9pt x 403.5075pt>
+<BOT_TEMP.jpg, id=265, 240.9pt x 403.5075pt>
 File: BOT_TEMP.jpg Graphic file (type jpg)
 <use BOT_TEMP.jpg>
-Package pdftex.def Info: BOT_TEMP.jpg  used on input line 492.
+Package pdftex.def Info: BOT_TEMP.jpg  used on input line 495.
 (pdftex.def)             Requested size: 123.76248pt x 207.30072pt.
-<MID_TEMP.jpg, id=51, 283.81032pt x 460.72125pt>
+<MID_TEMP.jpg, id=266, 283.81032pt x 460.72125pt>
 File: MID_TEMP.jpg Graphic file (type jpg)
 <use MID_TEMP.jpg>
-Package pdftex.def Info: MID_TEMP.jpg  used on input line 493.
+Package pdftex.def Info: MID_TEMP.jpg  used on input line 496.
 (pdftex.def)             Requested size: 123.76248pt x 200.91125pt.
-<FBRM_TEMP.jpg, id=52, 292.84406pt x 470.50781pt>
+<FBRM_TEMP.jpg, id=267, 292.84406pt x 470.50781pt>
 File: FBRM_TEMP.jpg Graphic file (type jpg)
 <use FBRM_TEMP.jpg>
-Package pdftex.def Info: FBRM_TEMP.jpg  used on input line 494.
+Package pdftex.def Info: FBRM_TEMP.jpg  used on input line 497.
 (pdftex.def)             Requested size: 123.76248pt x 198.84677pt.
-<BOT05_TEMP.jpg, id=53, 284.56313pt x 461.47406pt>
+<BOT05_TEMP.jpg, id=268, 284.56313pt x 461.47406pt>
 File: BOT05_TEMP.jpg Graphic file (type jpg)
 <use BOT05_TEMP.jpg>
-Package pdftex.def Info: BOT05_TEMP.jpg  used on input line 495.
+Package pdftex.def Info: BOT05_TEMP.jpg  used on input line 498.
 (pdftex.def)             Requested size: 123.76248pt x 200.70438pt.
-<MID05_TEMP.jpg, id=54, 280.79906pt x 469.755pt>
+<MID05_TEMP.jpg, id=269, 280.79906pt x 469.755pt>
 File: MID05_TEMP.jpg Graphic file (type jpg)
 <use MID05_TEMP.jpg>
-Package pdftex.def Info: MID05_TEMP.jpg  used on input line 496.
+Package pdftex.def Info: MID05_TEMP.jpg  used on input line 499.
 (pdftex.def)             Requested size: 123.76248pt x 207.04407pt.
-<FBRM05_TEMP.jpg, id=55, 294.34969pt x 468.24937pt>
+<FBRM05_TEMP.jpg, id=270, 294.34969pt x 468.24937pt>
 File: FBRM05_TEMP.jpg Graphic file (type jpg)
 <use FBRM05_TEMP.jpg>
-Package pdftex.def Info: FBRM05_TEMP.jpg  used on input line 497.
+Package pdftex.def Info: FBRM05_TEMP.jpg  used on input line 500.
 (pdftex.def)             Requested size: 123.76248pt x 196.87773pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<VEL_KEY.png, id=56, 484.81125pt x 42.1575pt>
+<VEL_KEY.png, id=271, 484.81125pt x 42.1575pt>
 File: VEL_KEY.png Graphic file (type png)
 <use VEL_KEY.png>
-Package pdftex.def Info: VEL_KEY.png  used on input line 504.
+Package pdftex.def Info: VEL_KEY.png  used on input line 507.
 (pdftex.def)             Requested size: 361.34999pt x 31.42311pt.
-<BOT_VEL.jpg, id=57, 283.81032pt x 451.6875pt>
+<BOT_VEL.jpg, id=272, 283.81032pt x 451.6875pt>
 File: BOT_VEL.jpg Graphic file (type jpg)
 <use BOT_VEL.jpg>
-Package pdftex.def Info: BOT_VEL.jpg  used on input line 505.
+Package pdftex.def Info: BOT_VEL.jpg  used on input line 508.
 (pdftex.def)             Requested size: 123.76248pt x 196.97182pt.
-<MID_VEL.jpg, id=58, 278.54062pt x 437.38406pt>
+<MID_VEL.jpg, id=273, 278.54062pt x 437.38406pt>
 File: MID_VEL.jpg Graphic file (type jpg)
 <use MID_VEL.jpg>
-Package pdftex.def Info: MID_VEL.jpg  used on input line 506.
+Package pdftex.def Info: MID_VEL.jpg  used on input line 509.
 (pdftex.def)             Requested size: 123.76248pt x 194.3383pt.
-<FBRM_VEL.jpg, id=59, 267.24844pt x 414.79968pt>
+<FBRM_VEL.jpg, id=274, 267.24844pt x 414.79968pt>
 File: FBRM_VEL.jpg Graphic file (type jpg)
 <use FBRM_VEL.jpg>
-Package pdftex.def Info: FBRM_VEL.jpg  used on input line 507.
+Package pdftex.def Info: FBRM_VEL.jpg  used on input line 510.
 (pdftex.def)             Requested size: 123.76248pt x 192.09502pt.
-<BOT05_VEL.jpg, id=60, 252.19218pt x 383.18156pt>
+<BOT05_VEL.jpg, id=275, 252.19218pt x 383.18156pt>
 File: BOT05_VEL.jpg Graphic file (type jpg)
 <use BOT05_VEL.jpg>
-Package pdftex.def Info: BOT05_VEL.jpg  used on input line 508.
+Package pdftex.def Info: BOT05_VEL.jpg  used on input line 511.
 (pdftex.def)             Requested size: 123.76248pt x 188.0471pt.
-<MID05_VEL.jpg, id=61, 261.97874pt x 418.56375pt>
+<MID05_VEL.jpg, id=276, 261.97874pt x 418.56375pt>
 File: MID05_VEL.jpg Graphic file (type jpg)
 <use MID05_VEL.jpg>
-Package pdftex.def Info: MID05_VEL.jpg  used on input line 509.
+Package pdftex.def Info: MID05_VEL.jpg  used on input line 512.
 (pdftex.def)             Requested size: 123.76248pt x 197.73409pt.
-<FBRM05_VEL.jpg, id=62, 269.50688pt x 414.79968pt>
+<FBRM05_VEL.jpg, id=277, 269.50688pt x 414.79968pt>
 File: FBRM05_VEL.jpg Graphic file (type jpg)
 <use FBRM05_VEL.jpg>
-Package pdftex.def Info: FBRM05_VEL.jpg  used on input line 510.
+Package pdftex.def Info: FBRM05_VEL.jpg  used on input line 513.
 (pdftex.def)             Requested size: 123.76248pt x 190.48737pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--534
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
 []|\OT1/ptm/b/n/10 Exit tem-per-a-
  []
 
 
-Overfull \hbox (5.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1168| 
  []
 
 
-Overfull \hbox (5.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1230| 
  []
 
 
-Overfull \hbox (5.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1215| 
  []
 
 
-Overfull \hbox (5.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1208| 
  []
 
 
-Overfull \hbox (5.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1306| 
  []
 
 
-Overfull \hbox (5.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (5.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1298| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1.83| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1.94| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1.54| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1.81| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1.89| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 1.62| 
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 534--534
+Underfull \hbox (badness 4429) in paragraph at lines 537--537
 []|\OT1/ptm/b/n/10 Max wall tem-
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 477| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 492| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 481| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 480| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 493| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 490| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 439| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 453| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 446| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 454| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 442| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 451| 
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 534--534
+Underfull \hbox (badness 4429) in paragraph at lines 537--537
 []|\OT1/ptm/b/n/10 Max wall tem-
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 602| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 624| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 608| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 595| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 626| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 612| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 520| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 523| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 517| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 512| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 520| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 537--537
 []|\OT1/ptm/m/n/10 511| 
  []
 
@@ -1258,334 +1436,334 @@ Overfull \hbox (0.81465pt too wide) in paragraph at lines 534--534
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []|\OT1/ptm/b/n/10 Main steam
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 175.8| 
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 172.9| 
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 180.5| 
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 180.2| 
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 179.1| 
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 184.1| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 535| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 535| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 535| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 535| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 535| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 535| 
  []
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 559--559
+Underfull \hbox (badness 3271) in paragraph at lines 562--562
 []|\OT1/ptm/b/n/10 RH steam flow
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 158.2| 
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 155.6| 
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 162.5| 
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 162.2| 
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 161.2| 
  []
 
 
-Overfull \hbox (8.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (8.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 165.6| 
  []
 
 
-Underfull \hbox (badness 5970) in paragraph at lines 559--559
+Underfull \hbox (badness 5970) in paragraph at lines 562--562
 []|\OT1/ptm/b/n/10 RH steam exit
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 524| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 527| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 531| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 512| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 510| 
  []
 
 
-Overfull \hbox (0.81465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (0.81465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 520| 
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 559--559
+Underfull \hbox (badness 1460) in paragraph at lines 562--562
 []|\OT1/ptm/b/n/10 Boiler ef-fi-ciency
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 85.3| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 84.1| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 87.9| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 87.2| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 85.9| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 89.1| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 10.4| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 16.9| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 13.9| 
  []
 
 
-Overfull \hbox (3.31465pt too wide) in paragraph at lines 559--559
+Overfull \hbox (3.31465pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/10 10.9| 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<HEATFLUX_KEY.png, id=63, 654.19406pt x 54.2025pt>
+<HEATFLUX_KEY.png, id=284, 654.19406pt x 54.2025pt>
 File: HEATFLUX_KEY.png Graphic file (type png)
 <use HEATFLUX_KEY.png>
-Package pdftex.def Info: HEATFLUX_KEY.png  used on input line 565.
+Package pdftex.def Info: HEATFLUX_KEY.png  used on input line 568.
 (pdftex.def)             Requested size: 361.34999pt x 29.93883pt.
-<BOT_HEATFLUX.jpg, id=64, 191.21437pt x 459.21562pt>
+<BOT_HEATFLUX.jpg, id=285, 191.21437pt x 459.21562pt>
 File: BOT_HEATFLUX.jpg Graphic file (type jpg)
 <use BOT_HEATFLUX.jpg>
-Package pdftex.def Info: BOT_HEATFLUX.jpg  used on input line 566.
+Package pdftex.def Info: BOT_HEATFLUX.jpg  used on input line 569.
 (pdftex.def)             Requested size: 89.10535pt x 213.99551pt.
-<MID_HEATFLUX.jpg, id=65, 222.07968pt x 462.97969pt>
+<MID_HEATFLUX.jpg, id=286, 222.07968pt x 462.97969pt>
 File: MID_HEATFLUX.jpg Graphic file (type jpg)
 <use MID_HEATFLUX.jpg>
-Package pdftex.def Info: MID_HEATFLUX.jpg  used on input line 568.
+Package pdftex.def Info: MID_HEATFLUX.jpg  used on input line 571.
 (pdftex.def)             Requested size: 99.00847pt x 206.40326pt.
-<FBRM_HEATFLUX.jpg, id=66, 214.55156pt x 469.00218pt>
+<FBRM_HEATFLUX.jpg, id=287, 214.55156pt x 469.00218pt>
 File: FBRM_HEATFLUX.jpg Graphic file (type jpg)
 <use FBRM_HEATFLUX.jpg>
-Package pdftex.def Info: FBRM_HEATFLUX.jpg  used on input line 570.
+Package pdftex.def Info: FBRM_HEATFLUX.jpg  used on input line 573.
 (pdftex.def)             Requested size: 99.00847pt x 216.43063pt.
-<BOT05_HEATFLUX.jpg, id=67, 248.93pt x 576.1525pt>
+<BOT05_HEATFLUX.jpg, id=288, 248.93pt x 576.1525pt>
 File: BOT05_HEATFLUX.jpg Graphic file (type jpg)
 <use BOT05_HEATFLUX.jpg>
-Package pdftex.def Info: BOT05_HEATFLUX.jpg  used on input line 571.
+Package pdftex.def Info: BOT05_HEATFLUX.jpg  used on input line 574.
 (pdftex.def)             Requested size: 89.10535pt x 206.2367pt.
-<MID05_HEATFLUX.jpg, id=68, 215.30438pt x 466.74374pt>
+<MID05_HEATFLUX.jpg, id=289, 215.30438pt x 466.74374pt>
 File: MID05_HEATFLUX.jpg Graphic file (type jpg)
 <use MID05_HEATFLUX.jpg>
-Package pdftex.def Info: MID05_HEATFLUX.jpg  used on input line 573.
+Package pdftex.def Info: MID05_HEATFLUX.jpg  used on input line 576.
 (pdftex.def)             Requested size: 99.00847pt x 214.64063pt.
-<FBRM05_HEATFLUX.jpg, id=69, 217.5628pt x 467.49657pt>
+<FBRM05_HEATFLUX.jpg, id=290, 217.5628pt x 467.49657pt>
 File: FBRM05_HEATFLUX.jpg Graphic file (type jpg)
 <use FBRM05_HEATFLUX.jpg>
-Package pdftex.def Info: FBRM05_HEATFLUX.jpg  used on input line 575.
+Package pdftex.def Info: FBRM05_HEATFLUX.jpg  used on input line 578.
 (pdftex.def)             Requested size: 99.00847pt x 212.75406pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [9]
-<CO_MF_KEY.png, id=73, 658.71094pt x 53.44969pt>
+<CO_MF_KEY.png, id=305, 658.71094pt x 53.44969pt>
 File: CO_MF_KEY.png Graphic file (type png)
 <use CO_MF_KEY.png>
-Package pdftex.def Info: CO_MF_KEY.png  used on input line 583.
+Package pdftex.def Info: CO_MF_KEY.png  used on input line 586.
 (pdftex.def)             Requested size: 361.34999pt x 29.32155pt.
-<BOT_ISO_COPPM_F.jpg, id=74, 134.75343pt x 441.90094pt>
+<BOT_ISO_COPPM_F.jpg, id=306, 134.75343pt x 441.90094pt>
 File: BOT_ISO_COPPM_F.jpg Graphic file (type jpg)
 <use BOT_ISO_COPPM_F.jpg>
-Package pdftex.def Info: BOT_ISO_COPPM_F.jpg  used on input line 585.
+Package pdftex.def Info: BOT_ISO_COPPM_F.jpg  used on input line 588.
 (pdftex.def)             Requested size: 79.2098pt x 199.17049pt.
-<BOT_ISO_COPPM_S.jpg, id=75, 92.59593pt x 444.15938pt>
+<BOT_ISO_COPPM_S.jpg, id=307, 92.59593pt x 444.15938pt>
 File: BOT_ISO_COPPM_S.jpg Graphic file (type jpg)
 <use BOT_ISO_COPPM_S.jpg>
-Package pdftex.def Info: BOT_ISO_COPPM_S.jpg  used on input line 585.
+Package pdftex.def Info: BOT_ISO_COPPM_S.jpg  used on input line 588.
 (pdftex.def)             Requested size: 41.52083pt x 199.16928pt.
-<MID_ISO_COPPM_F.jpg, id=76, 127.97812pt x 402.75468pt>
+<MID_ISO_COPPM_F.jpg, id=308, 127.97812pt x 402.75468pt>
 File: MID_ISO_COPPM_F.jpg Graphic file (type jpg)
 <use MID_ISO_COPPM_F.jpg>
-Package pdftex.def Info: MID_ISO_COPPM_F.jpg  used on input line 588.
+Package pdftex.def Info: MID_ISO_COPPM_F.jpg  used on input line 591.
 (pdftex.def)             Requested size: 79.20891pt x 199.1706pt.
-<MID_ISO_COPPM_S.jpg, id=77, 89.58469pt x 442.65375pt>
+<MID_ISO_COPPM_S.jpg, id=309, 89.58469pt x 442.65375pt>
 File: MID_ISO_COPPM_S.jpg Graphic file (type jpg)
 <use MID_ISO_COPPM_S.jpg>
-Package pdftex.def Info: MID_ISO_COPPM_S.jpg  used on input line 588.
+Package pdftex.def Info: MID_ISO_COPPM_S.jpg  used on input line 591.
 (pdftex.def)             Requested size: 40.30862pt x 199.16928pt.
-<FBRM_ISO_COPPM_F.jpg, id=78, 133.24782pt x 421.575pt>
+<FBRM_ISO_COPPM_F.jpg, id=310, 133.24782pt x 421.575pt>
 File: FBRM_ISO_COPPM_F.jpg Graphic file (type jpg)
 <use FBRM_ISO_COPPM_F.jpg>
-Package pdftex.def Info: FBRM_ISO_COPPM_F.jpg  used on input line 591.
+Package pdftex.def Info: FBRM_ISO_COPPM_F.jpg  used on input line 594.
 (pdftex.def)             Requested size: 79.21124pt x 199.1695pt.
-<FBRM_ISO_COPPM_S.jpg, id=79, 93.34875pt x 443.40656pt>
+<FBRM_ISO_COPPM_S.jpg, id=311, 93.34875pt x 443.40656pt>
 File: FBRM_ISO_COPPM_S.jpg Graphic file (type jpg)
 <use FBRM_ISO_COPPM_S.jpg>
-Package pdftex.def Info: FBRM_ISO_COPPM_S.jpg  used on input line 591.
+Package pdftex.def Info: FBRM_ISO_COPPM_S.jpg  used on input line 594.
 (pdftex.def)             Requested size: 41.93105pt x 199.16928pt.
-<BOT05_ISO_COPPM_F.jpg, id=80, 136.25906pt x 442.65375pt>
+<BOT05_ISO_COPPM_F.jpg, id=312, 136.25906pt x 442.65375pt>
 File: BOT05_ISO_COPPM_F.jpg Graphic file (type jpg)
 <use BOT05_ISO_COPPM_F.jpg>
-Package pdftex.def Info: BOT05_ISO_COPPM_F.jpg  used on input line 593.
+Package pdftex.def Info: BOT05_ISO_COPPM_F.jpg  used on input line 596.
 (pdftex.def)             Requested size: 79.2091pt x 199.17207pt.
-<BOT05_ISO_COPPM_S.jpg, id=81, 91.09032pt x 447.17062pt>
+<BOT05_ISO_COPPM_S.jpg, id=313, 91.09032pt x 447.17062pt>
 File: BOT05_ISO_COPPM_S.jpg Graphic file (type jpg)
 <use BOT05_ISO_COPPM_S.jpg>
-Package pdftex.def Info: BOT05_ISO_COPPM_S.jpg  used on input line 593.
+Package pdftex.def Info: BOT05_ISO_COPPM_S.jpg  used on input line 596.
 (pdftex.def)             Requested size: 40.57188pt x 199.16928pt.
-<MID05_ISO_COPPM_F.jpg, id=82, 135.50626pt x 441.90094pt>
+<MID05_ISO_COPPM_F.jpg, id=314, 135.50626pt x 441.90094pt>
 File: MID05_ISO_COPPM_F.jpg Graphic file (type jpg)
 <use MID05_ISO_COPPM_F.jpg>
-Package pdftex.def Info: MID05_ISO_COPPM_F.jpg  used on input line 596.
+Package pdftex.def Info: MID05_ISO_COPPM_F.jpg  used on input line 599.
 (pdftex.def)             Requested size: 79.2119pt x 199.17049pt.
-<MID05_ISO_COPPM_S.jpg, id=83, 91.09032pt x 441.90094pt>
+<MID05_ISO_COPPM_S.jpg, id=315, 91.09032pt x 441.90094pt>
 File: MID05_ISO_COPPM_S.jpg Graphic file (type jpg)
 <use MID05_ISO_COPPM_S.jpg>
-Package pdftex.def Info: MID05_ISO_COPPM_S.jpg  used on input line 596.
+Package pdftex.def Info: MID05_ISO_COPPM_S.jpg  used on input line 599.
 (pdftex.def)             Requested size: 41.05557pt x 199.16928pt.
-<FBRM05_ISO_COPPM_F.jpg, id=84, 132.495pt x 434.37282pt>
+<FBRM05_ISO_COPPM_F.jpg, id=316, 132.495pt x 434.37282pt>
 File: FBRM05_ISO_COPPM_F.jpg Graphic file (type jpg)
 <use FBRM05_ISO_COPPM_F.jpg>
-Package pdftex.def Info: FBRM05_ISO_COPPM_F.jpg  used on input line 599.
+Package pdftex.def Info: FBRM05_ISO_COPPM_F.jpg  used on input line 602.
 (pdftex.def)             Requested size: 79.21051pt x 199.171pt.
-<FBRM05_ISO_COPPM_S.jpg, id=85, 91.09032pt x 441.14813pt>
+<FBRM05_ISO_COPPM_S.jpg, id=317, 91.09032pt x 441.14813pt>
 File: FBRM05_ISO_COPPM_S.jpg Graphic file (type jpg)
 <use FBRM05_ISO_COPPM_S.jpg>
-Package pdftex.def Info: FBRM05_ISO_COPPM_S.jpg  used on input line 599.
+Package pdftex.def Info: FBRM05_ISO_COPPM_S.jpg  used on input line 602.
 (pdftex.def)             Requested size: 41.12508pt x 199.16928pt.
+
+Underfull \vbox (badness 2205) has occurred while \output is active []
+
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10 <./VALIDATION.png> <./COPPM_VALID.png (PNG copy)> <./XO2_VALID.png (PNG cop
 y)>]
-<SYMMETRY_PROBE_COPPM.png, id=90, 414.04688pt x 451.6875pt>
+<SYMMETRY_PROBE_COPPM.png, id=330, 414.04688pt x 451.6875pt>
 File: SYMMETRY_PROBE_COPPM.png Graphic file (type png)
 <use SYMMETRY_PROBE_COPPM.png>
-Package pdftex.def Info: SYMMETRY_PROBE_COPPM.png  used on input line 609.
+Package pdftex.def Info: SYMMETRY_PROBE_COPPM.png  used on input line 612.
 (pdftex.def)             Requested size: 186.31937pt x 203.25749pt.
-<OFFSET_PROBE_COPPM.png, id=91, 414.04688pt x 451.6875pt>
+<OFFSET_PROBE_COPPM.png, id=331, 414.04688pt x 451.6875pt>
 File: OFFSET_PROBE_COPPM.png Graphic file (type png)
 <use OFFSET_PROBE_COPPM.png>
-Package pdftex.def Info: OFFSET_PROBE_COPPM.png  used on input line 611.
+Package pdftex.def Info: OFFSET_PROBE_COPPM.png  used on input line 614.
 (pdftex.def)             Requested size: 186.31937pt x 203.25749pt.
-<SYMMETRY_PROBE_XO2.png, id=92, 414.04688pt x 451.6875pt>
+<SYMMETRY_PROBE_XO2.png, id=332, 414.04688pt x 451.6875pt>
 File: SYMMETRY_PROBE_XO2.png Graphic file (type png)
 <use SYMMETRY_PROBE_XO2.png>
-Package pdftex.def Info: SYMMETRY_PROBE_XO2.png  used on input line 613.
+Package pdftex.def Info: SYMMETRY_PROBE_XO2.png  used on input line 616.
 (pdftex.def)             Requested size: 186.31937pt x 203.25749pt.
-<OFFSET_PROBE_XO2.png, id=93, 414.04688pt x 451.6875pt>
+<OFFSET_PROBE_XO2.png, id=333, 414.04688pt x 451.6875pt>
 File: OFFSET_PROBE_XO2.png Graphic file (type png)
 <use OFFSET_PROBE_XO2.png>
-Package pdftex.def Info: OFFSET_PROBE_XO2.png  used on input line 615.
+Package pdftex.def Info: OFFSET_PROBE_XO2.png  used on input line 618.
 (pdftex.def)             Requested size: 186.31937pt x 203.25749pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1595,72 +1773,147 @@ T05_TEMP.jpg> <./MID05_TEMP.jpg> <./FBRM05_TEMP.jpg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Text page 12 contains only floats.
-
-
-Overfull \vbox (3.15854pt too high) has occurred while \output is active []
-
-
 [12 <./VEL_KEY.png> <./BOT_VEL.jpg> <./MID_VEL.jpg> <./FBRM_VEL.jpg> <./BOT05_V
-EL.jpg> <./MID05_VEL.jpg> <./FBRM05_VEL.jpg>] [13 <./HEATFLUX_KEY.png> <./BOT_H
-EATFLUX.jpg> <./MID_HEATFLUX.jpg> <./FBRM_HEATFLUX.jpg> <./BOT05_HEATFLUX.jpg> 
-<./MID05_HEATFLUX.jpg> <./FBRM05_HEATFLUX.jpg>] [14 <./CO_MF_KEY.png> <./BOT_IS
-O_COPPM_F.jpg> <./BOT_ISO_COPPM_S.jpg> <./MID_ISO_COPPM_F.jpg> <./MID_ISO_COPPM
-_S.jpg> <./FBRM_ISO_COPPM_F.jpg> <./FBRM_ISO_COPPM_S.jpg> <./BOT05_ISO_COPPM_F.
-jpg> <./BOT05_ISO_COPPM_S.jpg> <./MID05_ISO_COPPM_F.jpg> <./MID05_ISO_COPPM_S.j
-pg> <./FBRM05_ISO_COPPM_F.jpg> <./FBRM05_ISO_COPPM_S.jpg>]
+EL.jpg> <./MID05_VEL.jpg> <./FBRM05_VEL.jpg>]
+Underfull \vbox (badness 2277) has occurred while \output is active []
+
+
+Underfull \vbox (badness 2277) has occurred while \output is active []
+
+ [13 <./HEATFLUX_KEY.png> <./BOT_HEATFLUX.jpg> <./MID_HEATFLUX.jpg> <./FBRM_HEA
+TFLUX.jpg> <./BOT05_HEATFLUX.jpg> <./MID05_HEATFLUX.jpg> <./FBRM05_HEATFLUX.jpg
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 (JOURNAL_MANUSCRIPT_BRAD_RAWLINS.bbl
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+2.
+
+(C:\Users\RWLBRA001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 1609) in paragraph at lines 19--23
+[]\OT1/ptm/m/n/10 Hernik, B., and Zab locki, W., 2020.  ``Nu-mer-i-
+ []
+
+[14 <./CO_MF_KEY.png> <./BOT_ISO_COPPM_F.jpg> <./BOT_ISO_COPPM_S.jpg> <./MID_IS
+O_COPPM_F.jpg> <./MID_ISO_COPPM_S.jpg> <./FBRM_ISO_COPPM_F.jpg> <./FBRM_ISO_COP
+PM_S.jpg> <./BOT05_ISO_COPPM_F.jpg> <./BOT05_ISO_COPPM_S.jpg> <./MID05_ISO_COPP
+M_F.jpg> <./MID05_ISO_COPPM_S.jpg> <./FBRM05_ISO_COPPM_F.jpg> <./FBRM05_ISO_COP
+PM_S.jpg>]
+Underfull \vbox (badness 1735) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 33--40
+\OT1/ptm/m/n/10 jski, P., and Modli[]nski, Z., 2019.  ``Math-e-mat-i-
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 42--47
+[]\OT1/ptm/m/n/10 Laubscher, R., and Rousseau, P., 2019.  ``CFD
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 42--47
+\OT1/ptm/m/n/10 ra-di-ant su-per-heaters at vary-ing loads''.  \OT1/ptm/m/it/10
+ Ap-plied
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 42--47
+\OT1/ptm/m/it/10 Ther-mal En-gi-neer-ing, \OT1/ptm/b/n/10 160\OT1/ptm/m/n/10 . 
+ doi:[]$\OT1/pcr/m/n/10 10 . 1016 / j .
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <./SYMMETRY_PROBE_COPPM.png (PNG copy)> <./OFFSET_PROBE_COPPM.png (PNG cop
 y)> <./SYMMETRY_PROBE_XO2.png (PNG copy)> <./OFFSET_PROBE_XO2.png (PNG copy)>]
+Underfull \hbox (badness 2772) in paragraph at lines 49--56
+\OT1/ptm/m/it/10 Trans-fer, \OT1/ptm/b/n/10 137\OT1/ptm/m/n/10 , pp. 506--522. 
+ doi:[]$\OT1/pcr/m/n/10 10 . 1016 / j .
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 65--71
+\OT1/ptm/m/n/10 Che, D., 2017.  ``CFD in-ves-ti-ga-tion on com-bus-
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 65--71
+\OT1/ptm/m/n/10 tion and NOx emis-sion char-ac-ter-is-tics in a 600
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 65--71
+\OT1/ptm/m/n/10 MW wall-fired boiler un-der high tem-per-a-ture and
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 140--145
+Underfull \hbox (badness 6526) in paragraph at lines 160--166
 []\OT1/ptm/m/n/10 Benim, A. C., Ep-ple, B., and Krohmer, B.,
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 140--145
+Underfull \hbox (badness 1168) in paragraph at lines 160--166
 \OT1/ptm/m/n/10 2005.  ``Mod-elling of pul-verised coal com-bus-tion
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 140--145
+Underfull \hbox (badness 1874) in paragraph at lines 160--166
 \OT1/ptm/m/it/10 Progress in Com-pu-ta-tional Fluid Dy-nam-ics, \OT1/ptm/b/n/10
  5\OT1/ptm/m/n/10 (6),
  []
 
-) [16] (JOURNAL_MANUSCRIPT_BRAD_RAWLINS.aux) ) 
+
+Underfull \hbox (badness 2443) in paragraph at lines 182--187
+[]\OT1/ptm/m/n/10 Cai, J., Handa, M., and Mod-est, M. F., 2015.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16])
+[17
+
+] (JOURNAL_MANUSCRIPT_BRAD_RAWLINS.aux)
+Package rerunfilecheck Info: File `JOURNAL_MANUSCRIPT_BRAD_RAWLINS.out' has not
+ changed.
+(rerunfilecheck)             Checksum: 1ACD124CB8F9FE1D54FE571B3F4226B3;2960.
+ ) 
 Here is how much of TeX's memory you used:
- 4528 strings out of 479616
- 66221 string characters out of 2863101
- 379771 words of memory out of 3000000
- 21619 multiletter control sequences out of 15000+200000
- 446790 words of font info for 103 fonts, out of 3000000 for 9000
+ 11137 strings out of 479616
+ 165528 string characters out of 2863101
+ 490483 words of memory out of 3000000
+ 27975 multiletter control sequences out of 15000+200000
+ 447305 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,18n,74p,1518b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/RWLBRA001/AppData/Local
-/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/RWLBRA001/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RWLBRA001/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/
-Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/RWLBRA001/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/RWLBRA001/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/RWLBRA001/AppData/
-Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/RWLBRA001/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/RWLBRA001
-/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/RWLBR
-A001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on JOURNAL_MANUSCRIPT_BRAD_RAWLINS.pdf (16 pages, 3032204 bytes)
+ 71i,18n,74p,1518b,438s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
+}<C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cmextra/cmex9.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RWLBRA001/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RWLBRA001/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/
+Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.p
+fb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/u
+hvr8a.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/sym
+bol/usyr.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
+times/utmb8a.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/type1/
+urw/times/utmbi8a.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/urw/times/utmr8a.pfb><C:/Users/RWLBRA001/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on JOURNAL_MANUSCRIPT_BRAD_RAWLINS.pdf (17 pages, 3098920 bytes)
 .
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 522 PDF objects out of 1000 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
+ 346 words of extra memory for PDF output out of 10000 (max. 10000000)
 

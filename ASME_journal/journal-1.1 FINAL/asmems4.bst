@@ -31,6 +31,9 @@
 %                       modified proceedings and inproceedings to
 %                          capitalize Vol.
 %                          uncapitalize ed. and eds.
+%
+%     12/18/16 added DOI support, follows elsarticle-model-wise-bst-2.1 
+%                  http://support.river-valley.com/wiki/index.php?title=Model-wise_bibliographic_style_files
 
 ENTRY
   { address
@@ -55,6 +58,7 @@ ENTRY
     type
     volume
     year
+    doi
   }
   {}
   { label }
@@ -68,7 +72,12 @@ FUNCTION {init.state.consts}
   #3 'after.block :=
 }
 
-STRINGS { s t }
+STRINGS { s t doiprefix }
+
+FUNCTION {init.web.variables}
+{
+ "\DOIprefix"      'doiprefix :=
+}
 
 FUNCTION {output.nonnull}
 { 's :=
@@ -334,6 +343,15 @@ FUNCTION {format.title}
     { title "t" change.case$ }
   if$
 }
+
+FUNCTION {print.doi}
+ {doi duplicate$ empty$
+   { pop$ "" }
+   { new.sentence
+     doiprefix "\doi{" * swap$  * "}" *
+   }
+   if$
+ }
 
 FUNCTION {n.dashify}
 { 't :=
@@ -728,6 +746,7 @@ FUNCTION {article}
     }
   if$
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -762,6 +781,7 @@ FUNCTION {book}
 %  format.date "year" output.check      % don't check for year here because
   format.date output                    % ASME puts year after author(s)
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -778,6 +798,7 @@ FUNCTION {booklet}
   address output
   format.date output
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -813,6 +834,7 @@ FUNCTION {inbook}
   format.date  output                   % ASME puts year after author(s)
   format.chapter.pages "chapter and pages" output.check
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -840,6 +862,7 @@ FUNCTION {incollection}
   if$
   format.chapter.pages output
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -864,6 +887,7 @@ FUNCTION {inproceedings}
   if$
   format.pp.pages output
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -890,6 +914,7 @@ FUNCTION {manual}
   address output
   format.date output
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -909,6 +934,7 @@ FUNCTION {mastersthesis}
 %  format.date "year" output.check      % don't check for year here because
   format.date  output                   % ASME puts year after author(s)
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -924,6 +950,7 @@ FUNCTION {misc}
   howpublished output
   format.date output
   new.block
+  print.doi output
   note output
   fin.entry
   empty.misc.check
@@ -944,6 +971,7 @@ FUNCTION {phdthesis}
 %  format.date "year" output.check      % don't check for year here because
   format.date  output                   % ASME puts year after author(s)
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -967,6 +995,7 @@ FUNCTION {proceedings}
   if$
   publisher output
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -985,6 +1014,7 @@ FUNCTION {techreport}
 %  format.date "year" output.check      % don't check for year here because
   format.date  output                   % ASME puts year after author(s)
   new.block
+  print.doi output
   note output
   fin.entry
 }
@@ -1259,11 +1289,18 @@ FUNCTION {begin.bib}
     { preamble$ write$ newline$ }
   if$
   "\begin{thebibliography}{"  longest.label  * "}" * write$ newline$
+  write$ newline$
+  "\providecommand{\DOIprefix}{doi:}"
+  write$ newline$
+  "\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}"
+  write$ newline$
 }
 
 EXECUTE {begin.bib}
 
 EXECUTE {init.state.consts}
+
+EXECUTE {init.web.variables} 
 
 ITERATE {call.type$}
 
