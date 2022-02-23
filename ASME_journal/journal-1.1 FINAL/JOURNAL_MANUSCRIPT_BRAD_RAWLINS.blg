@@ -9,7 +9,7 @@ You can't pop an empty literal stack
 while executing---line 1299 of file asmems4.bst
 You've used 32 entries,
             2042 wiz_defined-function locations,
-            752 strings with 10947 characters,
+            752 strings with 10952 characters,
 and the built_in function-call counts, 10443 in all, are:
 = -- 1016
 > -- 368
