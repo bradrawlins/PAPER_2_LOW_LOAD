@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: TEXT_MANUSCRIPT_BRAD_RAWLINS.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: asmems4.bst
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Database file #1: PAPER1_LOW_LOAD.bib
+You can't pop an empty literal stack
+while executing---line 1299 of file asmems4.bst
+You've used 32 entries,
+            2042 wiz_defined-function locations,
+            752 strings with 10946 characters,
+and the built_in function-call counts, 10443 in all, are:
+= -- 1016
+> -- 368
+< -- 0
++ -- 144
+- -- 112
+* -- 788
+:= -- 1387
+add.period$ -- 121
+call.type$ -- 32
+change.case$ -- 31
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 543
+empty$ -- 939
+format.name$ -- 112
+if$ -- 2458
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 35
+newline$ -- 190
+num.names$ -- 32
+pop$ -- 113
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 400
+stack$ -- 0
+substring$ -- 723
+swap$ -- 294
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 99
+width$ -- 34
+write$ -- 407
+(There was 1 error message)
